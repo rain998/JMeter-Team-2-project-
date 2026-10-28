@@ -1,6 +1,5 @@
-
 import csv
-from pathlib import Path
+import random
 
 with open("users.csv", newline="", encoding="utf-8-sig") as f:
     reader = csv.DictReader(f)
@@ -18,54 +17,53 @@ username_col = next(
 if not username_col:
     raise ValueError("Could not find a username column in users.csv")
 
-# First 40% create tasks
-task_users_count = int(len(users) * 0.40)
-task_users = users[:task_users_count]
-
-# 30% of all users create subtasks;
-# these users must also own tasks
-subtask_users_count = int(len(users) * 0.30)
-subtask_users = task_users[:subtask_users_count]
-
-task_rows = []
-subtask_rows = []
-task_id = 1
-
-task_names = ["Buy groceries", "Clean the room"]
+# For simplicity all users will start with tasks and subtasks
+task_names = ["Buy groceries", "Clean the room", "Workout"]
 subtask_names = [
     ["Buy milk", "Buy bread"],
     ["Pick up clothes", "Wipe the desk"],
+    ["Do curls", "Do squats"]
 ]
+task_rows = []
+subtask_rows = []
+task_id = 1
+subtask_id = 1
 
-for i, user in enumerate(task_users):
+# Looping through each user
+for i, user in enumerate(users):
     username = user[username_col]
 
-    # Each selected user gets one or two tasks
-    number_of_tasks = 1 + (i % 2)
+    # Each user gets one or two tasks
+    number_of_tasks = random.randint(1, 2)
     user_task_ids = []
+    already_done = []
 
-    for j in range(number_of_tasks):
-        current_id = f"TASK{task_id:04d}"
+    # Randomly generate what tasks to do
+    for x in range(number_of_tasks):
+        rand_index = random.randint(0, 2)
+        while rand_index in already_done:
+            rand_index = random.randint(0, 2)
+        already_done.append(rand_index)
         task_rows.append({
             "username": username,
-            "id": current_id,
-            "task": task_names[j],
+            "id": task_id,
+            "task": task_names[rand_index],
+            "completed": 0
         })
-        user_task_ids.append((current_id, j))
+        user_task_ids.append((task_id, rand_index))
+
+        if random.randint(0, 1) == 1:
+            for title in subtask_names[rand_index]:
+                subtask_rows.append({
+                    "todo_id": task_id,
+                    "id": subtask_id,
+                    "task": title,
+                    "completed": 0
+                })
+                subtask_id += 1
+
         task_id += 1
-
-    # Only the selected 30% create subtasks.
-    # Each subtask-owning user gets up to two subtasks
-    if i < subtask_users_count:
-        parent_id, template_index = user_task_ids[0]
-
-        for title in subtask_names[template_index]:
-            subtask_rows.append({
-                "username": username,
-                "id": parent_id,
-                "subtask": title,
-            })
-
+                
 def write_csv(filename, rows, columns):
     with open(filename, "w", newline="", encoding="utf-8") as f:
         writer = csv.DictWriter(f, fieldnames=columns)
@@ -75,16 +73,12 @@ def write_csv(filename, rows, columns):
 write_csv(
     "tasks.csv",
     task_rows,
-    ["username", "task_id", "task_title"],
+    ["username", "id", "task", "completed"],
 )
 write_csv(
     "subtasks.csv",
     subtask_rows,
-    ["username", "task_id", "subtask_title"],
+    ["todo_id", "id", "task", "completed"],
 )
 
-print(f"Total users: {len(users)}")
-print(f"Task users: {len(task_users)}")
-print(f"Subtask users: {len(subtask_users)}")
-print(f"Tasks created: {len(task_rows)}")
-print(f"Subtasks created: {len(subtask_rows)}")
+print("Task/subtask data generated successfully")
