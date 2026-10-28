@@ -1,7 +1,7 @@
 import csv
 import random
 
-with open("users.csv", newline="", encoding="utf-8-sig") as f:
+with open("./test-data/users.csv", newline="", encoding="utf-8-sig") as f:
     reader = csv.DictReader(f)
     users = list(reader)
 
@@ -71,12 +71,12 @@ def write_csv(filename, rows, columns):
         writer.writerows(rows)
 
 write_csv(
-    "tasks.csv",
+    "./test-data/tasks.csv",
     task_rows,
     ["username", "id", "task", "completed"],
 )
 write_csv(
-    "subtasks.csv",
+    "./test-data/subtasks.csv",
     subtask_rows,
     ["todo_id", "id", "task", "completed"],
 )
