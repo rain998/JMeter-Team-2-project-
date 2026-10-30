@@ -1,0 +1,17 @@
+Think-time and pacing map
+User action	Think time
+Open registration page	3 sec
+Enter registration information	10 sec
+Submit registration	2 sec
+Registration success → Login page	5 sec
+Enter login credentials	5 sec
+Submit login	2 sec
+Login success → To-Do List	5 sec
+Review To-Do List	8 sec
+Click Create Task	2 sec
+Enter task details	8 sec
+Submit task	2 sec
+Open task to create subtasks	3 sec
+Click Add Subtask	2 sec
+Enter subtask details	5 sec
+Submit subtask	2 secgit 
