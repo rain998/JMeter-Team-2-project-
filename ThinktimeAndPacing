@@ -1,17 +1,24 @@
-Think-time and pacing map
-User action	Think time
-Open registration page	3 sec
-Enter registration information	10 sec
-Submit registration	2 sec
-Registration success → Login page	5 sec
-Enter login credentials	5 sec
-Submit login	2 sec
-Login success → To-Do List	5 sec
-Review To-Do List	8 sec
-Click Create Task	2 sec
-Enter task details	8 sec
-Submit task	2 sec
-Open task to create subtasks	3 sec
-Click Add Subtask	2 sec
-Enter subtask details	5 sec
-Submit subtask	2 secgit 
+# Think Time and Pacing Map
+- Start workflow
+- Register transaction → 15 sec
+    - Open page → 3 sec
+    - Enter registration information → 10 sec
+    - Submit registration → 2 sec
+- Think time → 5 sec
+- Login transaction → 7 sec
+    - Enter login credentials → 5 sec
+    - Submit login → 2 sec
+- Think time → 5 sec
+- Create Todo transaction → 10 sec
+    - Enter new todo information → 8 sec
+    - Submit todo → 2 sec
+- Think time → 5 sec
+- Create subtask transaction → 8
+    - Click add subtask → 2 sec
+    - Enter subtask information → 5 sec
+    - Submit subtask → 2 sec
+- Think time → 5 sec
+- Logout transaction → 1 sec
+- End Workflow
+- Pacing → 30 sec
+- Start next Workflow...
