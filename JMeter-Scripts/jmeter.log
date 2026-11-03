@@ -1,0 +1,141 @@
+2026-11-03 12:01:04,506 INFO o.a.j.u.JMeterUtils: Setting Locale to en_EN
+2026-11-03 12:01:04,533 INFO o.a.j.JMeter: Loading user properties from: C:\Program Files\apache-jmeter-5.6.3\bin\user.properties
+2026-11-03 12:01:04,534 INFO o.a.j.JMeter: Loading system properties from: C:\Program Files\apache-jmeter-5.6.3\bin\system.properties
+2026-11-03 12:01:04,545 INFO o.a.j.JMeter: Copyright (c) 1998-2024 The Apache Software Foundation
+2026-11-03 12:01:04,546 INFO o.a.j.JMeter: Version 5.6.3
+2026-11-03 12:01:04,546 INFO o.a.j.JMeter: java.version=25.0.4
+2026-11-03 12:01:04,546 INFO o.a.j.JMeter: java.vm.name=Java HotSpot(TM) 64-Bit Server VM
+2026-11-03 12:01:04,546 INFO o.a.j.JMeter: os.name=Windows 11
+2026-11-03 12:01:04,547 INFO o.a.j.JMeter: os.arch=amd64
+2026-11-03 12:01:04,577 INFO o.a.j.JMeter: os.version=10.0
+2026-11-03 12:01:04,577 INFO o.a.j.JMeter: file.encoding=UTF-8
+2026-11-03 12:01:04,578 INFO o.a.j.JMeter: java.awt.headless=null
+2026-11-03 12:01:04,578 INFO o.a.j.JMeter: Max memory     =1073741824
+2026-11-03 12:01:04,578 INFO o.a.j.JMeter: Available Processors =12
+2026-11-03 12:01:04,602 INFO o.a.j.JMeter: Default Locale=English (EN)
+2026-11-03 12:01:04,603 INFO o.a.j.JMeter: JMeter  Locale=English (EN)
+2026-11-03 12:01:04,604 INFO o.a.j.JMeter: JMeterHome=C:\Program Files\apache-jmeter-5.6.3
+2026-11-03 12:01:04,604 INFO o.a.j.JMeter: user.dir  =C:\Users\dj409\OneDrive\Desktop\JMeter-Team-2-project-\JMeter-Scripts
+2026-11-03 12:01:04,605 INFO o.a.j.JMeter: PWD       =C:\Users\dj409\OneDrive\Desktop\JMeter-Team-2-project-\JMeter-Scripts
+2026-11-03 12:01:04,633 INFO o.a.j.JMeter: IP: 192.168.40.176 Name: DG2PC FullName: DG2PC.home.arpa
+2026-11-03 12:01:04,651 INFO o.a.j.JMeter: Loaded icon properties from org/apache/jmeter/images/icon.properties
+2026-11-03 12:01:04,898 INFO o.a.j.JMeterGuiLauncher: Setting LAF to: com.github.weisj.darklaf.DarkLaf:com.github.weisj.darklaf.theme.DarculaTheme
+2026-11-03 12:01:16,173 INFO o.a.j.s.FileServer: Default base='C:\Users\dj409\OneDrive\Desktop\JMeter-Team-2-project-\JMeter-Scripts'
+2026-11-03 12:01:16,179 INFO o.a.j.g.a.Load: Loading file: C:\Users\dj409\OneDrive\Desktop\JMeter-Team-2-project-\JMeter-Scripts\CreateSubtask.jmx
+2026-11-03 12:01:16,179 INFO o.a.j.s.FileServer: Set new base='C:\Users\dj409\OneDrive\Desktop\JMeter-Team-2-project-\JMeter-Scripts'
+2026-11-03 12:01:16,505 INFO o.a.j.s.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2
+2026-11-03 12:01:16,528 INFO o.a.j.s.SaveService: Using SaveService properties version 5.0
+2026-11-03 12:01:16,530 INFO o.a.j.s.SaveService: Using SaveService properties file encoding UTF-8
+2026-11-03 12:01:16,532 INFO o.a.j.s.SaveService: Loading file: C:\Users\dj409\OneDrive\Desktop\JMeter-Team-2-project-\JMeter-Scripts\CreateSubtask.jmx
+2026-11-03 12:01:16,554 INFO o.a.j.p.h.c.CookieManager: Settings: Delete null: true Check: true Allow variable: true Save: false Prefix: COOKIE_
+2026-11-03 12:01:16,566 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2026-11-03 12:01:16,566 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2026-11-03 12:01:16,566 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2026-11-03 12:01:16,566 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2026-11-03 12:01:16,567 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser
+2026-11-03 12:01:16,567 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser
+2026-11-03 12:01:16,835 INFO o.a.j.e.KeyToolUtils: keytool found at 'keytool'
+2026-11-03 12:01:16,837 INFO o.a.j.p.h.p.ProxyControl: HTTP(S) Test Script Recorder SSL Proxy will use keys that support embedded 3rd party resources in file C:\Program Files\apache-jmeter-5.6.3\bin\proxyserver.jks
+2026-11-03 12:01:17,416 INFO o.a.j.s.SampleResult: Note: Sample TimeStamps are START times
+2026-11-03 12:01:17,417 INFO o.a.j.s.SampleResult: sampleresult.default.encoding is set to UTF-8
+2026-11-03 12:01:17,417 INFO o.a.j.s.SampleResult: sampleresult.useNanoTime=true
+2026-11-03 12:01:17,417 INFO o.a.j.s.SampleResult: sampleresult.nanoThreadSleep=5000
+2026-11-03 12:01:17,717 INFO o.a.j.s.FileServer: Set new base='C:\Users\dj409\OneDrive\Desktop\JMeter-Team-2-project-\JMeter-Scripts'
+2026-11-03 12:01:26,629 ERROR o.a.j.g.a.AbstractAction: Could not delete existing file C:\Users\dj409\OneDrive\Desktop\JMeter-Team-2-project-\JMeter-Scripts
+2026-11-03 12:01:43,803 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2026-11-03 12:01:43,804 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2026-11-03 12:01:43,804 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2026-11-03 12:01:43,805 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must contain the string: '.functions.'
+2026-11-03 12:01:43,805 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must not contain the string: '.gui.'
+2026-11-03 12:01:43,890 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2026-11-03 12:01:43,954 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Create Subtask
+2026-11-03 12:01:43,955 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group Create Subtask.
+2026-11-03 12:01:43,955 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2026-11-03 12:01:43,955 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=0 delayedStart=false
+2026-11-03 12:01:43,963 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2026-11-03 12:01:43,963 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2026-11-03 12:01:43,969 INFO o.a.j.t.JMeterThread: Thread started: Create Subtask 1-1
+2026-11-03 12:01:43,972 INFO o.a.j.s.FileServer: Stored: C:/Users/dj409/OneDrive/Desktop/JMeter-Team-2-project-/test-data/test-data-subtasks/todos.csv
+2026-11-03 12:01:43,993 INFO o.a.j.s.FileServer: Stored: C:/Users/dj409/OneDrive/Desktop/JMeter-Team-2-project-/test-data/test-data-subtasks/users.csv
+2026-11-03 12:01:44,542 INFO o.a.j.p.h.s.HTTPHCAbstractImpl: Local host = DG2PC
+2026-11-03 12:01:44,552 INFO o.a.j.p.h.s.HTTPHC4Impl: HTTP request retry count = 0
+2026-11-03 12:01:48,418 INFO o.a.j.t.JMeterThread: Thread is done: Create Subtask 1-1
+2026-11-03 12:01:48,418 INFO o.a.j.t.JMeterThread: Thread finished: Create Subtask 1-1
+2026-11-03 12:01:48,420 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2026-11-03 12:01:48,420 INFO o.a.j.s.FileServer: Close: C:/Users/dj409/OneDrive/Desktop/JMeter-Team-2-project-/test-data/test-data-subtasks/users.csv
+2026-11-03 12:01:48,425 INFO o.a.j.s.FileServer: Close: C:/Users/dj409/OneDrive/Desktop/JMeter-Team-2-project-/test-data/test-data-subtasks/todos.csv
+2026-11-03 12:01:48,425 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2026-11-03 12:06:30,591 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2026-11-03 12:06:30,592 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2026-11-03 12:06:30,596 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2026-11-03 12:06:30,687 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Create Subtask
+2026-11-03 12:06:30,689 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group Create Subtask.
+2026-11-03 12:06:30,689 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2026-11-03 12:06:30,689 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=0 delayedStart=false
+2026-11-03 12:06:30,692 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2026-11-03 12:06:30,692 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2026-11-03 12:06:30,694 INFO o.a.j.t.JMeterThread: Thread started: Create Subtask 1-1
+2026-11-03 12:06:30,695 INFO o.a.j.s.FileServer: Stored: C:/Users/dj409/OneDrive/Desktop/JMeter-Team-2-project-/test-data/test-data-subtasks/todos.csv
+2026-11-03 12:06:30,698 INFO o.a.j.s.FileServer: Stored: C:/Users/dj409/OneDrive/Desktop/JMeter-Team-2-project-/test-data/test-data-subtasks/users.csv
+2026-11-03 12:06:34,808 INFO o.a.j.t.JMeterThread: Thread is done: Create Subtask 1-1
+2026-11-03 12:06:34,809 INFO o.a.j.t.JMeterThread: Thread finished: Create Subtask 1-1
+2026-11-03 12:06:34,809 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2026-11-03 12:06:34,810 INFO o.a.j.s.FileServer: Close: C:/Users/dj409/OneDrive/Desktop/JMeter-Team-2-project-/test-data/test-data-subtasks/users.csv
+2026-11-03 12:06:34,810 INFO o.a.j.s.FileServer: Close: C:/Users/dj409/OneDrive/Desktop/JMeter-Team-2-project-/test-data/test-data-subtasks/todos.csv
+2026-11-03 12:06:34,810 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2026-11-03 12:21:51,316 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2026-11-03 12:21:51,317 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2026-11-03 12:21:51,319 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2026-11-03 12:21:51,386 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Create Subtask
+2026-11-03 12:21:51,388 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group Create Subtask.
+2026-11-03 12:21:51,388 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2026-11-03 12:21:51,389 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=0 delayedStart=false
+2026-11-03 12:21:51,390 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2026-11-03 12:21:51,390 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2026-11-03 12:21:51,390 INFO o.a.j.t.JMeterThread: Thread started: Create Subtask 1-1
+2026-11-03 12:21:51,392 INFO o.a.j.s.FileServer: Stored: C:/Users/dj409/OneDrive/Desktop/JMeter-Team-2-project-/test-data/test-data-subtasks/todos.csv
+2026-11-03 12:21:51,395 INFO o.a.j.s.FileServer: Stored: C:/Users/dj409/OneDrive/Desktop/JMeter-Team-2-project-/test-data/test-data-subtasks/users.csv
+2026-11-03 12:21:55,496 INFO o.a.j.t.JMeterThread: Thread is done: Create Subtask 1-1
+2026-11-03 12:21:55,496 INFO o.a.j.t.JMeterThread: Thread finished: Create Subtask 1-1
+2026-11-03 12:21:55,496 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2026-11-03 12:21:55,497 INFO o.a.j.s.FileServer: Close: C:/Users/dj409/OneDrive/Desktop/JMeter-Team-2-project-/test-data/test-data-subtasks/users.csv
+2026-11-03 12:21:55,497 INFO o.a.j.s.FileServer: Close: C:/Users/dj409/OneDrive/Desktop/JMeter-Team-2-project-/test-data/test-data-subtasks/todos.csv
+2026-11-03 12:21:55,497 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2026-11-03 12:49:33,137 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2026-11-03 12:49:33,142 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2026-11-03 12:49:33,146 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2026-11-03 12:49:33,304 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Create Subtask
+2026-11-03 12:49:33,305 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group Create Subtask.
+2026-11-03 12:49:33,305 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2026-11-03 12:49:33,305 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=0 delayedStart=false
+2026-11-03 12:49:33,308 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2026-11-03 12:49:33,308 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2026-11-03 12:49:33,309 INFO o.a.j.t.JMeterThread: Thread started: Create Subtask 1-1
+2026-11-03 12:49:33,311 INFO o.a.j.s.FileServer: Stored: C:/Users/dj409/OneDrive/Desktop/JMeter-Team-2-project-/test-data/test-data-subtasks/todos.csv
+2026-11-03 12:49:33,315 INFO o.a.j.s.FileServer: Stored: C:/Users/dj409/OneDrive/Desktop/JMeter-Team-2-project-/test-data/test-data-subtasks/users.csv
+2026-11-03 12:49:37,516 INFO o.a.j.t.JMeterThread: Thread is done: Create Subtask 1-1
+2026-11-03 12:49:37,516 INFO o.a.j.t.JMeterThread: Thread finished: Create Subtask 1-1
+2026-11-03 12:49:37,517 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2026-11-03 12:49:37,517 INFO o.a.j.s.FileServer: Close: C:/Users/dj409/OneDrive/Desktop/JMeter-Team-2-project-/test-data/test-data-subtasks/users.csv
+2026-11-03 12:49:37,517 INFO o.a.j.s.FileServer: Close: C:/Users/dj409/OneDrive/Desktop/JMeter-Team-2-project-/test-data/test-data-subtasks/todos.csv
+2026-11-03 12:49:37,517 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2026-11-03 12:50:58,616 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2026-11-03 12:50:58,616 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2026-11-03 12:50:58,619 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2026-11-03 12:50:58,710 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Create Subtask
+2026-11-03 12:50:58,712 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group Create Subtask.
+2026-11-03 12:50:58,712 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2026-11-03 12:50:58,712 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=0 delayedStart=false
+2026-11-03 12:50:58,714 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2026-11-03 12:50:58,714 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2026-11-03 12:50:58,715 INFO o.a.j.t.JMeterThread: Thread started: Create Subtask 1-1
+2026-11-03 12:50:58,716 INFO o.a.j.s.FileServer: Stored: C:/Users/dj409/OneDrive/Desktop/JMeter-Team-2-project-/test-data/test-data-subtasks/todos.csv
+2026-11-03 12:50:58,719 INFO o.a.j.s.FileServer: Stored: C:/Users/dj409/OneDrive/Desktop/JMeter-Team-2-project-/test-data/test-data-subtasks/users.csv
+2026-11-03 12:51:03,378 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-11-03 12:51:05,968 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-11-03 12:51:06,978 INFO o.a.j.t.JMeterThread: Thread is done: Create Subtask 1-1
+2026-11-03 12:51:06,978 INFO o.a.j.t.JMeterThread: Thread finished: Create Subtask 1-1
+2026-11-03 12:51:06,979 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2026-11-03 12:51:06,979 INFO o.a.j.s.FileServer: Close: C:/Users/dj409/OneDrive/Desktop/JMeter-Team-2-project-/test-data/test-data-subtasks/users.csv
+2026-11-03 12:51:06,979 INFO o.a.j.s.FileServer: Close: C:/Users/dj409/OneDrive/Desktop/JMeter-Team-2-project-/test-data/test-data-subtasks/todos.csv
+2026-11-03 12:51:06,980 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
