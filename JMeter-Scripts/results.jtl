@@ -1,0 +1,977 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1793846813798,347,Transaction Controller - Register,200,"Number of samples in transaction : 4, number of failing samples : 0",Register 1-1,,true,,4518,2033,10,100,null,0,20367,46
+1793846813949,204,Navigate to Login,200,,Register 1-1,text,true,,1431,448,1,6,http://localhost:8080/,204,0,46
+1793846820189,6,Navigate to Registration,200,,Register 1-1,text,true,,1404,504,4,35,http://localhost:8080/register.html,6,0,0
+1793846828278,132,Register User,201,,Register 1-1,,true,,291,562,8,75,http://localhost:8080/register,132,0,0
+1793846834507,5,Navigate to Login,200,,Register 1-1,text,true,,1392,519,10,100,http://localhost:8080/index.html,5,0,0
+1793846815792,33,Transaction Controller - Register,200,"Number of samples in transaction : 4, number of failing samples : 0",Register 1-2,,true,,4518,2033,9,99,null,0,20134,1
+1793846815793,8,Navigate to Login,200,,Register 1-2,text,true,,1431,448,2,12,http://localhost:8080/,8,0,1
+1793846821820,5,Navigate to Registration,200,,Register 1-2,text,true,,1404,504,5,42,http://localhost:8080/register.html,5,0,0
+1793846829877,14,Register User,201,,Register 1-2,,true,,291,562,9,85,http://localhost:8080/register,14,0,0
+1793846835953,6,Navigate to Login,200,,Register 1-2,text,true,,1392,519,9,99,http://localhost:8080/index.html,6,0,0
+1793846814824,75,Transaction Controller - Login,200,"Number of samples in transaction : 6, number of failing samples : 0",Login 2-2,,true,,6034,3389,20,98,null,0,22236,1
+1793846814826,11,Navigate to Login,200,,Login 2-2,text,true,,1431,452,2,8,http://localhost:8080/,11,0,1
+1793846821304,8,Log in attempt,204,,Login 2-2,,true,,518,528,8,40,http://localhost:8080/login,0,0,0
+1793846822920,39,Navigate to Dashboard,200,,Login 2-2,text,true,,1794,674,10,49,http://localhost:8080/dashboard.html,39,0,0
+1793846824472,9,Get Todo Data,200,,Login 2-2,text,true,,522,580,11,55,http://localhost:8080/todo,9,0,0
+1793846835565,5,Logout,204,,Login 2-2,,true,,377,636,20,99,http://localhost:8080/logout,0,0,0
+1793846837132,3,Redirect to Login,200,,Login 2-2,text,true,,1392,519,20,98,http://localhost:8080/index.html,3,0,0
+1793846813865,264,Transaction Controller - Login,200,"Number of samples in transaction : 6, number of failing samples : 0",Login 2-1,,true,,6034,3389,19,97,null,0,23050,46
+1793846813949,204,Navigate to Login,200,,Login 2-1,text,true,,1431,452,1,6,http://localhost:8080/,204,0,46
+1793846821304,8,Log in attempt,204,,Login 2-1,,true,,518,528,8,40,http://localhost:8080/login,0,0,0
+1793846822929,33,Navigate to Dashboard,200,,Login 2-1,text,true,,1794,674,10,49,http://localhost:8080/dashboard.html,33,0,0
+1793846824539,11,Get Todo Data,200,,Login 2-1,text,true,,522,580,11,55,http://localhost:8080/todo,10,0,0
+1793846835609,3,Logout,204,,Login 2-1,,true,,377,636,20,99,http://localhost:8080/logout,0,0,0
+1793846837174,5,Redirect to Login,200,,Login 2-1,text,true,,1392,519,19,97,http://localhost:8080/index.html,5,0,0
+1793846815818,38,Transaction Controller - Login,200,"Number of samples in transaction : 6, number of failing samples : 0",Login 2-3,,true,,6034,3389,18,96,null,0,21743,1
+1793846815819,9,Navigate to Login,200,,Login 2-3,text,true,,1431,452,3,13,http://localhost:8080/,8,0,1
+1793846821879,7,Log in attempt,204,,Login 2-3,,true,,518,528,9,44,http://localhost:8080/login,0,0,0
+1793846823409,8,Navigate to Dashboard,200,,Login 2-3,text,true,,1794,674,10,51,http://localhost:8080/dashboard.html,8,0,0
+1793846825008,8,Get Todo Data,200,,Login 2-3,text,true,,522,580,12,60,http://localhost:8080/todo,8,0,0
+1793846836072,3,Logout,204,,Login 2-3,,true,,377,636,20,98,http://localhost:8080/logout,0,0,0
+1793846837596,3,Redirect to Login,200,,Login 2-3,text,true,,1392,519,18,96,http://localhost:8080/index.html,3,0,0
+1793846817817,41,Transaction Controller - Register,200,"Number of samples in transaction : 4, number of failing samples : 0",Register 1-3,,true,,4518,2033,8,95,null,0,20132,2
+1793846817818,11,Navigate to Login,200,,Register 1-3,text,true,,1431,448,3,22,http://localhost:8080/,11,0,2
+1793846823851,6,Navigate to Registration,200,,Register 1-3,text,true,,1404,504,6,54,http://localhost:8080/register.html,6,0,0
+1793846831909,18,Register User,201,,Register 1-3,,true,,291,562,10,95,http://localhost:8080/register,18,0,0
+1793846837984,6,Navigate to Login,200,,Register 1-3,text,true,,1392,519,8,95,http://localhost:8080/index.html,6,0,0
+1793846816823,38,Transaction Controller - Login,200,"Number of samples in transaction : 6, number of failing samples : 0",Login 2-4,,true,,6034,3389,17,94,null,0,21723,1
+1793846816824,7,Navigate to Login,200,,Login 2-4,text,true,,1431,452,4,19,http://localhost:8080/,7,0,1
+1793846822902,10,Log in attempt,204,,Login 2-4,,true,,518,528,10,49,http://localhost:8080/login,0,0,0
+1793846824455,6,Navigate to Dashboard,200,,Login 2-4,text,true,,1794,674,11,55,http://localhost:8080/dashboard.html,6,0,0
+1793846826002,8,Get Todo Data,200,,Login 2-4,text,true,,522,580,13,66,http://localhost:8080/todo,8,0,0
+1793846837026,4,Logout,204,,Login 2-4,,true,,377,636,20,98,http://localhost:8080/logout,0,0,0
+1793846838581,3,Redirect to Login,200,,Login 2-4,text,true,,1392,519,17,94,http://localhost:8080/index.html,3,0,0
+1793846817817,40,Transaction Controller - Login,200,"Number of samples in transaction : 6, number of failing samples : 0",Login 2-5,,true,,6035,3389,16,93,null,0,21878,2
+1793846817818,8,Navigate to Login,200,,Login 2-5,text,true,,1431,452,5,22,http://localhost:8080/,8,0,2
+1793846823880,10,Log in attempt,204,,Login 2-5,,true,,518,528,11,55,http://localhost:8080/login,0,0,0
+1793846825488,6,Navigate to Dashboard,200,,Login 2-5,text,true,,1794,674,12,60,http://localhost:8080/dashboard.html,6,0,0
+1793846827066,9,Get Todo Data,200,,Login 2-5,text,true,,523,580,14,69,http://localhost:8080/todo,8,0,0
+1793846838141,3,Logout,204,,Login 2-5,,true,,377,636,17,94,http://localhost:8080/logout,0,0,0
+1793846839731,4,Redirect to Login,200,,Login 2-5,text,true,,1392,519,16,93,http://localhost:8080/index.html,4,0,0
+1793846819789,36,Transaction Controller - Register,200,"Number of samples in transaction : 4, number of failing samples : 0",Register 1-4,,true,,4518,2033,7,92,null,0,20129,1
+1793846819790,7,Navigate to Login,200,,Register 1-4,text,true,,1431,448,4,32,http://localhost:8080/,7,0,1
+1793846825812,5,Navigate to Registration,200,,Register 1-4,text,true,,1404,504,7,62,http://localhost:8080/register.html,5,0,0
+1793846833916,18,Register User,201,,Register 1-4,,true,,291,562,10,100,http://localhost:8080/register,18,0,0
+1793846839949,6,Navigate to Login,200,,Register 1-4,text,true,,1392,519,7,92,http://localhost:8080/index.html,6,0,0
+1793846818817,30,Transaction Controller - Login,200,"Number of samples in transaction : 6, number of failing samples : 0",Login 2-6,,true,,6036,3389,15,91,null,0,21811,1
+1793846818818,5,Navigate to Login,200,,Login 2-6,text,true,,1431,452,6,27,http://localhost:8080/,5,0,1
+1793846824902,6,Log in attempt,204,,Login 2-6,,true,,518,528,12,60,http://localhost:8080/login,0,0,0
+1793846826463,6,Navigate to Dashboard,200,,Login 2-6,text,true,,1794,674,13,66,http://localhost:8080/dashboard.html,6,0,0
+1793846828012,7,Get Todo Data,200,,Login 2-6,text,true,,524,580,15,75,http://localhost:8080/todo,7,0,0
+1793846839090,3,Logout,204,,Login 2-6,,true,,377,636,16,93,http://localhost:8080/logout,0,0,0
+1793846840654,3,Redirect to Login,200,,Login 2-6,text,true,,1392,519,15,91,http://localhost:8080/index.html,3,0,0
+1793846819816,33,Transaction Controller - Login,200,"Number of samples in transaction : 6, number of failing samples : 0",Login 2-7,,true,,6036,3389,14,90,null,0,21767,1
+1793846819817,7,Navigate to Login,200,,Login 2-7,text,true,,1431,452,7,33,http://localhost:8080/,7,0,1
+1793846825926,7,Log in attempt,204,,Login 2-7,,true,,518,528,13,66,http://localhost:8080/login,0,0,0
+1793846827488,5,Navigate to Dashboard,200,,Login 2-7,text,true,,1794,674,14,71,http://localhost:8080/dashboard.html,5,0,0
+1793846829024,7,Get Todo Data,200,,Login 2-7,text,true,,524,580,16,80,http://localhost:8080/todo,6,0,0
+1793846840053,3,Logout,204,,Login 2-7,,true,,377,636,15,91,http://localhost:8080/logout,0,0,0
+1793846841613,4,Redirect to Login,200,,Login 2-7,text,true,,1392,519,14,90,http://localhost:8080/index.html,4,0,0
+1793846815224,182,Transaction Controller - Create Subtask,200,"Number of samples in transaction : 8, number of failing samples : 0",Create Subtask 5-2,,true,,7037,4628,15,89,null,0,26376,1
+1793846815225,10,Navigate to Login,200,,Create Subtask 5-2,text,true,,1431,448,2,10,http://localhost:8080/,10,0,1
+1793846821299,9,Log in,204,,Create Subtask 5-2,,true,,518,524,6,40,http://localhost:8080/login,0,0,0
+1793846822878,83,Redirect to Dashboard,200,,Create Subtask 5-2,text,true,,1794,670,7,49,http://localhost:8080/dashboard.html,83,0,0
+1793846824544,17,Get Todo Data,200,,Create Subtask 5-2,text,true,,526,576,9,56,http://localhost:8080/todo,17,0,0
+1793846832633,46,Create Subtask,201,,Create Subtask 5-2,text,true,,408,687,15,97,http://localhost:8080/todo/243/subtasks,46,0,0
+1793846834195,10,Get Todo Data,200,,Create Subtask 5-2,text,true,,591,576,15,100,http://localhost:8080/todo,9,0,0
+1793846840209,4,Log out,204,,Create Subtask 5-2,,true,,377,632,15,91,http://localhost:8080/logout,0,0,0
+1793846841778,3,Redirect to Login,200,,Create Subtask 5-2,text,true,,1392,515,15,89,http://localhost:8080/index.html,3,0,0
+1793846813924,1493,Transaction Controller - Create Subtask,200,"Number of samples in transaction : 8, number of failing samples : 0",Create Subtask 5-1,,true,,7037,4628,14,88,null,0,26463,46
+1793846813949,204,Navigate to Login,200,,Create Subtask 5-1,text,true,,1431,448,1,6,http://localhost:8080/,204,0,46
+1793846820219,603,Log in,204,,Create Subtask 5-1,,true,,518,524,6,38,http://localhost:8080/login,0,0,0
+1793846822371,590,Redirect to Dashboard,200,,Create Subtask 5-1,text,true,,1794,670,7,49,http://localhost:8080/dashboard.html,590,0,0
+1793846824565,10,Get Todo Data,200,,Create Subtask 5-1,text,true,,526,576,9,56,http://localhost:8080/todo,10,0,0
+1793846832593,68,Create Subtask,201,,Create Subtask 5-1,text,true,,408,687,15,97,http://localhost:8080/todo/241/subtasks,68,0,0
+1793846834222,11,Get Todo Data,200,,Create Subtask 5-1,text,true,,591,576,15,100,http://localhost:8080/todo,11,0,0
+1793846840312,3,Log out,204,,Create Subtask 5-1,,true,,377,632,15,91,http://localhost:8080/logout,0,0,0
+1793846841876,4,Redirect to Login,200,,Create Subtask 5-1,text,true,,1392,515,14,88,http://localhost:8080/index.html,4,0,0
+1793846821787,35,Transaction Controller - Register,200,"Number of samples in transaction : 4, number of failing samples : 0",Register 1-5,,true,,4518,2033,6,87,null,0,20240,1
+1793846821789,6,Navigate to Login,200,,Register 1-5,text,true,,1431,448,5,41,http://localhost:8080/,5,0,1
+1793846827887,4,Navigate to Registration,200,,Register 1-5,text,true,,1404,504,8,75,http://localhost:8080/register.html,4,0,0
+1793846835942,18,Register User,201,,Register 1-5,,true,,291,562,9,99,http://localhost:8080/register,18,0,0
+1793846842056,7,Navigate to Login,200,,Register 1-5,text,true,,1392,519,6,87,http://localhost:8080/index.html,6,0,0
+1793846826858,33,Transaction Controller - Edit Todo,200,"Number of samples in transaction : 6, number of failing samples : 0",Edit Todo 4-14,,true,,6038,3345,20,86,null,0,15253,1
+1793846826859,4,Navigate to Login,200,,Edit Todo 4-14,text,true,,1431,448,14,69,http://localhost:8080/,4,0,1
+1793846832957,9,Login,204,,Edit Todo 4-14,,true,,518,514,20,100,http://localhost:8080/login,0,0,0
+1793846834513,6,Navigate to Dashboard,200,,Edit Todo 4-14,text,true,,1794,660,20,99,http://localhost:8080/dashboard.html,6,0,0
+1793846834521,8,Get Todo Data,200,,Edit Todo 4-14,text,true,,526,576,20,99,http://localhost:8080/todo,8,0,0
+1793846840562,3,Logout,204,,Edit Todo 4-14,,true,,377,632,20,91,http://localhost:8080/logout,0,0,0
+1793846842142,3,Navigate to Login,200,,Edit Todo 4-14,text,true,,1392,515,20,86,http://localhost:8080/index.html,3,0,0
+1793846815832,101,Transaction Controller - Create Todo,200,"Number of samples in transaction : 8, number of failing samples : 0",Create Todo 3-3,,true,,7073,4587,20,85,null,0,26435,1
+1793846815832,8,Navigate to Login,200,,Create Todo 3-3,text,true,,1431,448,3,14,http://localhost:8080/,8,0,1
+1793846821914,8,Login,204,,Create Todo 3-3,,true,,518,514,9,46,http://localhost:8080/login,0,0,0
+1793846823462,9,Redirect to Dashboard,200,,Create Todo 3-3,text,true,,1794,660,10,51,http://localhost:8080/dashboard.html,9,0,0
+1793846824987,9,Get Todo Data,200,,Create Todo 3-3,text,true,,524,576,12,60,http://localhost:8080/todo,9,0,0
+1793846833090,51,Create Todo,201,,Create Todo 3-3,text,true,,428,666,20,100,http://localhost:8080/todo,51,0,0
+1793846834701,9,Get Todo Data,200,,Create Todo 3-3,text,true,,609,576,20,99,http://localhost:8080/todo,9,0,0
+1793846840775,4,Logout,204,,Create Todo 3-3,,true,,377,632,20,90,http://localhost:8080/logout,0,0,0
+1793846842365,3,Navigate to Login,200,,Create Todo 3-3,text,true,,1392,515,20,85,http://localhost:8080/index.html,3,0,0
+1793846820808,45,Transaction Controller - Login,200,"Number of samples in transaction : 6, number of failing samples : 0",Login 2-8,,true,,6036,3389,13,84,null,0,21673,1
+1793846820810,9,Navigate to Login,200,,Login 2-8,text,true,,1431,452,8,38,http://localhost:8080/,9,0,1
+1793846826851,7,Log in attempt,204,,Login 2-8,,true,,518,528,14,69,http://localhost:8080/login,0,0,0
+1793846828399,15,Navigate to Dashboard,200,,Login 2-8,text,true,,1794,674,15,75,http://localhost:8080/dashboard.html,15,0,0
+1793846829988,6,Get Todo Data,200,,Login 2-8,text,true,,524,580,17,86,http://localhost:8080/todo,6,0,0
+1793846841000,4,Logout,204,,Login 2-8,,true,,377,636,14,90,http://localhost:8080/logout,0,0,0
+1793846842523,4,Redirect to Login,200,,Login 2-8,text,true,,1392,519,13,84,http://localhost:8080/index.html,4,0,0
+1793846813865,1507,Transaction Controller - Edit Todo,200,"Number of samples in transaction : 8, number of failing samples : 0",Edit Todo 4-1,,true,,6745,4557,19,83,null,0,27421,46
+1793846813949,204,Navigate to Login,200,,Edit Todo 4-1,text,true,,1431,448,1,6,http://localhost:8080/,204,0,46
+1793846820239,583,Login,204,,Edit Todo 4-1,,true,,518,514,7,38,http://localhost:8080/login,0,0,0
+1793846822400,559,Navigate to Dashboard,200,,Edit Todo 4-1,text,true,,1794,660,10,49,http://localhost:8080/dashboard.html,559,0,0
+1793846822999,76,Get Todo Data,200,,Edit Todo 4-1,text,true,,526,576,10,49,http://localhost:8080/todo,75,0,0
+1793846829122,65,Delete Todo,204,,Edit Todo 4-1,,true,,272,636,16,80,http://localhost:8080/todo/161,0,0,0
+1793846835247,15,Get Todo Data,200,,Edit Todo 4-1,text,true,,435,576,20,99,http://localhost:8080/todo,15,0,0
+1793846841281,2,Logout,204,,Edit Todo 4-1,,true,,377,632,20,90,http://localhost:8080/logout,0,0,0
+1793846842789,3,Navigate to Login,200,,Edit Todo 4-1,text,true,,1392,515,19,83,http://localhost:8080/index.html,3,0,0
+1793846814858,582,Transaction Controller - Edit Todo,200,"Number of samples in transaction : 8, number of failing samples : 0",Edit Todo 4-2,,true,,6983,4595,18,82,null,0,27477,1
+1793846814859,8,Navigate to Login,200,,Edit Todo 4-2,text,true,,1431,448,2,9,http://localhost:8080/,8,0,1
+1793846820935,11,Login,204,,Edit Todo 4-2,,true,,518,514,8,40,http://localhost:8080/login,0,0,0
+1793846822525,435,Navigate to Dashboard,200,,Edit Todo 4-2,text,true,,1794,660,10,49,http://localhost:8080/dashboard.html,435,0,0
+1793846822999,76,Get Todo Data,200,,Edit Todo 4-2,text,true,,526,576,10,49,http://localhost:8080/todo,75,0,0
+1793846829205,35,Mark Todo as Complete,200,,Edit Todo 4-2,text,true,,426,674,16,80,http://localhost:8080/todo,35,0,0
+1793846835311,10,Get Todo Data,200,,Edit Todo 4-2,text,true,,519,576,20,99,http://localhost:8080/todo,10,0,0
+1793846841343,4,Logout,204,,Edit Todo 4-2,,true,,377,632,20,90,http://localhost:8080/logout,0,0,0
+1793846842914,3,Navigate to Login,200,,Edit Todo 4-2,text,true,,1392,515,18,82,http://localhost:8080/index.html,3,0,0
+1793846816558,76,Transaction Controller - Create Subtask,200,"Number of samples in transaction : 8, number of failing samples : 0",Create Subtask 5-3,,true,,7037,4628,13,81,null,0,26360,2
+1793846816559,8,Navigate to Login,200,,Create Subtask 5-3,text,true,,1431,448,3,16,http://localhost:8080/,8,0,2
+1793846822639,19,Log in,204,,Create Subtask 5-3,,true,,518,524,7,46,http://localhost:8080/login,0,0,0
+1793846824194,8,Redirect to Dashboard,200,,Create Subtask 5-3,text,true,,1794,670,8,55,http://localhost:8080/dashboard.html,8,0,0
+1793846825707,9,Get Todo Data,200,,Create Subtask 5-3,text,true,,526,576,9,60,http://localhost:8080/todo,9,0,0
+1793846833802,17,Create Subtask,201,,Create Subtask 5-3,text,true,,408,687,15,100,http://localhost:8080/todo/245/subtasks,17,0,0
+1793846835415,8,Get Todo Data,200,,Create Subtask 5-3,text,true,,591,576,15,99,http://localhost:8080/todo,8,0,0
+1793846841436,4,Log out,204,,Create Subtask 5-3,,true,,377,632,15,90,http://localhost:8080/logout,0,0,0
+1793846842991,3,Redirect to Login,200,,Create Subtask 5-3,text,true,,1392,515,13,81,http://localhost:8080/index.html,3,0,0
+1793846821813,33,Transaction Controller - Login,200,"Number of samples in transaction : 6, number of failing samples : 0",Login 2-9,,true,,6036,3389,12,80,null,0,21820,2
+1793846821813,6,Navigate to Login,200,,Login 2-9,text,true,,1431,452,9,42,http://localhost:8080/,6,0,2
+1793846827917,7,Log in attempt,204,,Login 2-9,,true,,518,528,15,75,http://localhost:8080/login,0,0,0
+1793846829511,4,Navigate to Dashboard,200,,Login 2-9,text,true,,1794,674,16,80,http://localhost:8080/dashboard.html,4,0,0
+1793846831054,9,Get Todo Data,200,,Login 2-9,text,true,,524,580,18,89,http://localhost:8080/todo,9,0,0
+1793846842101,4,Logout,204,,Login 2-9,,true,,377,636,13,86,http://localhost:8080/logout,0,0,0
+1793846843663,3,Redirect to Login,200,,Login 2-9,text,true,,1392,519,12,80,http://localhost:8080/index.html,3,0,0
+1793846823787,65,Transaction Controller - Register,200,"Number of samples in transaction : 4, number of failing samples : 0",Register 1-6,,true,,4518,2033,5,79,null,0,20162,1
+1793846823788,6,Navigate to Login,200,,Register 1-6,text,true,,1431,448,6,52,http://localhost:8080/,6,0,1
+1793846829832,5,Navigate to Registration,200,,Register 1-6,text,true,,1404,504,9,83,http://localhost:8080/register.html,5,0,0
+1793846837926,48,Register User,201,,Register 1-6,,true,,291,562,8,95,http://localhost:8080/register,48,0,0
+1793846844009,6,Navigate to Login,200,,Register 1-6,text,true,,1392,519,5,79,http://localhost:8080/index.html,5,0,0
+1793846817891,103,Transaction Controller - Create Subtask,200,"Number of samples in transaction : 8, number of failing samples : 0",Create Subtask 5-4,,true,,7037,4628,12,78,null,0,26500,1
+1793846817892,6,Navigate to Login,200,,Create Subtask 5-4,text,true,,1431,448,4,25,http://localhost:8080/,6,0,1
+1793846823990,9,Log in,204,,Create Subtask 5-4,,true,,518,524,8,55,http://localhost:8080/login,0,0,0
+1793846825593,7,Redirect to Dashboard,200,,Create Subtask 5-4,text,true,,1794,670,9,60,http://localhost:8080/dashboard.html,7,0,0
+1793846827125,7,Get Todo Data,200,,Create Subtask 5-4,text,true,,526,576,10,69,http://localhost:8080/todo,7,0,0
+1793846835204,54,Create Subtask,201,,Create Subtask 5-4,text,true,,408,687,15,99,http://localhost:8080/todo/247/subtasks,54,0,0
+1793846836856,13,Get Todo Data,200,,Create Subtask 5-4,text,true,,591,576,15,98,http://localhost:8080/todo,13,0,0
+1793846842910,3,Log out,204,,Create Subtask 5-4,,true,,377,632,13,82,http://localhost:8080/logout,0,0,0
+1793846844490,4,Redirect to Login,200,,Create Subtask 5-4,text,true,,1392,515,12,78,http://localhost:8080/index.html,4,0,0
+1793846822810,33,Transaction Controller - Login,200,"Number of samples in transaction : 6, number of failing samples : 0",Login 2-10,,true,,6036,3389,11,77,null,0,21764,1
+1793846822811,6,Navigate to Login,200,,Login 2-10,text,true,,1431,452,10,47,http://localhost:8080/,5,0,1
+1793846828878,6,Log in attempt,204,,Login 2-10,,true,,518,528,16,80,http://localhost:8080/login,0,0,0
+1793846830479,5,Navigate to Dashboard,200,,Login 2-10,text,true,,1794,674,17,86,http://localhost:8080/dashboard.html,5,0,0
+1793846831988,9,Get Todo Data,200,,Login 2-10,text,true,,524,580,19,95,http://localhost:8080/todo,9,0,0
+1793846843095,4,Logout,204,,Login 2-10,,true,,377,636,12,80,http://localhost:8080/logout,0,0,0
+1793846844605,3,Redirect to Login,200,,Login 2-10,text,true,,1392,519,11,77,http://localhost:8080/index.html,3,0,0
+1793846817859,95,Transaction Controller - Edit Todo,200,"Number of samples in transaction : 8, number of failing samples : 0",Edit Todo 4-5,,true,,6985,4578,17,76,null,0,27370,1
+1793846817860,5,Navigate to Login,200,,Edit Todo 4-5,text,true,,1431,448,5,24,http://localhost:8080/,5,0,1
+1793846823922,9,Login,204,,Edit Todo 4-5,,true,,518,514,11,55,http://localhost:8080/login,0,0,0
+1793846825488,6,Navigate to Dashboard,200,,Edit Todo 4-5,text,true,,1794,660,12,60,http://localhost:8080/dashboard.html,6,0,0
+1793846825497,9,Get Todo Data,200,,Edit Todo 4-5,text,true,,526,576,12,60,http://localhost:8080/todo,9,0,0
+1793846831556,53,Change Todo Name,200,,Edit Todo 4-5,text,true,,427,657,18,91,http://localhost:8080/todo,53,0,0
+1793846837666,7,Get Todo Data,200,,Edit Todo 4-5,text,true,,520,576,20,95,http://localhost:8080/todo,6,0,0
+1793846843731,3,Logout,204,,Edit Todo 4-5,,true,,377,632,17,79,http://localhost:8080/logout,0,0,0
+1793846845321,3,Navigate to Login,200,,Edit Todo 4-5,text,true,,1392,515,17,76,http://localhost:8080/index.html,3,0,0
+1793846823810,40,Transaction Controller - Login,200,"Number of samples in transaction : 6, number of failing samples : 0",Login 2-11,,true,,6036,3389,10,75,null,0,21777,1
+1793846823812,6,Navigate to Login,200,,Login 2-11,text,true,,1431,452,11,53,http://localhost:8080/,6,0,1
+1793846829882,11,Log in attempt,204,,Login 2-11,,true,,518,528,17,85,http://localhost:8080/login,0,0,0
+1793846831396,7,Navigate to Dashboard,200,,Login 2-11,text,true,,1794,674,18,91,http://localhost:8080/dashboard.html,7,0,0
+1793846833001,9,Get Todo Data,200,,Login 2-11,text,true,,524,580,20,100,http://localhost:8080/todo,9,0,0
+1793846844063,4,Logout,204,,Login 2-11,,true,,377,636,11,78,http://localhost:8080/logout,0,0,0
+1793846845625,3,Redirect to Login,200,,Login 2-11,text,true,,1392,519,10,75,http://localhost:8080/index.html,3,0,0
+1793846819221,93,Transaction Controller - Create Subtask,200,"Number of samples in transaction : 8, number of failing samples : 0",Create Subtask 5-5,,true,,7037,4628,11,74,null,0,26373,1
+1793846819222,7,Navigate to Login,200,,Create Subtask 5-5,text,true,,1431,448,5,30,http://localhost:8080/,7,0,1
+1793846825258,8,Log in,204,,Create Subtask 5-5,,true,,518,524,9,60,http://localhost:8080/login,0,0,0
+1793846826849,7,Redirect to Dashboard,200,,Create Subtask 5-5,text,true,,1794,670,10,68,http://localhost:8080/dashboard.html,7,0,0
+1793846828436,7,Get Todo Data,200,,Create Subtask 5-5,text,true,,526,576,11,75,http://localhost:8080/todo,7,0,0
+1793846836546,50,Create Subtask,201,,Create Subtask 5-5,text,true,,408,687,15,98,http://localhost:8080/todo/249/subtasks,50,0,0
+1793846838140,8,Get Todo Data,200,,Create Subtask 5-5,text,true,,591,576,15,94,http://localhost:8080/todo,8,0,0
+1793846844153,3,Log out,204,,Create Subtask 5-5,,true,,377,632,12,78,http://localhost:8080/logout,0,0,0
+1793846845685,3,Redirect to Login,200,,Create Subtask 5-5,text,true,,1392,515,11,74,http://localhost:8080/index.html,3,0,0
+1793846825786,44,Transaction Controller - Register,200,"Number of samples in transaction : 4, number of failing samples : 0",Register 1-7,,true,,4518,2033,4,73,null,0,20178,1
+1793846825787,6,Navigate to Login,200,,Register 1-7,text,true,,1431,448,7,61,http://localhost:8080/,6,0,1
+1793846831797,15,Navigate to Registration,200,,Register 1-7,text,true,,1404,504,10,93,http://localhost:8080/register.html,15,0,0
+1793846839896,18,Register User,201,,Register 1-7,,true,,291,562,7,92,http://localhost:8080/register,18,0,0
+1793846846004,5,Navigate to Login,200,,Register 1-7,text,true,,1392,519,4,73,http://localhost:8080/index.html,5,0,0
+1793846819830,59,Transaction Controller - Create Todo,200,"Number of samples in transaction : 8, number of failing samples : 0",Create Todo 3-7,,true,,7073,4587,19,72,null,0,26381,1
+1793846819831,7,Navigate to Login,200,,Create Todo 3-7,text,true,,1431,448,7,34,http://localhost:8080/,7,0,1
+1793846825895,8,Login,204,,Create Todo 3-7,,true,,518,514,13,65,http://localhost:8080/login,0,0,0
+1793846827462,6,Redirect to Dashboard,200,,Create Todo 3-7,text,true,,1794,660,14,71,http://localhost:8080/dashboard.html,6,0,0
+1793846829016,6,Get Todo Data,200,,Create Todo 3-7,text,true,,524,576,16,80,http://localhost:8080/todo,6,0,0
+1793846837112,18,Create Todo,201,,Create Todo 3-7,text,true,,428,666,20,98,http://localhost:8080/todo,18,0,0
+1793846838715,8,Get Todo Data,200,,Create Todo 3-7,text,true,,609,576,20,93,http://localhost:8080/todo,8,0,0
+1793846844732,3,Logout,204,,Create Todo 3-7,,true,,377,632,19,76,http://localhost:8080/logout,0,0,0
+1793846846267,3,Navigate to Login,200,,Create Todo 3-7,text,true,,1392,515,19,72,http://localhost:8080/index.html,3,0,0
+1793846824808,47,Transaction Controller - Login,200,"Number of samples in transaction : 6, number of failing samples : 0",Login 2-12,,true,,6036,3389,9,71,null,0,21801,1
+1793846824809,5,Navigate to Login,200,,Login 2-12,text,true,,1431,452,12,58,http://localhost:8080/,5,0,1
+1793846830863,9,Log in attempt,204,,Login 2-12,,true,,518,528,18,89,http://localhost:8080/login,0,0,0
+1793846832451,7,Navigate to Dashboard,200,,Login 2-12,text,true,,1794,674,19,95,http://localhost:8080/dashboard.html,7,0,0
+1793846834037,19,Get Todo Data,200,,Login 2-12,text,true,,524,580,20,100,http://localhost:8080/todo,19,0,0
+1793846845073,3,Logout,204,,Login 2-12,,true,,377,636,10,76,http://localhost:8080/logout,0,0,0
+1793846846653,4,Redirect to Login,200,,Login 2-12,text,true,,1392,519,9,71,http://localhost:8080/index.html,4,0,0
+1793846820555,74,Transaction Controller - Create Subtask,200,"Number of samples in transaction : 8, number of failing samples : 0",Create Subtask 5-6,,true,,7037,4628,10,70,null,0,26457,2
+1793846820556,12,Navigate to Login,200,,Create Subtask 5-6,text,true,,1431,448,6,36,http://localhost:8080/,11,0,2
+1793846826570,7,Log in,204,,Create Subtask 5-6,,true,,518,524,10,66,http://localhost:8080/login,0,0,0
+1793846828153,6,Redirect to Dashboard,200,,Create Subtask 5-6,text,true,,1794,670,11,75,http://localhost:8080/dashboard.html,6,0,0
+1793846829697,7,Get Todo Data,200,,Create Subtask 5-6,text,true,,526,576,12,80,http://localhost:8080/todo,7,0,0
+1793846837784,29,Create Subtask,201,,Create Subtask 5-6,text,true,,408,687,15,95,http://localhost:8080/todo/251/subtasks,29,0,0
+1793846839411,6,Get Todo Data,200,,Create Subtask 5-6,text,true,,591,576,15,93,http://localhost:8080/todo,6,0,0
+1793846845484,4,Log out,204,,Create Subtask 5-6,,true,,377,632,11,75,http://localhost:8080/logout,0,0,0
+1793846847083,3,Redirect to Login,200,,Create Subtask 5-6,text,true,,1392,515,10,70,http://localhost:8080/index.html,3,0,0
+1793846831858,32,Transaction Controller - Edit Todo,200,"Number of samples in transaction : 6, number of failing samples : 0",Edit Todo 4-19,,true,,6038,3345,16,69,null,0,15256,2
+1793846831859,6,Navigate to Login,200,,Edit Todo 4-19,text,true,,1431,448,19,95,http://localhost:8080/,6,0,2
+1793846837917,7,Login,204,,Edit Todo 4-19,,true,,518,514,20,95,http://localhost:8080/login,0,0,0
+1793846839477,4,Navigate to Dashboard,200,,Edit Todo 4-19,text,true,,1794,660,20,93,http://localhost:8080/dashboard.html,4,0,0
+1793846839484,8,Get Todo Data,200,,Edit Todo 4-19,text,true,,526,576,20,93,http://localhost:8080/todo,8,0,0
+1793846845562,4,Logout,204,,Edit Todo 4-19,,true,,377,632,16,75,http://localhost:8080/logout,0,0,0
+1793846847143,3,Navigate to Login,200,,Edit Todo 4-19,text,true,,1392,515,16,69,http://localhost:8080/index.html,3,0,0
+1793846819857,94,Transaction Controller - Edit Todo,200,"Number of samples in transaction : 8, number of failing samples : 0",Edit Todo 4-7,,true,,6745,4557,15,68,null,0,27215,1
+1793846819858,5,Navigate to Login,200,,Edit Todo 4-7,text,true,,1431,448,7,35,http://localhost:8080/,5,0,1
+1793846825885,9,Login,204,,Edit Todo 4-7,,true,,518,514,13,65,http://localhost:8080/login,0,0,0
+1793846827411,6,Navigate to Dashboard,200,,Edit Todo 4-7,text,true,,1794,660,14,71,http://localhost:8080/dashboard.html,6,0,0
+1793846827419,8,Get Todo Data,200,,Edit Todo 4-7,text,true,,526,576,14,71,http://localhost:8080/todo,8,0,0
+1793846833443,51,Delete Todo,204,,Edit Todo 4-7,,true,,272,636,20,100,http://localhost:8080/todo/173,0,0,0
+1793846839552,9,Get Todo Data,200,,Edit Todo 4-7,text,true,,435,576,20,93,http://localhost:8080/todo,8,0,0
+1793846845625,3,Logout,204,,Edit Todo 4-7,,true,,377,632,16,75,http://localhost:8080/logout,0,0,0
+1793846847164,3,Navigate to Login,200,,Edit Todo 4-7,text,true,,1392,515,15,68,http://localhost:8080/index.html,3,0,0
+1793846820829,59,Transaction Controller - Create Todo,200,"Number of samples in transaction : 8, number of failing samples : 0",Create Todo 3-8,,true,,7073,4587,18,67,null,0,26416,2
+1793846820830,8,Navigate to Login,200,,Create Todo 3-8,text,true,,1431,448,8,39,http://localhost:8080/,8,0,2
+1793846826929,9,Login,204,,Create Todo 3-8,,true,,518,514,14,69,http://localhost:8080/login,0,0,0
+1793846828468,5,Redirect to Dashboard,200,,Create Todo 3-8,text,true,,1794,660,15,75,http://localhost:8080/dashboard.html,5,0,0
+1793846830031,6,Get Todo Data,200,,Create Todo 3-8,text,true,,524,576,17,86,http://localhost:8080/todo,6,0,0
+1793846838100,19,Create Todo,201,,Create Todo 3-8,text,true,,428,666,20,94,http://localhost:8080/todo,18,0,0
+1793846839702,7,Get Todo Data,200,,Create Todo 3-8,text,true,,609,576,20,93,http://localhost:8080/todo,7,0,0
+1793846845771,3,Logout,204,,Create Todo 3-8,,true,,377,632,19,73,http://localhost:8080/logout,0,0,0
+1793846847303,2,Navigate to Login,200,,Create Todo 3-8,text,true,,1392,515,18,67,http://localhost:8080/index.html,2,0,0
+1793846815239,192,Transaction Controller - Edit Subtask,200,"Number of samples in transaction : 10, number of failing samples : 0",Edit Subtask 6-2,,true,,8467,5838,15,66,null,0,31928,1
+1793846815240,8,Navigate to Login,200,,Edit Subtask 6-2,text,true,,1431,448,2,11,http://localhost:8080/,8,0,1
+1793846821341,10,Log in,204,,Edit Subtask 6-2,,true,,518,524,6,40,http://localhost:8080/login,0,0,0
+1793846822860,99,Redirect to Dashboard,200,,Edit Subtask 6-2,text,true,,1794,670,7,49,http://localhost:8080/dashboard.html,99,0,0
+1793846824552,12,Get Todo Data,200,,Edit Subtask 6-2,text,true,,781,576,8,56,http://localhost:8080/todo,11,0,0
+1793846830615,19,Mark Subtask as Complete,200,,Edit Subtask 6-2,text,true,,405,684,13,86,http://localhost:8080/subtask,19,0,0
+1793846832162,14,Get Todo Data,200,,Edit Subtask 6-2,text,true,,780,576,14,95,http://localhost:8080/todo,14,0,0
+1793846838272,16,Delete subtask,204,,Edit Subtask 6-2,,true,,272,637,15,94,http://localhost:8080/subtask/5,0,0,0
+1793846839825,8,Get Todo Data,200,,Edit Subtask 6-2,text,true,,717,576,15,92,http://localhost:8080/todo,7,0,0
+1793846845840,3,Log out,204,,Edit Subtask 6-2,,true,,377,632,15,73,http://localhost:8080/logout,0,0,0
+1793846847355,3,Redirect to Login,200,,Edit Subtask 6-2,text,true,,1392,515,15,66,http://localhost:8080/index.html,3,0,0
+1793846813924,1526,Transaction Controller - Edit Subtask,200,"Number of samples in transaction : 10, number of failing samples : 0",Edit Subtask 6-1,,true,,8467,5838,14,65,null,0,31945,46
+1793846813949,204,Navigate to Login,200,,Edit Subtask 6-1,text,true,,1431,448,1,6,http://localhost:8080/,204,0,46
+1793846820244,578,Log in,204,,Edit Subtask 6-1,,true,,518,524,6,38,http://localhost:8080/login,0,0,0
+1793846822331,628,Redirect to Dashboard,200,,Edit Subtask 6-1,text,true,,1794,670,7,49,http://localhost:8080/dashboard.html,628,0,0
+1793846824505,16,Get Todo Data,200,,Edit Subtask 6-1,text,true,,781,576,8,55,http://localhost:8080/todo,15,0,0
+1793846830542,53,Mark Subtask as Complete,200,,Edit Subtask 6-1,text,true,,405,684,13,86,http://localhost:8080/subtask,53,0,0
+1793846832109,13,Get Todo Data,200,,Edit Subtask 6-1,text,true,,780,576,14,95,http://localhost:8080/todo,13,0,0
+1793846838207,20,Delete subtask,204,,Edit Subtask 6-1,,true,,272,637,15,94,http://localhost:8080/subtask/1,0,0,0
+1793846839825,8,Get Todo Data,200,,Edit Subtask 6-1,text,true,,717,576,15,92,http://localhost:8080/todo,7,0,0
+1793846845863,3,Log out,204,,Edit Subtask 6-1,,true,,377,632,15,73,http://localhost:8080/logout,0,0,0
+1793846847392,3,Redirect to Login,200,,Edit Subtask 6-1,text,true,,1392,515,14,65,http://localhost:8080/index.html,3,0,0
+1793846825808,63,Transaction Controller - Login,200,"Number of samples in transaction : 6, number of failing samples : 0",Login 2-13,,true,,6036,3389,8,64,null,0,21717,1
+1793846825809,6,Navigate to Login,200,,Login 2-13,text,true,,1431,452,13,62,http://localhost:8080/,6,0,1
+1793846831890,9,Log in attempt,204,,Login 2-13,,true,,518,528,19,95,http://localhost:8080/login,0,0,0
+1793846833456,33,Navigate to Dashboard,200,,Login 2-13,text,true,,1794,674,20,100,http://localhost:8080/dashboard.html,33,0,0
+1793846835036,9,Get Todo Data,200,,Login 2-13,text,true,,524,580,20,99,http://localhost:8080/todo,8,0,0
+1793846846059,3,Logout,204,,Login 2-13,,true,,377,636,9,72,http://localhost:8080/logout,0,0,0
+1793846847586,3,Redirect to Login,200,,Login 2-13,text,true,,1392,519,8,64,http://localhost:8080/index.html,3,0,0
+1793846827784,31,Transaction Controller - Register,200,"Number of samples in transaction : 4, number of failing samples : 0",Register 1-8,,true,,4518,2033,3,63,null,0,20109,1
+1793846827785,5,Navigate to Login,200,,Register 1-8,text,true,,1431,448,8,72,http://localhost:8080/,5,0,1
+1793846833793,5,Navigate to Registration,200,,Register 1-8,text,true,,1404,504,10,100,http://localhost:8080/register.html,5,0,0
+1793846841833,16,Register User,201,,Register 1-8,,true,,291,562,6,88,http://localhost:8080/register,16,0,0
+1793846847920,5,Navigate to Login,200,,Register 1-8,text,true,,1392,519,3,63,http://localhost:8080/index.html,5,0,0
+1793846820857,73,Transaction Controller - Edit Todo,200,"Number of samples in transaction : 8, number of failing samples : 0",Edit Todo 4-8,,true,,6985,4578,14,62,null,0,27257,2
+1793846820858,8,Navigate to Login,200,,Edit Todo 4-8,text,true,,1431,448,8,40,http://localhost:8080/,8,0,2
+1793846826893,7,Login,204,,Edit Todo 4-8,,true,,518,514,14,69,http://localhost:8080/login,0,0,0
+1793846828403,12,Navigate to Dashboard,200,,Edit Todo 4-8,text,true,,1794,660,15,75,http://localhost:8080/dashboard.html,12,0,0
+1793846828417,10,Get Todo Data,200,,Edit Todo 4-8,text,true,,526,576,15,75,http://localhost:8080/todo,10,0,0
+1793846834457,20,Change Todo Name,200,,Edit Todo 4-8,text,true,,427,657,20,100,http://localhost:8080/todo,20,0,0
+1793846840539,9,Get Todo Data,200,,Edit Todo 4-8,text,true,,520,576,20,91,http://localhost:8080/todo,9,0,0
+1793846846588,4,Logout,204,,Edit Todo 4-8,,true,,377,632,16,71,http://localhost:8080/logout,0,0,0
+1793846848185,3,Navigate to Login,200,,Edit Todo 4-8,text,true,,1392,515,14,62,http://localhost:8080/index.html,3,0,0
+1793846821909,67,Transaction Controller - Create Subtask,200,"Number of samples in transaction : 8, number of failing samples : 0",Create Subtask 5-7,,true,,7037,4628,9,61,null,0,26453,1
+1793846821909,6,Navigate to Login,200,,Create Subtask 5-7,text,true,,1431,448,7,46,http://localhost:8080/,6,0,1
+1793846828016,7,Log in,204,,Create Subtask 5-7,,true,,518,524,11,75,http://localhost:8080/login,0,0,0
+1793846829614,6,Redirect to Dashboard,200,,Create Subtask 5-7,text,true,,1794,670,12,80,http://localhost:8080/dashboard.html,6,0,0
+1793846831158,9,Get Todo Data,200,,Create Subtask 5-7,text,true,,526,576,13,89,http://localhost:8080/todo,9,0,0
+1793846839216,25,Create Subtask,201,,Create Subtask 5-7,text,true,,408,687,15,93,http://localhost:8080/todo/253/subtasks,25,0,0
+1793846840769,8,Get Todo Data,200,,Create Subtask 5-7,text,true,,591,576,15,90,http://localhost:8080/todo,8,0,0
+1793846846842,4,Log out,204,,Create Subtask 5-7,,true,,377,632,10,70,http://localhost:8080/logout,0,0,0
+1793846848427,2,Redirect to Login,200,,Create Subtask 5-7,text,true,,1392,515,9,61,http://localhost:8080/index.html,2,0,0
+1793846826805,42,Transaction Controller - Login,200,"Number of samples in transaction : 6, number of failing samples : 0",Login 2-14,,true,,6036,3389,7,60,null,0,21729,1
+1793846826806,5,Navigate to Login,200,,Login 2-14,text,true,,1431,452,14,67,http://localhost:8080/,5,0,1
+1793846832849,9,Log in attempt,204,,Login 2-14,,true,,518,528,20,99,http://localhost:8080/login,0,0,0
+1793846834428,6,Navigate to Dashboard,200,,Login 2-14,text,true,,1794,674,20,100,http://localhost:8080/dashboard.html,6,0,0
+1793846835965,7,Get Todo Data,200,,Login 2-14,text,true,,524,580,20,98,http://localhost:8080/todo,7,0,0
+1793846847033,4,Logout,204,,Login 2-14,,true,,377,636,8,70,http://localhost:8080/logout,0,0,0
+1793846848566,11,Redirect to Login,200,,Login 2-14,text,true,,1392,519,7,60,http://localhost:8080/index.html,11,0,0
+1793846816571,141,Transaction Controller - Edit Subtask,200,"Number of samples in transaction : 10, number of failing samples : 0",Edit Subtask 6-3,,true,,8476,5838,13,59,null,0,31989,1
+1793846816572,6,Navigate to Login,200,,Edit Subtask 6-3,text,true,,1431,448,3,17,http://localhost:8080/,6,0,1
+1793846822604,8,Log in,204,,Edit Subtask 6-3,,true,,518,524,7,46,http://localhost:8080/login,0,0,0
+1793846824127,8,Redirect to Dashboard,200,,Edit Subtask 6-3,text,true,,1794,670,8,55,http://localhost:8080/dashboard.html,8,0,0
+1793846825724,11,Get Todo Data,200,,Edit Subtask 6-3,text,true,,784,576,9,60,http://localhost:8080/todo,11,0,0
+1793846831822,32,Mark Subtask as Complete,200,,Edit Subtask 6-3,text,true,,405,684,14,94,http://localhost:8080/subtask,32,0,0
+1793846833449,46,Get Todo Data,200,,Edit Subtask 6-3,text,true,,783,576,15,100,http://localhost:8080/todo,46,0,0
+1793846839556,15,Delete subtask,204,,Edit Subtask 6-3,,true,,272,637,15,93,http://localhost:8080/subtask/9,0,0,0
+1793846841078,8,Get Todo Data,200,,Edit Subtask 6-3,text,true,,720,576,15,90,http://localhost:8080/todo,8,0,0
+1793846847153,4,Log out,204,,Edit Subtask 6-3,,true,,377,632,15,68,http://localhost:8080/logout,0,0,0
+1793846848698,3,Redirect to Login,200,,Edit Subtask 6-3,text,true,,1392,515,13,59,http://localhost:8080/index.html,3,0,0
+1793846827800,34,Transaction Controller - Login,200,"Number of samples in transaction : 6, number of failing samples : 0",Login 2-15,,true,,6036,3389,6,58,null,0,21792,1
+1793846827801,5,Navigate to Login,200,,Login 2-15,text,true,,1431,452,15,73,http://localhost:8080/,5,0,1
+1793846833881,8,Log in attempt,204,,Login 2-15,,true,,518,528,20,100,http://localhost:8080/login,0,0,0
+1793846835478,6,Navigate to Dashboard,200,,Login 2-15,text,true,,1794,674,20,99,http://localhost:8080/dashboard.html,6,0,0
+1793846837021,8,Get Todo Data,200,,Login 2-15,text,true,,524,580,20,98,http://localhost:8080/todo,8,0,0
+1793846848096,3,Logout,204,,Login 2-15,,true,,377,636,7,62,http://localhost:8080/logout,0,0,0
+1793846849622,4,Redirect to Login,200,,Login 2-15,text,true,,1392,519,6,58,http://localhost:8080/index.html,4,0,0
+1793846823221,69,Transaction Controller - Create Subtask,200,"Number of samples in transaction : 8, number of failing samples : 0",Create Subtask 5-8,,true,,7037,4628,8,57,null,0,26345,0
+1793846823222,5,Navigate to Login,200,,Create Subtask 5-8,text,true,,1431,448,8,50,http://localhost:8080/,5,0,0
+1793846829278,6,Log in,204,,Create Subtask 5-8,,true,,518,524,12,80,http://localhost:8080/login,0,0,0
+1793846830818,7,Redirect to Dashboard,200,,Create Subtask 5-8,text,true,,1794,670,13,87,http://localhost:8080/dashboard.html,7,0,0
+1793846832333,12,Get Todo Data,200,,Create Subtask 5-8,text,true,,526,576,14,95,http://localhost:8080/todo,12,0,0
+1793846840421,23,Create Subtask,201,,Create Subtask 5-8,text,true,,408,687,15,91,http://localhost:8080/todo/255/subtasks,23,0,0
+1793846841958,9,Get Todo Data,200,,Create Subtask 5-8,text,true,,591,576,13,87,http://localhost:8080/todo,8,0,0
+1793846848044,4,Log out,204,,Create Subtask 5-8,,true,,377,632,9,62,http://localhost:8080/logout,0,0,0
+1793846849632,3,Redirect to Login,200,,Create Subtask 5-8,text,true,,1392,515,8,57,http://localhost:8080/index.html,3,0,0
+1793846829784,28,Transaction Controller - Register,200,"Number of samples in transaction : 4, number of failing samples : 0",Register 1-9,,true,,4518,2033,2,56,null,0,20150,0
+1793846829785,4,Navigate to Login,200,,Register 1-9,text,true,,1431,448,9,81,http://localhost:8080/,4,0,0
+1793846835889,4,Navigate to Registration,200,,Register 1-9,text,true,,1404,504,9,99,http://localhost:8080/register.html,4,0,0
+1793846843921,14,Register User,201,,Register 1-9,,true,,291,562,5,79,http://localhost:8080/register,14,0,0
+1793846849955,6,Navigate to Login,200,,Register 1-9,text,true,,1392,519,2,56,http://localhost:8080/index.html,6,0,0
+1793846817905,98,Transaction Controller - Edit Subtask,200,"Number of samples in transaction : 10, number of failing samples : 0",Edit Subtask 6-4,,true,,8479,5840,12,55,null,0,32083,1
+1793846817906,5,Navigate to Login,200,,Edit Subtask 6-4,text,true,,1431,448,4,26,http://localhost:8080/,5,0,1
+1793846823926,9,Log in,204,,Edit Subtask 6-4,,true,,518,524,8,55,http://localhost:8080/login,0,0,0
+1793846825533,7,Redirect to Dashboard,200,,Edit Subtask 6-4,text,true,,1794,670,9,60,http://localhost:8080/dashboard.html,7,0,0
+1793846827073,10,Get Todo Data,200,,Edit Subtask 6-4,text,true,,785,576,10,69,http://localhost:8080/todo,9,0,0
+1793846833186,19,Mark Subtask as Complete,200,,Edit Subtask 6-4,text,true,,406,685,15,100,http://localhost:8080/subtask,19,0,0
+1793846834767,11,Get Todo Data,200,,Edit Subtask 6-4,text,true,,784,576,15,99,http://localhost:8080/todo,11,0,0
+1793846840859,24,Delete subtask,204,,Edit Subtask 6-4,,true,,272,638,15,90,http://localhost:8080/subtask/13,0,0,0
+1793846842467,7,Get Todo Data,200,,Edit Subtask 6-4,text,true,,720,576,15,84,http://localhost:8080/todo,7,0,0
+1793846848529,3,Log out,204,,Edit Subtask 6-4,,true,,377,632,13,60,http://localhost:8080/logout,0,0,0
+1793846850082,3,Redirect to Login,200,,Edit Subtask 6-4,text,true,,1392,515,12,55,http://localhost:8080/index.html,3,0,0
+1793846822865,101,Transaction Controller - Edit Todo,200,"Number of samples in transaction : 8, number of failing samples : 0",Edit Todo 4-10,,true,,6985,4578,13,54,null,0,27327,1
+1793846822866,14,Navigate to Login,200,,Edit Todo 4-10,text,true,,1431,448,10,49,http://localhost:8080/,14,0,1
+1793846828944,6,Login,204,,Edit Todo 4-10,,true,,518,514,16,80,http://localhost:8080/login,0,0,0
+1793846830463,7,Navigate to Dashboard,200,,Edit Todo 4-10,text,true,,1794,660,17,86,http://localhost:8080/dashboard.html,7,0,0
+1793846830472,7,Get Todo Data,200,,Edit Todo 4-10,text,true,,526,576,17,86,http://localhost:8080/todo,7,0,0
+1793846836558,49,Change Todo Name,200,,Edit Todo 4-10,text,true,,427,657,20,98,http://localhost:8080/todo,49,0,0
+1793846842688,11,Get Todo Data,200,,Edit Todo 4-10,text,true,,520,576,19,83,http://localhost:8080/todo,11,0,0
+1793846848775,4,Logout,204,,Edit Todo 4-10,,true,,377,632,13,58,http://localhost:8080/logout,0,0,0
+1793846850290,3,Navigate to Login,200,,Edit Todo 4-10,text,true,,1392,515,13,54,http://localhost:8080/index.html,3,0,0
+1793846828802,33,Transaction Controller - Login,200,"Number of samples in transaction : 6, number of failing samples : 0",Login 2-16,,true,,6036,3389,5,53,null,0,21806,1
+1793846828802,4,Navigate to Login,200,,Login 2-16,text,true,,1431,452,16,78,http://localhost:8080/,4,0,1
+1793846834900,9,Log in attempt,204,,Login 2-16,,true,,518,528,20,99,http://localhost:8080/login,0,0,0
+1793846836472,6,Navigate to Dashboard,200,,Login 2-16,text,true,,1794,674,20,98,http://localhost:8080/dashboard.html,6,0,0
+1793846838063,7,Get Todo Data,200,,Login 2-16,text,true,,524,580,17,94,http://localhost:8080/todo,7,0,0
+1793846849104,4,Logout,204,,Login 2-16,,true,,377,636,6,58,http://localhost:8080/logout,0,0,0
+1793846850638,3,Redirect to Login,200,,Login 2-16,text,true,,1392,519,5,53,http://localhost:8080/index.html,3,0,0
+1793846824555,99,Transaction Controller - Create Subtask,200,"Number of samples in transaction : 8, number of failing samples : 0",Create Subtask 5-9,,true,,7037,4628,7,52,null,0,26288,2
+1793846824561,8,Navigate to Login,200,,Create Subtask 5-9,text,true,,1431,448,9,56,http://localhost:8080/,8,0,2
+1793846830662,10,Log in,204,,Create Subtask 5-9,,true,,518,524,13,86,http://localhost:8080/login,0,0,0
+1793846832190,10,Redirect to Dashboard,200,,Create Subtask 5-9,text,true,,1794,670,14,95,http://localhost:8080/dashboard.html,10,0,0
+1793846833727,10,Get Todo Data,200,,Create Subtask 5-9,text,true,,526,576,15,100,http://localhost:8080/todo,10,0,0
+1793846841761,49,Create Subtask,201,,Create Subtask 5-9,text,true,,408,687,14,88,http://localhost:8080/todo/257/subtasks,49,0,0
+1793846843388,6,Get Todo Data,200,,Create Subtask 5-9,text,true,,591,576,12,80,http://localhost:8080/todo,5,0,0
+1793846849428,2,Log out,204,,Create Subtask 5-9,,true,,377,632,8,58,http://localhost:8080/logout,0,0,0
+1793846850938,4,Redirect to Login,200,,Create Subtask 5-9,text,true,,1392,515,7,52,http://localhost:8080/index.html,4,0,0
+1793846820573,69,Transaction Controller - Edit Subtask,200,"Number of samples in transaction : 8, number of failing samples : 0",Edit Subtask 6-6,,true,,7487,4626,11,51,null,0,30379,1
+1793846820574,9,Navigate to Login,200,,Edit Subtask 6-6,text,true,,1431,448,6,37,http://localhost:8080/,9,0,1
+1793846826613,8,Log in,204,,Edit Subtask 6-6,,true,,518,524,10,66,http://localhost:8080/login,0,0,0
+1793846828175,6,Redirect to Dashboard,200,,Edit Subtask 6-6,text,true,,1794,670,11,75,http://localhost:8080/dashboard.html,6,0,0
+1793846829775,7,Get Todo Data,200,,Edit Subtask 6-6,text,true,,785,576,12,80,http://localhost:8080/todo,7,0,0
+1793846835809,25,Mark Subtask as Complete,200,,Edit Subtask 6-6,text,true,,406,685,15,99,http://localhost:8080/subtask,25,0,0
+1793846837352,8,Get Todo Data,200,,Edit Subtask 6-6,text,true,,784,576,15,96,http://localhost:8080/todo,8,0,0
+1793846849418,3,Log out,204,,Edit Subtask 6-6,,true,,377,632,12,58,http://localhost:8080/logout,0,0,0
+1793846851018,3,Redirect to Login,200,,Edit Subtask 6-6,text,true,,1392,515,11,51,http://localhost:8080/index.html,3,0,0
+1793846823860,94,Transaction Controller - Edit Todo,200,"Number of samples in transaction : 8, number of failing samples : 0",Edit Todo 4-11,,true,,6985,4578,12,50,null,0,27245,1
+1793846823861,6,Navigate to Login,200,,Edit Todo 4-11,text,true,,1431,448,11,55,http://localhost:8080/,6,0,1
+1793846829894,7,Login,204,,Edit Todo 4-11,,true,,518,514,17,85,http://localhost:8080/login,0,0,0
+1793846831411,7,Navigate to Dashboard,200,,Edit Todo 4-11,text,true,,1794,660,18,91,http://localhost:8080/dashboard.html,7,0,0
+1793846831421,9,Get Todo Data,200,,Edit Todo 4-11,text,true,,526,576,18,91,http://localhost:8080/todo,9,0,0
+1793846837474,50,Change Todo Name,200,,Edit Todo 4-11,text,true,,427,657,20,96,http://localhost:8080/todo,50,0,0
+1793846843534,8,Get Todo Data,200,,Edit Todo 4-11,text,true,,520,576,17,80,http://localhost:8080/todo,8,0,0
+1793846849640,4,Logout,204,,Edit Todo 4-11,,true,,377,632,13,56,http://localhost:8080/logout,0,0,0
+1793846851196,3,Navigate to Login,200,,Edit Todo 4-11,text,true,,1392,515,12,50,http://localhost:8080/index.html,3,0,0
+1793846819239,146,Transaction Controller - Edit Subtask,200,"Number of samples in transaction : 10, number of failing samples : 0",Edit Subtask 6-5,,true,,8479,5840,10,49,null,0,31970,1
+1793846819240,6,Navigate to Login,200,,Edit Subtask 6-5,text,true,,1431,448,5,31,http://localhost:8080/,6,0,1
+1793846825331,8,Log in,204,,Edit Subtask 6-5,,true,,518,524,9,60,http://localhost:8080/login,0,0,0
+1793846826888,7,Redirect to Dashboard,200,,Edit Subtask 6-5,text,true,,1794,670,10,69,http://localhost:8080/dashboard.html,7,0,0
+1793846828403,18,Get Todo Data,200,,Edit Subtask 6-5,text,true,,785,576,11,75,http://localhost:8080/todo,18,0,0
+1793846834465,23,Mark Subtask as Complete,200,,Edit Subtask 6-5,text,true,,406,685,15,100,http://localhost:8080/subtask,23,0,0
+1793846836047,9,Get Todo Data,200,,Edit Subtask 6-5,text,true,,784,576,15,98,http://localhost:8080/todo,8,0,0
+1793846842136,58,Delete subtask,204,,Edit Subtask 6-5,,true,,272,638,15,85,http://localhost:8080/subtask/17,0,0,0
+1793846843755,8,Get Todo Data,200,,Edit Subtask 6-5,text,true,,720,576,15,79,http://localhost:8080/todo,8,0,0
+1793846849791,5,Log out,204,,Edit Subtask 6-5,,true,,377,632,12,56,http://localhost:8080/logout,0,0,0
+1793846851351,4,Redirect to Login,200,,Edit Subtask 6-5,text,true,,1392,515,10,49,http://localhost:8080/index.html,4,0,0
+1793846829801,29,Transaction Controller - Login,200,"Number of samples in transaction : 6, number of failing samples : 0",Login 2-17,,true,,6036,3389,4,48,null,0,21760,1
+1793846829802,3,Navigate to Login,200,,Login 2-17,text,true,,1431,452,17,82,http://localhost:8080/,3,0,1
+1793846835880,7,Log in attempt,204,,Login 2-17,,true,,518,528,20,99,http://localhost:8080/login,0,0,0
+1793846837421,5,Navigate to Dashboard,200,,Login 2-17,text,true,,1794,674,18,96,http://localhost:8080/dashboard.html,5,0,0
+1793846838941,8,Get Todo Data,200,,Login 2-17,text,true,,524,580,16,93,http://localhost:8080/todo,8,0,0
+1793846850037,4,Logout,204,,Login 2-17,,true,,377,636,5,55,http://localhost:8080/logout,0,0,0
+1793846851587,2,Redirect to Login,200,,Login 2-17,text,true,,1392,519,4,48,http://localhost:8080/index.html,2,0,0
+1793846831784,36,Transaction Controller - Register,200,"Number of samples in transaction : 4, number of failing samples : 0",Register 1-10,,true,,4518,2033,1,47,null,0,20207,1
+1793846831786,7,Navigate to Login,200,,Register 1-10,text,true,,1431,448,10,92,http://localhost:8080/,7,0,1
+1793846837888,6,Navigate to Registration,200,,Register 1-10,text,true,,1404,504,8,95,http://localhost:8080/register.html,6,0,0
+1793846845942,18,Register User,201,,Register 1-10,,true,,291,562,4,73,http://localhost:8080/register,18,0,0
+1793846852021,5,Navigate to Login,200,,Register 1-10,text,true,,1392,519,1,47,http://localhost:8080/index.html,5,0,0
+1793846824858,175,Transaction Controller - Edit Todo,200,"Number of samples in transaction : 8, number of failing samples : 0",Edit Todo 4-12,,true,,6985,4578,11,46,null,0,27257,1
+1793846824859,5,Navigate to Login,200,,Edit Todo 4-12,text,true,,1431,448,12,60,http://localhost:8080/,5,0,1
+1793846830937,9,Login,204,,Edit Todo 4-12,,true,,518,514,18,89,http://localhost:8080/login,0,0,0
+1793846832465,6,Navigate to Dashboard,200,,Edit Todo 4-12,text,true,,1794,660,19,95,http://localhost:8080/dashboard.html,6,0,0
+1793846832473,17,Get Todo Data,200,,Edit Todo 4-12,text,true,,526,576,19,95,http://localhost:8080/todo,17,0,0
+1793846838494,43,Change Todo Name,200,,Edit Todo 4-12,text,true,,427,657,20,94,http://localhost:8080/todo,43,0,0
+1793846844573,89,Get Todo Data,200,,Edit Todo 4-12,text,true,,520,576,17,76,http://localhost:8080/todo,89,0,0
+1793846850716,3,Logout,204,,Edit Todo 4-12,,true,,377,632,12,52,http://localhost:8080/logout,0,0,0
+1793846852287,3,Navigate to Login,200,,Edit Todo 4-12,text,true,,1392,515,11,46,http://localhost:8080/index.html,3,0,0
+1793846825887,60,Transaction Controller - Create Subtask,200,"Number of samples in transaction : 8, number of failing samples : 0",Create Subtask 5-10,,true,,7037,4628,6,45,null,0,26463,1
+1793846825888,6,Navigate to Login,200,,Create Subtask 5-10,text,true,,1431,448,10,65,http://localhost:8080/,6,0,1
+1793846831979,8,Log in,204,,Create Subtask 5-10,,true,,518,524,14,95,http://localhost:8080/login,0,0,0
+1793846833569,7,Redirect to Dashboard,200,,Create Subtask 5-10,text,true,,1794,670,15,100,http://localhost:8080/dashboard.html,7,0,0
+1793846835170,8,Get Todo Data,200,,Create Subtask 5-10,text,true,,526,576,15,99,http://localhost:8080/todo,8,0,0
+1793846843245,18,Create Subtask,201,,Create Subtask 5-10,text,true,,408,687,12,80,http://localhost:8080/todo/259/subtasks,18,0,0
+1793846844833,6,Get Todo Data,200,,Create Subtask 5-10,text,true,,591,576,11,76,http://localhost:8080/todo,5,0,0
+1793846850846,5,Log out,204,,Create Subtask 5-10,,true,,377,632,7,52,http://localhost:8080/logout,0,0,0
+1793846852407,2,Redirect to Login,200,,Create Subtask 5-10,text,true,,1392,515,6,45,http://localhost:8080/index.html,2,0,0
+1793846825857,95,Transaction Controller - Edit Todo,200,"Number of samples in transaction : 8, number of failing samples : 0",Edit Todo 4-13,,true,,6745,4557,10,44,null,0,27338,1
+1793846825858,5,Navigate to Login,200,,Edit Todo 4-13,text,true,,1431,448,13,64,http://localhost:8080/,5,0,1
+1793846831895,9,Login,204,,Edit Todo 4-13,,true,,518,514,19,95,http://localhost:8080/login,0,0,0
+1793846833422,7,Navigate to Dashboard,200,,Edit Todo 4-13,text,true,,1794,660,20,100,http://localhost:8080/dashboard.html,7,0,0
+1793846833433,10,Get Todo Data,200,,Edit Todo 4-13,text,true,,526,576,20,100,http://localhost:8080/todo,9,0,0
+1793846839491,51,Delete Todo,204,,Edit Todo 4-13,,true,,272,636,20,93,http://localhost:8080/todo/185,0,0,0
+1793846845587,7,Get Todo Data,200,,Edit Todo 4-13,text,true,,435,576,16,75,http://localhost:8080/todo,7,0,0
+1793846851690,3,Logout,204,,Edit Todo 4-13,,true,,377,632,11,47,http://localhost:8080/logout,0,0,0
+1793846853287,3,Navigate to Login,200,,Edit Todo 4-13,text,true,,1392,515,10,44,http://localhost:8080/index.html,3,0,0
+1793846831800,38,Transaction Controller - Login,200,"Number of samples in transaction : 6, number of failing samples : 0",Login 2-19,,true,,6036,3389,3,43,null,0,21773,1
+1793846831801,11,Navigate to Login,200,,Login 2-19,text,true,,1431,452,19,93,http://localhost:8080/,11,0,1
+1793846837904,8,Log in attempt,204,,Login 2-19,,true,,518,528,17,95,http://localhost:8080/login,0,0,0
+1793846839436,5,Navigate to Dashboard,200,,Login 2-19,text,true,,1794,674,16,93,http://localhost:8080/dashboard.html,5,0,0
+1793846840962,7,Get Todo Data,200,,Login 2-19,text,true,,524,580,14,90,http://localhost:8080/todo,6,0,0
+1793846852063,3,Logout,204,,Login 2-19,,true,,377,636,3,46,http://localhost:8080/logout,0,0,0
+1793846853606,4,Redirect to Login,200,,Login 2-19,text,true,,1392,519,3,43,http://localhost:8080/index.html,4,0,0
+1793846823235,95,Transaction Controller - Edit Subtask,200,"Number of samples in transaction : 8, number of failing samples : 0",Edit Subtask 6-8,,true,,7487,4626,9,42,null,0,30420,1
+1793846823236,5,Navigate to Login,200,,Edit Subtask 6-8,text,true,,1431,448,8,51,http://localhost:8080/,4,0,1
+1793846829274,6,Log in,204,,Edit Subtask 6-8,,true,,518,524,12,80,http://localhost:8080/login,0,0,0
+1793846830827,9,Redirect to Dashboard,200,,Edit Subtask 6-8,text,true,,1794,670,13,88,http://localhost:8080/dashboard.html,9,0,0
+1793846832370,13,Get Todo Data,200,,Edit Subtask 6-8,text,true,,785,576,14,95,http://localhost:8080/todo,13,0,0
+1793846838475,49,Mark Subtask as Complete,200,,Edit Subtask 6-8,text,true,,406,685,15,94,http://localhost:8080/subtask,49,0,0
+1793846840066,7,Get Todo Data,200,,Edit Subtask 6-8,text,true,,784,576,15,91,http://localhost:8080/todo,7,0,0
+1793846852147,3,Log out,204,,Edit Subtask 6-8,,true,,377,632,9,46,http://localhost:8080/logout,0,0,0
+1793846853747,3,Redirect to Login,200,,Edit Subtask 6-8,text,true,,1392,515,9,42,http://localhost:8080/index.html,3,0,0
+1793846827220,241,Transaction Controller - Create Subtask,200,"Number of samples in transaction : 8, number of failing samples : 0",Create Subtask 5-11,,true,,7037,4628,5,41,null,0,26327,1
+1793846827221,9,Navigate to Login,200,,Create Subtask 5-11,text,true,,1431,448,11,70,http://localhost:8080/,9,0,1
+1793846833294,8,Log in,204,,Create Subtask 5-11,,true,,518,524,15,100,http://localhost:8080/login,0,0,0
+1793846834804,6,Redirect to Dashboard,200,,Create Subtask 5-11,text,true,,1794,670,15,99,http://localhost:8080/dashboard.html,6,0,0
+1793846836388,8,Get Todo Data,200,,Create Subtask 5-11,text,true,,526,576,15,98,http://localhost:8080/todo,8,0,0
+1793846844446,199,Create Subtask,201,,Create Subtask 5-11,text,true,,408,687,11,76,http://localhost:8080/todo/261/subtasks,199,0,0
+1793846846180,4,Get Todo Data,200,,Create Subtask 5-11,text,true,,591,576,10,72,http://localhost:8080/todo,3,0,0
+1793846852210,3,Log out,204,,Create Subtask 5-11,,true,,377,632,6,46,http://localhost:8080/logout,0,0,0
+1793846853784,4,Redirect to Login,200,,Create Subtask 5-11,text,true,,1392,515,5,41,http://localhost:8080/index.html,4,0,0
+1793846821909,81,Transaction Controller - Edit Subtask,200,"Number of samples in transaction : 10, number of failing samples : 0",Edit Subtask 6-7,,true,,8479,5840,8,40,null,0,31891,1
+1793846821909,7,Navigate to Login,200,,Edit Subtask 6-7,text,true,,1431,448,7,46,http://localhost:8080/,7,0,1
+1793846828005,5,Log in,204,,Edit Subtask 6-7,,true,,518,524,11,75,http://localhost:8080/login,0,0,0
+1793846829561,5,Redirect to Dashboard,200,,Edit Subtask 6-7,text,true,,1794,670,12,80,http://localhost:8080/dashboard.html,5,0,0
+1793846831089,12,Get Todo Data,200,,Edit Subtask 6-7,text,true,,785,576,13,89,http://localhost:8080/todo,12,0,0
+1793846837141,17,Mark Subtask as Complete,200,,Edit Subtask 6-7,text,true,,406,685,15,97,http://localhost:8080/subtask,17,0,0
+1793846838697,9,Get Todo Data,200,,Edit Subtask 6-7,text,true,,784,576,15,93,http://localhost:8080/todo,9,0,0
+1793846844774,14,Delete subtask,204,,Edit Subtask 6-7,,true,,272,638,15,76,http://localhost:8080/subtask/25,0,0,0
+1793846846304,6,Get Todo Data,200,,Edit Subtask 6-7,text,true,,720,576,15,71,http://localhost:8080/todo,6,0,0
+1793846852317,3,Log out,204,,Edit Subtask 6-7,,true,,377,632,9,45,http://localhost:8080/logout,0,0,0
+1793846853879,3,Redirect to Login,200,,Edit Subtask 6-7,text,true,,1392,515,8,40,http://localhost:8080/index.html,3,0,0
+1793846828552,88,Transaction Controller - Create Subtask,200,"Number of samples in transaction : 8, number of failing samples : 0",Create Subtask 5-12,,true,,7037,4628,4,39,null,0,26288,0
+1793846828553,4,Navigate to Login,200,,Create Subtask 5-12,text,true,,1431,448,12,76,http://localhost:8080/,4,0,0
+1793846834564,9,Log in,204,,Create Subtask 5-12,,true,,518,524,15,99,http://localhost:8080/login,0,0,0
+1793846836125,7,Redirect to Dashboard,200,,Create Subtask 5-12,text,true,,1794,670,15,98,http://localhost:8080/dashboard.html,7,0,0
+1793846837666,6,Get Todo Data,200,,Create Subtask 5-12,text,true,,526,576,15,95,http://localhost:8080/todo,6,0,0
+1793846845706,50,Create Subtask,201,,Create Subtask 5-12,text,true,,408,687,10,73,http://localhost:8080/todo/263/subtasks,50,0,0
+1793846847270,6,Get Todo Data,200,,Create Subtask 5-12,text,true,,591,576,9,67,http://localhost:8080/todo,6,0,0
+1793846853328,3,Log out,204,,Create Subtask 5-12,,true,,377,632,5,43,http://localhost:8080/logout,0,0,0
+1793846854926,3,Redirect to Login,200,,Create Subtask 5-12,text,true,,1392,515,4,39,http://localhost:8080/index.html,3,0,0
+1793846818830,83,Transaction Controller - Create Todo,200,"Number of samples in transaction : 10, number of failing samples : 0",Create Todo 3-6,,true,,8194,5829,17,38,null,0,36054,1
+1793846818832,5,Navigate to Login,200,,Create Todo 3-6,text,true,,1431,448,6,28,http://localhost:8080/,5,0,1
+1793846824854,7,Login,204,,Create Todo 3-6,,true,,518,514,12,60,http://localhost:8080/login,0,0,0
+1793846826400,6,Redirect to Dashboard,200,,Create Todo 3-6,text,true,,1794,660,13,66,http://localhost:8080/dashboard.html,6,0,0
+1793846827996,7,Get Todo Data,200,,Create Todo 3-6,text,true,,524,576,15,75,http://localhost:8080/todo,7,0,0
+1793846836054,16,Create Todo,201,,Create Todo 3-6,text,true,,428,666,20,98,http://localhost:8080/todo,16,0,0
+1793846837658,7,Get Todo Data,200,,Create Todo 3-6,text,true,,609,576,20,95,http://localhost:8080/todo,7,0,0
+1793846845742,23,Create Todo,201,,Create Todo 3-6,text,true,,428,666,19,73,http://localhost:8080/todo,23,0,0
+1793846847296,6,Get Todo Data,200,,Create Todo 3-6,text,true,,693,576,18,67,http://localhost:8080/todo,6,0,0
+1793846853391,3,Logout,204,,Create Todo 3-6,,true,,377,632,17,43,http://localhost:8080/logout,0,0,0
+1793846854964,3,Navigate to Login,200,,Create Todo 3-6,text,true,,1392,515,17,38,http://localhost:8080/index.html,3,0,0
+1793846815858,94,Transaction Controller - Edit Todo,200,"Number of samples in transaction : 10, number of failing samples : 0",Edit Todo 4-3,,true,,7942,5834,9,37,null,0,39389,0
+1793846815859,6,Navigate to Login,200,,Edit Todo 4-3,text,true,,1431,448,3,15,http://localhost:8080/,6,0,0
+1793846821885,9,Login,204,,Edit Todo 4-3,,true,,518,514,9,44,http://localhost:8080/login,0,0,0
+1793846823471,8,Navigate to Dashboard,200,,Edit Todo 4-3,text,true,,1794,660,10,51,http://localhost:8080/dashboard.html,8,0,0
+1793846823482,14,Get Todo Data,200,,Edit Todo 4-3,text,true,,526,576,10,51,http://localhost:8080/todo,13,0,0
+1793846829508,15,Change Todo Name,200,,Edit Todo 4-3,text,true,,427,657,16,80,http://localhost:8080/todo,15,0,0
+1793846835613,9,Get Todo Data,200,,Edit Todo 4-3,text,true,,520,576,20,99,http://localhost:8080/todo,9,0,0
+1793846841645,19,Mark Todo as Complete,200,,Edit Todo 4-3,text,true,,432,680,20,89,http://localhost:8080/todo,19,0,0
+1793846847716,8,Get Todo Data,200,,Edit Todo 4-3,text,true,,525,576,14,63,http://localhost:8080/todo,8,0,0
+1793846853820,3,Logout,204,,Edit Todo 4-3,,true,,377,632,9,40,http://localhost:8080/logout,0,0,0
+1793846855338,3,Navigate to Login,200,,Edit Todo 4-3,text,true,,1392,515,9,37,http://localhost:8080/index.html,3,0,0
+1793846816860,101,Transaction Controller - Edit Todo,200,"Number of samples in transaction : 10, number of failing samples : 0",Edit Todo 4-4,,true,,7942,5834,8,36,null,0,39501,1
+1793846816861,7,Navigate to Login,200,,Edit Todo 4-4,text,true,,1431,448,4,20,http://localhost:8080/,6,0,1
+1793846822919,7,Login,204,,Edit Todo 4-4,,true,,518,514,10,49,http://localhost:8080/login,0,0,0
+1793846824526,12,Navigate to Dashboard,200,,Edit Todo 4-4,text,true,,1794,660,11,55,http://localhost:8080/dashboard.html,12,0,0
+1793846824541,11,Get Todo Data,200,,Edit Todo 4-4,text,true,,526,576,11,55,http://localhost:8080/todo,11,0,0
+1793846830626,22,Change Todo Name,200,,Edit Todo 4-4,text,true,,427,657,17,86,http://localhost:8080/todo,22,0,0
+1793846836746,9,Get Todo Data,200,,Edit Todo 4-4,text,true,,520,576,20,98,http://localhost:8080/todo,9,0,0
+1793846842761,19,Mark Todo as Complete,200,,Edit Todo 4-4,text,true,,432,680,19,83,http://localhost:8080/todo,18,0,0
+1793846848837,7,Get Todo Data,200,,Edit Todo 4-4,text,true,,525,576,13,58,http://localhost:8080/todo,7,0,0
+1793846854929,4,Logout,204,,Edit Todo 4-4,,true,,377,632,9,38,http://localhost:8080/logout,0,0,0
+1793846856459,3,Navigate to Login,200,,Edit Todo 4-4,text,true,,1392,515,8,36,http://localhost:8080/index.html,3,0,0
+1793846829888,56,Transaction Controller - Create Subtask,200,"Number of samples in transaction : 8, number of failing samples : 0",Create Subtask 5-13,,true,,7037,4628,3,35,null,0,26530,2
+1793846829889,8,Navigate to Login,200,,Create Subtask 5-13,text,true,,1431,448,13,85,http://localhost:8080/,8,0,2
+1793846835982,7,Log in,204,,Create Subtask 5-13,,true,,518,524,15,98,http://localhost:8080/login,0,0,0
+1793846837587,7,Redirect to Dashboard,200,,Create Subtask 5-13,text,true,,1794,670,15,96,http://localhost:8080/dashboard.html,6,0,0
+1793846839184,6,Get Todo Data,200,,Create Subtask 5-13,text,true,,526,576,15,93,http://localhost:8080/todo,6,0,0
+1793846847226,15,Create Subtask,201,,Create Subtask 5-13,text,true,,408,687,9,67,http://localhost:8080/todo/265/subtasks,15,0,0
+1793846848827,6,Get Todo Data,200,,Create Subtask 5-13,text,true,,591,576,8,58,http://localhost:8080/todo,6,0,0
+1793846854897,3,Log out,204,,Create Subtask 5-13,,true,,377,632,4,39,http://localhost:8080/logout,0,0,0
+1793846856470,4,Redirect to Login,200,,Create Subtask 5-13,text,true,,1392,515,3,35,http://localhost:8080/index.html,4,0,0
+1793846824577,85,Transaction Controller - Edit Subtask,200,"Number of samples in transaction : 10, number of failing samples : 0",Edit Subtask 6-9,,true,,8479,5840,7,34,null,0,31879,1
+1793846824578,5,Navigate to Login,200,,Edit Subtask 6-9,text,true,,1431,448,9,57,http://localhost:8080/,5,0,1
+1793846830667,9,Log in,204,,Edit Subtask 6-9,,true,,518,524,13,86,http://localhost:8080/login,0,0,0
+1793846832178,9,Redirect to Dashboard,200,,Edit Subtask 6-9,text,true,,1794,670,14,95,http://localhost:8080/dashboard.html,9,0,0
+1793846833703,9,Get Todo Data,200,,Edit Subtask 6-9,text,true,,785,576,15,100,http://localhost:8080/todo,9,0,0
+1793846839717,17,Mark Subtask as Complete,200,,Edit Subtask 6-9,text,true,,406,685,15,93,http://localhost:8080/subtask,17,0,0
+1793846841272,8,Get Todo Data,200,,Edit Subtask 6-9,text,true,,784,576,15,90,http://localhost:8080/todo,8,0,0
+1793846847343,16,Delete subtask,204,,Edit Subtask 6-9,,true,,272,638,15,66,http://localhost:8080/subtask/33,0,0,0
+1793846848933,6,Get Todo Data,200,,Edit Subtask 6-9,text,true,,720,576,12,58,http://localhost:8080/todo,6,0,0
+1793846854985,3,Log out,204,,Edit Subtask 6-9,,true,,377,632,7,37,http://localhost:8080/logout,0,0,0
+1793846856539,3,Redirect to Login,200,,Edit Subtask 6-9,text,true,,1392,515,7,34,http://localhost:8080/index.html,3,0,0
+1793846827234,61,Transaction Controller - Edit Subtask,200,"Number of samples in transaction : 8, number of failing samples : 0",Edit Subtask 6-11,,true,,7487,4626,6,33,null,0,30391,1
+1793846827235,5,Navigate to Login,200,,Edit Subtask 6-11,text,true,,1431,448,11,71,http://localhost:8080/,5,0,1
+1793846833257,10,Log in,204,,Edit Subtask 6-11,,true,,518,524,15,100,http://localhost:8080/login,0,0,0
+1793846834833,7,Redirect to Dashboard,200,,Edit Subtask 6-11,text,true,,1794,670,15,99,http://localhost:8080/dashboard.html,7,0,0
+1793846836391,9,Get Todo Data,200,,Edit Subtask 6-11,text,true,,785,576,15,98,http://localhost:8080/todo,9,0,0
+1793846842490,18,Mark Subtask as Complete,200,,Edit Subtask 6-11,text,true,,406,685,15,84,http://localhost:8080/subtask,18,0,0
+1793846844033,6,Get Todo Data,200,,Edit Subtask 6-11,text,true,,784,576,15,78,http://localhost:8080/todo,6,0,0
+1793846856151,3,Log out,204,,Edit Subtask 6-11,,true,,377,632,7,36,http://localhost:8080/logout,0,0,0
+1793846857683,3,Redirect to Login,200,,Edit Subtask 6-11,text,true,,1392,515,6,33,http://localhost:8080/index.html,3,0,0
+1793846831221,60,Transaction Controller - Create Subtask,200,"Number of samples in transaction : 8, number of failing samples : 0",Create Subtask 5-14,,true,,7037,4628,2,32,null,0,26479,2
+1793846831221,6,Navigate to Login,200,,Create Subtask 5-14,text,true,,1431,448,14,90,http://localhost:8080/,6,0,2
+1793846837313,8,Log in,204,,Create Subtask 5-14,,true,,518,524,15,96,http://localhost:8080/login,0,0,0
+1793846838884,5,Redirect to Dashboard,200,,Create Subtask 5-14,text,true,,1794,670,15,93,http://localhost:8080/dashboard.html,5,0,0
+1793846840423,7,Get Todo Data,200,,Create Subtask 5-14,text,true,,526,576,15,91,http://localhost:8080/todo,7,0,0
+1793846848524,20,Create Subtask,201,,Create Subtask 5-14,text,true,,408,687,8,60,http://localhost:8080/todo/267/subtasks,20,0,0
+1793846850139,7,Get Todo Data,200,,Create Subtask 5-14,text,true,,591,576,7,54,http://localhost:8080/todo,7,0,0
+1793846856168,4,Log out,204,,Create Subtask 5-14,,true,,377,632,3,36,http://localhost:8080/logout,0,0,0
+1793846857757,3,Redirect to Login,200,,Create Subtask 5-14,text,true,,1392,515,2,32,http://localhost:8080/index.html,3,0,0
+1793846825907,118,Transaction Controller - Edit Subtask,200,"Number of samples in transaction : 10, number of failing samples : 0",Edit Subtask 6-10,,true,,8479,5840,5,31,null,0,31924,1
+1793846825908,5,Navigate to Login,200,,Edit Subtask 6-10,text,true,,1431,448,10,66,http://localhost:8080/,5,0,1
+1793846831970,12,Log in,204,,Edit Subtask 6-10,,true,,518,524,14,95,http://localhost:8080/login,0,0,0
+1793846833498,6,Redirect to Dashboard,200,,Edit Subtask 6-10,text,true,,1794,670,15,100,http://localhost:8080/dashboard.html,6,0,0
+1793846835019,9,Get Todo Data,200,,Edit Subtask 6-10,text,true,,785,576,15,99,http://localhost:8080/todo,9,0,0
+1793846841053,17,Mark Subtask as Complete,200,,Edit Subtask 6-10,text,true,,406,685,15,90,http://localhost:8080/subtask,16,0,0
+1793846842654,9,Get Todo Data,200,,Edit Subtask 6-10,text,true,,784,576,15,83,http://localhost:8080/todo,9,0,0
+1793846848682,47,Delete subtask,204,,Edit Subtask 6-10,,true,,272,638,12,58,http://localhost:8080/subtask/37,0,0,0
+1793846850318,7,Get Todo Data,200,,Edit Subtask 6-10,text,true,,720,576,11,53,http://localhost:8080/todo,7,0,0
+1793846856390,3,Log out,204,,Edit Subtask 6-10,,true,,377,632,7,36,http://localhost:8080/logout,0,0,0
+1793846857947,3,Redirect to Login,200,,Edit Subtask 6-10,text,true,,1392,515,5,31,http://localhost:8080/index.html,3,0,0
+1793846818858,90,Transaction Controller - Edit Todo,200,"Number of samples in transaction : 10, number of failing samples : 0",Edit Todo 4-6,,true,,7942,5834,7,30,null,0,39404,1
+1793846818859,6,Navigate to Login,200,,Edit Todo 4-6,text,true,,1431,448,6,29,http://localhost:8080/,6,0,1
+1793846824898,7,Login,204,,Edit Todo 4-6,,true,,518,514,12,60,http://localhost:8080/login,0,0,0
+1793846826424,6,Navigate to Dashboard,200,,Edit Todo 4-6,text,true,,1794,660,13,66,http://localhost:8080/dashboard.html,6,0,0
+1793846826432,8,Get Todo Data,200,,Edit Todo 4-6,text,true,,526,576,13,66,http://localhost:8080/todo,8,0,0
+1793846832463,22,Change Todo Name,200,,Edit Todo 4-6,text,true,,427,657,19,95,http://localhost:8080/todo,21,0,0
+1793846838570,8,Get Todo Data,200,,Edit Todo 4-6,text,true,,520,576,20,94,http://localhost:8080/todo,8,0,0
+1793846844663,16,Mark Todo as Complete,200,,Edit Todo 4-6,text,true,,432,680,17,76,http://localhost:8080/todo,16,0,0
+1793846850755,8,Get Todo Data,200,,Edit Todo 4-6,text,true,,525,576,12,52,http://localhost:8080/todo,8,0,0
+1793846856811,5,Logout,204,,Edit Todo 4-6,,true,,377,632,7,33,http://localhost:8080/logout,0,0,0
+1793846858349,4,Navigate to Login,200,,Edit Todo 4-6,text,true,,1392,515,7,30,http://localhost:8080/index.html,4,0,0
+1793846830802,154,Transaction Controller - Login,200,"Number of samples in transaction : 7, number of failing samples : 0",Login 2-18,,true,,6327,3918,2,29,null,0,27867,1
+1793846830803,6,Navigate to Login,200,,Login 2-18,text,true,,1431,452,18,87,http://localhost:8080/,6,0,1
+1793846836856,10,Log in attempt,401,,Login 2-18,,true,,291,529,20,98,http://localhost:8080/login,10,0,0
+1793846842898,8,Log in,204,,Login 2-18,,true,,518,528,12,82,http://localhost:8080/login,0,0,0
+1793846844471,117,Navigate to Dashboard,200,,Login 2-18,text,true,,1794,674,11,77,http://localhost:8080/dashboard.html,117,0,0
+1793846846176,6,Get Todo Data,200,,Login 2-18,text,true,,524,580,9,72,http://localhost:8080/todo,6,0,0
+1793846857251,5,Logout,204,,Login 2-18,,true,,377,636,2,33,http://localhost:8080/logout,0,0,0
+1793846858821,2,Redirect to Login,200,,Login 2-18,text,true,,1392,519,2,29,http://localhost:8080/index.html,2,0,0
+1793846828568,53,Transaction Controller - Edit Subtask,200,"Number of samples in transaction : 8, number of failing samples : 0",Edit Subtask 6-12,,true,,7487,4626,4,28,null,0,30408,0
+1793846828569,4,Navigate to Login,200,,Edit Subtask 6-12,text,true,,1431,448,12,77,http://localhost:8080/,4,0,0
+1793846834653,7,Log in,204,,Edit Subtask 6-12,,true,,518,524,15,99,http://localhost:8080/login,0,0,0
+1793846836236,7,Redirect to Dashboard,200,,Edit Subtask 6-12,text,true,,1794,670,15,98,http://localhost:8080/dashboard.html,6,0,0
+1793846837751,7,Get Todo Data,200,,Edit Subtask 6-12,text,true,,785,576,15,95,http://localhost:8080/todo,7,0,0
+1793846843853,17,Mark Subtask as Complete,200,,Edit Subtask 6-12,text,true,,406,685,15,79,http://localhost:8080/subtask,17,0,0
+1793846845383,5,Get Todo Data,200,,Edit Subtask 6-12,text,true,,784,576,15,75,http://localhost:8080/todo,5,0,0
+1793846857519,3,Log out,204,,Edit Subtask 6-12,,true,,377,632,6,33,http://localhost:8080/logout,0,0,0
+1793846859027,3,Redirect to Login,200,,Edit Subtask 6-12,text,true,,1392,515,4,28,http://localhost:8080/index.html,3,0,0
+1793846832554,80,Transaction Controller - Create Subtask,200,"Number of samples in transaction : 8, number of failing samples : 0",Create Subtask 5-15,,true,,7037,4628,1,27,null,0,26451,1
+1793846832555,6,Navigate to Login,200,,Create Subtask 5-15,text,true,,1431,448,15,96,http://localhost:8080/,6,0,1
+1793846838604,9,Log in,204,,Create Subtask 5-15,,true,,518,524,15,93,http://localhost:8080/login,0,0,0
+1793846840203,4,Redirect to Dashboard,200,,Create Subtask 5-15,text,true,,1794,670,15,91,http://localhost:8080/dashboard.html,4,0,0
+1793846841783,31,Get Todo Data,200,,Create Subtask 5-15,text,true,,526,576,14,88,http://localhost:8080/todo,31,0,0
+1793846849865,17,Create Subtask,201,,Create Subtask 5-15,text,true,,408,687,7,56,http://localhost:8080/todo/269/subtasks,17,0,0
+1793846851442,6,Get Todo Data,200,,Create Subtask 5-15,text,true,,591,576,6,48,http://localhost:8080/todo,6,0,0
+1793846857543,4,Log out,204,,Create Subtask 5-15,,true,,377,632,2,33,http://localhost:8080/logout,0,0,0
+1793846859082,3,Redirect to Login,200,,Create Subtask 5-15,text,true,,1392,515,1,27,http://localhost:8080/index.html,3,0,0
+1793846832831,77,Transaction Controller - Create Todo,200,"Number of samples in transaction : 8, number of failing samples : 0",Create Todo 3-20,,true,,7077,4587,16,26,null,0,26456,1
+1793846832832,6,Navigate to Login,200,,Create Todo 3-20,text,true,,1431,448,20,99,http://localhost:8080/,5,0,1
+1793846838913,8,Login,204,,Create Todo 3-20,,true,,518,514,20,93,http://localhost:8080/login,0,0,0
+1793846840516,5,Redirect to Dashboard,200,,Create Todo 3-20,text,true,,1794,660,20,91,http://localhost:8080/dashboard.html,5,0,0
+1793846842107,6,Get Todo Data,200,,Create Todo 3-20,text,true,,526,576,20,86,http://localhost:8080/todo,6,0,0
+1793846850166,19,Create Todo,201,,Create Todo 3-20,text,true,,428,666,17,54,http://localhost:8080/todo,19,0,0
+1793846851772,26,Get Todo Data,200,,Create Todo 3-20,text,true,,611,576,17,47,http://localhost:8080/todo,26,0,0
+1793846857803,4,Logout,204,,Create Todo 3-20,,true,,377,632,16,31,http://localhost:8080/logout,0,0,0
+1793846859361,3,Navigate to Login,200,,Create Todo 3-20,text,true,,1392,515,16,26,http://localhost:8080/index.html,3,0,0
+1793846823830,85,Transaction Controller - Create Todo,200,"Number of samples in transaction : 10, number of failing samples : 0",Create Todo 3-11,,true,,8200,5829,15,25,null,0,35887,1
+1793846823831,6,Navigate to Login,200,,Create Todo 3-11,text,true,,1431,448,11,54,http://localhost:8080/,6,0,1
+1793846829901,6,Login,204,,Create Todo 3-11,,true,,518,514,17,86,http://localhost:8080/login,0,0,0
+1793846831421,7,Redirect to Dashboard,200,,Create Todo 3-11,text,true,,1794,660,18,91,http://localhost:8080/dashboard.html,7,0,0
+1793846832969,9,Get Todo Data,200,,Create Todo 3-11,text,true,,526,576,20,100,http://localhost:8080/todo,9,0,0
+1793846841011,16,Create Todo,201,,Create Todo 3-11,text,true,,428,666,20,90,http://localhost:8080/todo,16,0,0
+1793846842561,9,Get Todo Data,200,,Create Todo 3-11,text,true,,611,576,19,83,http://localhost:8080/todo,8,0,0
+1793846850591,19,Create Todo,201,,Create Todo 3-11,text,true,,428,666,17,53,http://localhost:8080/todo,19,0,0
+1793846852182,6,Get Todo Data,200,,Create Todo 3-11,text,true,,695,576,17,46,http://localhost:8080/todo,6,0,0
+1793846858287,4,Logout,204,,Create Todo 3-11,,true,,377,632,16,30,http://localhost:8080/logout,0,0,0
+1793846859800,3,Navigate to Login,200,,Create Todo 3-11,text,true,,1392,515,15,25,http://localhost:8080/index.html,3,0,0
+1793846832800,39,Transaction Controller - Login,200,"Number of samples in transaction : 7, number of failing samples : 0",Login 2-20,,true,,6327,3918,1,24,null,0,27797,1
+1793846832801,6,Navigate to Login,200,,Login 2-20,text,true,,1431,452,20,98,http://localhost:8080/,6,0,1
+1793846838862,7,Log in attempt,401,,Login 2-20,,true,,291,529,16,93,http://localhost:8080/login,7,0,0
+1793846844956,8,Log in,204,,Login 2-20,,true,,518,528,10,76,http://localhost:8080/login,0,0,0
+1793846846534,5,Navigate to Dashboard,200,,Login 2-20,text,true,,1794,674,9,71,http://localhost:8080/dashboard.html,5,0,0
+1793846848087,6,Get Todo Data,200,,Login 2-20,text,true,,524,580,7,62,http://localhost:8080/todo,6,0,0
+1793846859099,4,Logout,204,,Login 2-20,,true,,377,636,1,26,http://localhost:8080/logout,0,0,0
+1793846860633,3,Redirect to Login,200,,Login 2-20,text,true,,1392,519,1,24,http://localhost:8080/index.html,3,0,0
+1793846813865,1476,Transaction Controller - Create Todo,500,"Number of samples in transaction : 12, number of failing samples : 1",Create Todo 3-1,,false,,9055,7071,14,23,null,0,45624,47
+1793846813949,204,Navigate to Login,200,,Create Todo 3-1,text,true,,1431,448,1,6,http://localhost:8080/,204,0,46
+1793846820250,572,Login,204,,Create Todo 3-1,,true,,518,514,7,38,http://localhost:8080/login,0,0,0
+1793846822386,575,Redirect to Dashboard,200,,Create Todo 3-1,text,true,,1794,660,10,49,http://localhost:8080/dashboard.html,575,0,0
+1793846824535,15,Get Todo Data,200,,Create Todo 3-1,text,true,,524,576,11,55,http://localhost:8080/todo,15,0,0
+1793846832619,45,Create Todo,500,,Create Todo 3-1,text,false,,337,666,19,97,http://localhost:8080/todo,45,0,0
+1793846834200,12,Get Todo Data,200,,Create Todo 3-1,text,true,,524,576,20,100,http://localhost:8080/todo,12,0,1
+1793846842306,17,Create Todo,201,,Create Todo 3-1,text,true,,428,666,20,85,http://localhost:8080/todo,17,0,0
+1793846843824,7,Get Todo Data,200,,Create Todo 3-1,text,true,,609,576,19,79,http://localhost:8080/todo,7,0,0
+1793846851832,15,Create Todo,201,,Create Todo 3-1,text,true,,428,666,17,47,http://localhost:8080/todo,15,0,0
+1793846853363,8,Get Todo Data,200,,Create Todo 3-1,text,true,,693,576,17,43,http://localhost:8080/todo,7,0,0
+1793846859453,3,Logout,204,,Create Todo 3-1,,true,,377,632,15,25,http://localhost:8080/logout,0,0,0
+1793846860962,3,Navigate to Login,200,,Create Todo 3-1,text,true,,1392,515,14,23,http://localhost:8080/index.html,3,0,0
+1793846821857,124,Transaction Controller - Edit Todo,200,"Number of samples in transaction : 10, number of failing samples : 0",Edit Todo 4-9,,true,,7690,5807,6,22,null,0,39535,1
+1793846821858,6,Navigate to Login,200,,Edit Todo 4-9,text,true,,1431,448,9,44,http://localhost:8080/,6,0,1
+1793846827962,7,Login,204,,Edit Todo 4-9,,true,,518,514,15,75,http://localhost:8080/login,0,0,0
+1793846829570,4,Navigate to Dashboard,200,,Edit Todo 4-9,text,true,,1794,660,16,80,http://localhost:8080/dashboard.html,4,0,0
+1793846829576,7,Get Todo Data,200,,Edit Todo 4-9,text,true,,526,576,16,80,http://localhost:8080/todo,7,0,0
+1793846835655,27,Mark Todo as Complete,200,,Edit Todo 4-9,text,true,,426,674,20,99,http://localhost:8080/todo,27,0,0
+1793846841718,8,Get Todo Data,200,,Edit Todo 4-9,text,true,,519,576,20,89,http://localhost:8080/todo,8,0,0
+1793846847776,50,Delete Todo,204,,Edit Todo 4-9,,true,,272,636,14,63,http://localhost:8080/todo/177,0,0,0
+1793846853903,8,Get Todo Data,200,,Edit Todo 4-9,text,true,,435,576,9,39,http://localhost:8080/todo,8,0,0
+1793846859971,5,Logout,204,,Edit Todo 4-9,,true,,377,632,6,24,http://localhost:8080/logout,0,0,0
+1793846861514,2,Navigate to Login,200,,Edit Todo 4-9,text,true,,1392,515,6,22,http://localhost:8080/index.html,2,0,0
+1793846829903,111,Transaction Controller - Edit Subtask,200,"Number of samples in transaction : 10, number of failing samples : 0",Edit Subtask 6-13,,true,,8479,5840,3,21,null,0,31937,1
+1793846829903,4,Navigate to Login,200,,Edit Subtask 6-13,text,true,,1431,448,13,86,http://localhost:8080/,4,0,1
+1793846835910,8,Log in,204,,Edit Subtask 6-13,,true,,518,524,15,99,http://localhost:8080/login,0,0,0
+1793846837516,9,Redirect to Dashboard,200,,Edit Subtask 6-13,text,true,,1794,670,15,96,http://localhost:8080/dashboard.html,9,0,0
+1793846839067,9,Get Todo Data,200,,Edit Subtask 6-13,text,true,,785,576,15,93,http://localhost:8080/todo,8,0,0
+1793846845083,16,Mark Subtask as Complete,200,,Edit Subtask 6-13,text,true,,406,685,15,76,http://localhost:8080/subtask,16,0,0
+1793846846687,6,Get Todo Data,200,,Edit Subtask 6-13,text,true,,784,576,15,70,http://localhost:8080/todo,6,0,0
+1793846852698,47,Delete subtask,204,,Edit Subtask 6-13,,true,,272,638,9,44,http://localhost:8080/subtask/49,0,0,0
+1793846854301,7,Get Todo Data,200,,Edit Subtask 6-13,text,true,,720,576,7,39,http://localhost:8080/todo,7,0,0
+1793846860393,3,Log out,204,,Edit Subtask 6-13,,true,,377,632,3,24,http://localhost:8080/logout,0,0,0
+1793846861949,2,Redirect to Login,200,,Edit Subtask 6-13,text,true,,1392,515,3,21,http://localhost:8080/index.html,2,0,0
+1793846826829,85,Transaction Controller - Create Todo,200,"Number of samples in transaction : 10, number of failing samples : 0",Create Todo 3-14,,true,,8200,5829,13,20,null,0,35904,2
+1793846826829,6,Navigate to Login,200,,Create Todo 3-14,text,true,,1431,448,14,68,http://localhost:8080/,6,0,2
+1793846832903,9,Login,204,,Create Todo 3-14,,true,,518,514,20,100,http://localhost:8080/login,0,0,0
+1793846834489,5,Redirect to Dashboard,200,,Create Todo 3-14,text,true,,1794,660,20,100,http://localhost:8080/dashboard.html,5,0,0
+1793846836017,8,Get Todo Data,200,,Create Todo 3-14,text,true,,526,576,20,98,http://localhost:8080/todo,8,0,0
+1793846844051,17,Create Todo,201,,Create Todo 3-14,text,true,,428,666,19,78,http://localhost:8080/todo,16,0,0
+1793846845629,6,Get Todo Data,200,,Create Todo 3-14,text,true,,611,576,19,74,http://localhost:8080/todo,6,0,0
+1793846853648,21,Create Todo,201,,Create Todo 3-14,text,true,,428,666,17,42,http://localhost:8080/todo,21,0,0
+1793846855229,7,Get Todo Data,200,,Create Todo 3-14,text,true,,695,576,16,37,http://localhost:8080/todo,7,0,0
+1793846861284,3,Logout,204,,Create Todo 3-14,,true,,377,632,13,22,http://localhost:8080/logout,0,0,0
+1793846862816,3,Navigate to Login,200,,Create Todo 3-14,text,true,,1392,515,13,20,http://localhost:8080/index.html,3,0,0
+1793846831237,79,Transaction Controller - Edit Subtask,200,"Number of samples in transaction : 10, number of failing samples : 0",Edit Subtask 6-14,,true,,8479,5840,2,19,null,0,31874,1
+1793846831237,5,Navigate to Login,200,,Edit Subtask 6-14,text,true,,1431,448,14,91,http://localhost:8080/,5,0,1
+1793846837290,9,Log in,204,,Edit Subtask 6-14,,true,,518,524,15,96,http://localhost:8080/login,0,0,0
+1793846838875,5,Redirect to Dashboard,200,,Edit Subtask 6-14,text,true,,1794,670,15,93,http://localhost:8080/dashboard.html,5,0,0
+1793846840449,7,Get Todo Data,200,,Edit Subtask 6-14,text,true,,785,576,15,91,http://localhost:8080/todo,7,0,0
+1793846846472,18,Mark Subtask as Complete,200,,Edit Subtask 6-14,text,true,,406,685,15,71,http://localhost:8080/subtask,18,0,0
+1793846848024,7,Get Todo Data,200,,Edit Subtask 6-14,text,true,,784,576,13,62,http://localhost:8080/todo,7,0,0
+1793846854044,17,Delete subtask,204,,Edit Subtask 6-14,,true,,272,638,7,39,http://localhost:8080/subtask/53,0,0,0
+1793846855607,6,Get Todo Data,200,,Edit Subtask 6-14,text,true,,720,576,7,36,http://localhost:8080/todo,6,0,0
+1793846861637,3,Log out,204,,Edit Subtask 6-14,,true,,377,632,3,21,http://localhost:8080/logout,0,0,0
+1793846863188,2,Redirect to Login,200,,Edit Subtask 6-14,text,true,,1392,515,2,19,http://localhost:8080/index.html,2,0,0
+1793846817831,136,Transaction Controller - Create Todo,200,"Number of samples in transaction : 12, number of failing samples : 0",Create Todo 3-5,,true,,9399,7071,12,18,null,0,45530,2
+1793846817832,6,Navigate to Login,200,,Create Todo 3-5,text,true,,1431,448,5,23,http://localhost:8080/,6,0,2
+1793846823907,10,Login,204,,Create Todo 3-5,,true,,518,514,11,55,http://localhost:8080/login,0,0,0
+1793846825477,10,Redirect to Dashboard,200,,Create Todo 3-5,text,true,,1794,660,12,60,http://localhost:8080/dashboard.html,10,0,0
+1793846826998,8,Get Todo Data,200,,Create Todo 3-5,text,true,,524,576,14,69,http://localhost:8080/todo,8,0,0
+1793846835058,50,Create Todo,201,,Create Todo 3-5,text,true,,428,666,20,99,http://localhost:8080/todo,50,0,0
+1793846836660,7,Get Todo Data,200,,Create Todo 3-5,text,true,,609,576,20,98,http://localhost:8080/todo,7,0,0
+1793846844699,14,Create Todo,201,,Create Todo 3-5,text,true,,428,666,19,76,http://localhost:8080/todo,14,0,0
+1793846846228,6,Get Todo Data,200,,Create Todo 3-5,text,true,,693,576,19,72,http://localhost:8080/todo,6,0,0
+1793846854307,14,Create Todo,201,,Create Todo 3-5,text,true,,428,666,17,39,http://localhost:8080/todo,14,0,0
+1793846855901,6,Get Todo Data,200,,Create Todo 3-5,text,true,,777,576,16,36,http://localhost:8080/todo,6,0,0
+1793846861932,3,Logout,204,,Create Todo 3-5,,true,,377,632,13,21,http://localhost:8080/logout,0,0,0
+1793846863495,2,Navigate to Login,200,,Create Todo 3-5,text,true,,1392,515,12,18,http://localhost:8080/index.html,2,0,0
+1793846832568,143,Transaction Controller - Edit Subtask,200,"Number of samples in transaction : 10, number of failing samples : 0",Edit Subtask 6-15,,true,,8479,5840,1,17,null,0,31811,1
+1793846832569,5,Navigate to Login,200,,Edit Subtask 6-15,text,true,,1431,448,15,97,http://localhost:8080/,5,0,1
+1793846838628,7,Log in,204,,Edit Subtask 6-15,,true,,518,524,15,93,http://localhost:8080/login,0,0,0
+1793846840215,5,Redirect to Dashboard,200,,Edit Subtask 6-15,text,true,,1794,670,15,91,http://localhost:8080/dashboard.html,5,0,0
+1793846841732,9,Get Todo Data,200,,Edit Subtask 6-15,text,true,,785,576,15,89,http://localhost:8080/todo,9,0,0
+1793846847786,50,Mark Subtask as Complete,200,,Edit Subtask 6-15,text,true,,406,685,13,63,http://localhost:8080/subtask,50,0,0
+1793846849371,8,Get Todo Data,200,,Edit Subtask 6-15,text,true,,784,576,12,58,http://localhost:8080/todo,7,0,0
+1793846855426,48,Delete subtask,204,,Edit Subtask 6-15,,true,,272,638,7,36,http://localhost:8080/subtask/57,0,0,0
+1793846856979,5,Get Todo Data,200,,Edit Subtask 6-15,text,true,,720,576,6,33,http://localhost:8080/todo,5,0,0
+1793846862992,4,Log out,204,,Edit Subtask 6-15,,true,,377,632,2,19,http://localhost:8080/logout,0,0,0
+1793846864519,2,Redirect to Login,200,,Edit Subtask 6-15,text,true,,1392,515,1,17,http://localhost:8080/index.html,2,0,0
+1793846829832,120,Transaction Controller - Create Todo,200,"Number of samples in transaction : 10, number of failing samples : 0",Create Todo 3-17,,true,,8200,5829,11,16,null,0,36059,0
+1793846829833,4,Navigate to Login,200,,Create Todo 3-17,text,true,,1431,448,17,83,http://localhost:8080/,4,0,0
+1793846835934,8,Login,204,,Create Todo 3-17,,true,,518,514,20,99,http://localhost:8080/login,0,0,0
+1793846837498,18,Redirect to Dashboard,200,,Create Todo 3-17,text,true,,1794,660,20,96,http://localhost:8080/dashboard.html,18,0,0
+1793846839108,10,Get Todo Data,200,,Create Todo 3-17,text,true,,526,576,20,93,http://localhost:8080/todo,10,0,0
+1793846847177,48,Create Todo,201,,Create Todo 3-17,text,true,,428,666,18,67,http://localhost:8080/todo,48,0,0
+1793846848756,6,Get Todo Data,200,,Create Todo 3-17,text,true,,611,576,17,58,http://localhost:8080/todo,6,0,0
+1793846856859,16,Create Todo,201,,Create Todo 3-17,text,true,,428,666,16,33,http://localhost:8080/todo,16,0,0
+1793846858466,5,Get Todo Data,200,,Create Todo 3-17,text,true,,695,576,16,29,http://localhost:8080/todo,5,0,0
+1793846864474,3,Logout,204,,Create Todo 3-17,,true,,377,632,11,17,http://localhost:8080/logout,0,0,0
+1793846866008,2,Navigate to Login,200,,Create Todo 3-17,text,true,,1392,515,11,16,http://localhost:8080/index.html,2,0,0
+1793846827858,86,Transaction Controller - Edit Todo,200,"Number of samples in transaction : 10, number of failing samples : 0",Edit Todo 4-15,,true,,7942,5834,5,15,null,0,39346,1
+1793846827859,4,Navigate to Login,200,,Edit Todo 4-15,text,true,,1431,448,15,75,http://localhost:8080/,4,0,1
+1793846833879,10,Login,204,,Edit Todo 4-15,,true,,518,514,20,100,http://localhost:8080/login,0,0,0
+1793846835408,7,Navigate to Dashboard,200,,Edit Todo 4-15,text,true,,1794,660,20,99,http://localhost:8080/dashboard.html,7,0,0
+1793846835424,8,Get Todo Data,200,,Edit Todo 4-15,text,true,,526,576,20,99,http://localhost:8080/todo,7,0,0
+1793846841483,18,Change Todo Name,200,,Edit Todo 4-15,text,true,,427,657,20,90,http://localhost:8080/todo,18,0,0
+1793846847510,7,Get Todo Data,200,,Edit Todo 4-15,text,true,,520,576,14,64,http://localhost:8080/todo,7,0,0
+1793846853531,18,Mark Todo as Complete,200,,Edit Todo 4-15,text,true,,432,680,9,43,http://localhost:8080/todo,18,0,0
+1793846859652,7,Get Todo Data,200,,Edit Todo 4-15,text,true,,525,576,6,25,http://localhost:8080/todo,7,0,0
+1793846865681,4,Logout,204,,Edit Todo 4-15,,true,,377,632,5,16,http://localhost:8080/logout,0,0,0
+1793846867286,3,Navigate to Login,200,,Edit Todo 4-15,text,true,,1392,515,5,15,http://localhost:8080/index.html,3,0,0
+1793846828857,98,Transaction Controller - Edit Todo,200,"Number of samples in transaction : 10, number of failing samples : 0",Edit Todo 4-16,,true,,7942,5834,4,14,null,0,39441,0
+1793846828858,4,Navigate to Login,200,,Edit Todo 4-16,text,true,,1431,448,16,80,http://localhost:8080/,4,0,0
+1793846834889,8,Login,204,,Edit Todo 4-16,,true,,518,514,20,99,http://localhost:8080/login,0,0,0
+1793846836465,7,Navigate to Dashboard,200,,Edit Todo 4-16,text,true,,1794,660,20,98,http://localhost:8080/dashboard.html,7,0,0
+1793846836475,6,Get Todo Data,200,,Edit Todo 4-16,text,true,,526,576,20,98,http://localhost:8080/todo,6,0,0
+1793846842580,23,Change Todo Name,200,,Edit Todo 4-16,text,true,,427,657,19,83,http://localhost:8080/todo,23,0,0
+1793846848639,16,Get Todo Data,200,,Edit Todo 4-16,text,true,,520,576,13,59,http://localhost:8080/todo,16,0,0
+1793846854673,20,Mark Todo as Complete,200,,Edit Todo 4-16,text,true,,432,680,9,39,http://localhost:8080/todo,20,0,0
+1793846860753,7,Get Todo Data,200,,Edit Todo 4-16,text,true,,525,576,6,23,http://localhost:8080/todo,7,0,0
+1793846866843,4,Logout,204,,Edit Todo 4-16,,true,,377,632,5,15,http://localhost:8080/logout,0,0,0
+1793846868392,3,Navigate to Login,200,,Edit Todo 4-16,text,true,,1392,515,4,14,http://localhost:8080/index.html,3,0,0
+1793846822828,169,Transaction Controller - Create Todo,200,"Number of samples in transaction : 12, number of failing samples : 0",Create Todo 3-10,,true,,9403,7071,10,13,null,0,45498,1
+1793846822829,5,Navigate to Login,200,,Create Todo 3-10,text,true,,1431,448,10,48,http://localhost:8080/,5,0,1
+1793846828935,7,Login,204,,Create Todo 3-10,,true,,518,514,16,80,http://localhost:8080/login,0,0,0
+1793846830509,7,Redirect to Dashboard,200,,Create Todo 3-10,text,true,,1794,660,17,86,http://localhost:8080/dashboard.html,7,0,0
+1793846832031,11,Get Todo Data,200,,Create Todo 3-10,text,true,,525,576,19,95,http://localhost:8080/todo,11,0,0
+1793846840086,39,Create Todo,201,,Create Todo 3-10,text,true,,428,666,20,91,http://localhost:8080/todo,39,0,0
+1793846841655,14,Get Todo Data,200,,Create Todo 3-10,text,true,,610,576,20,89,http://localhost:8080/todo,13,0,0
+1793846849696,17,Create Todo,201,,Create Todo 3-10,text,true,,428,666,17,56,http://localhost:8080/todo,17,0,0
+1793846851303,7,Get Todo Data,200,,Create Todo 3-10,text,true,,694,576,17,49,http://localhost:8080/todo,7,0,0
+1793846859335,50,Create Todo,201,,Create Todo 3-10,text,true,,428,666,15,25,http://localhost:8080/todo,49,0,0
+1793846860905,5,Get Todo Data,200,,Create Todo 3-10,text,true,,778,576,14,23,http://localhost:8080/todo,5,0,0
+1793846866972,4,Logout,204,,Create Todo 3-10,,true,,377,632,10,15,http://localhost:8080/logout,0,0,0
+1793846868492,3,Navigate to Login,200,,Create Todo 3-10,text,true,,1392,515,10,13,http://localhost:8080/index.html,3,0,0
+1793846829858,174,Transaction Controller - Edit Todo,200,"Number of samples in transaction : 10, number of failing samples : 0",Edit Todo 4-17,,true,,7942,5834,3,12,null,0,39451,1
+1793846829859,4,Navigate to Login,200,,Edit Todo 4-17,text,true,,1431,448,17,84,http://localhost:8080/,4,0,1
+1793846835934,8,Login,204,,Edit Todo 4-17,,true,,518,514,20,99,http://localhost:8080/login,0,0,0
+1793846837474,6,Navigate to Dashboard,200,,Edit Todo 4-17,text,true,,1794,660,20,96,http://localhost:8080/dashboard.html,6,0,0
+1793846837484,41,Get Todo Data,200,,Edit Todo 4-17,text,true,,526,576,20,96,http://localhost:8080/todo,41,0,0
+1793846843584,50,Change Todo Name,200,,Edit Todo 4-17,text,true,,427,657,17,80,http://localhost:8080/todo,50,0,0
+1793846849684,7,Get Todo Data,200,,Edit Todo 4-17,text,true,,520,576,13,56,http://localhost:8080/todo,7,0,0
+1793846855697,46,Mark Todo as Complete,200,,Edit Todo 4-17,text,true,,432,680,8,36,http://localhost:8080/todo,46,0,0
+1793846861830,6,Get Todo Data,200,,Edit Todo 4-17,text,true,,525,576,5,21,http://localhost:8080/todo,6,0,0
+1793846867932,3,Logout,204,,Edit Todo 4-17,,true,,377,632,4,14,http://localhost:8080/logout,0,0,0
+1793846869480,3,Navigate to Login,200,,Edit Todo 4-17,text,true,,1392,515,3,12,http://localhost:8080/index.html,3,0,0
+1793846830859,141,Transaction Controller - Edit Todo,200,"Number of samples in transaction : 10, number of failing samples : 0",Edit Todo 4-18,,true,,7942,5834,2,11,null,0,39505,2
+1793846830862,8,Navigate to Login,200,,Edit Todo 4-18,text,true,,1431,448,18,89,http://localhost:8080/,8,0,2
+1793846836966,8,Login,204,,Edit Todo 4-18,,true,,518,514,20,98,http://localhost:8080/login,0,0,0
+1793846838529,9,Navigate to Dashboard,200,,Edit Todo 4-18,text,true,,1794,660,20,94,http://localhost:8080/dashboard.html,9,0,0
+1793846838542,7,Get Todo Data,200,,Edit Todo 4-18,text,true,,526,576,20,94,http://localhost:8080/todo,7,0,0
+1793846844622,40,Change Todo Name,200,,Edit Todo 4-18,text,true,,427,657,17,76,http://localhost:8080/todo,40,0,0
+1793846850714,11,Get Todo Data,200,,Edit Todo 4-18,text,true,,520,576,12,52,http://localhost:8080/todo,11,0,0
+1793846856788,47,Mark Todo as Complete,200,,Edit Todo 4-18,text,true,,432,680,7,33,http://localhost:8080/todo,47,0,0
+1793846862837,6,Get Todo Data,200,,Edit Todo 4-18,text,true,,525,576,5,19,http://localhost:8080/todo,6,0,0
+1793846868909,3,Logout,204,,Edit Todo 4-18,,true,,377,632,3,12,http://localhost:8080/logout,0,0,0
+1793846870503,2,Navigate to Login,200,,Edit Todo 4-18,text,true,,1392,515,2,11,http://localhost:8080/index.html,2,0,0
+1793846816831,138,Transaction Controller - Create Todo,200,"Number of samples in transaction : 14, number of failing samples : 0",Create Todo 3-4,,true,,10688,8313,9,10,null,0,55016,1
+1793846816832,6,Navigate to Login,200,,Create Todo 3-4,text,true,,1431,448,4,19,http://localhost:8080/,6,0,1
+1793846822849,13,Login,204,,Create Todo 3-4,,true,,518,514,10,48,http://localhost:8080/login,0,0,0
+1793846824402,9,Redirect to Dashboard,200,,Create Todo 3-4,text,true,,1794,660,11,55,http://localhost:8080/dashboard.html,9,0,0
+1793846826004,7,Get Todo Data,200,,Create Todo 3-4,text,true,,524,576,13,66,http://localhost:8080/todo,7,0,0
+1793846834071,22,Create Todo,201,,Create Todo 3-4,text,true,,428,666,20,100,http://localhost:8080/todo,22,0,0
+1793846835639,8,Get Todo Data,200,,Create Todo 3-4,text,true,,609,576,20,99,http://localhost:8080/todo,7,0,0
+1793846843744,16,Create Todo,201,,Create Todo 3-4,text,true,,428,666,19,79,http://localhost:8080/todo,16,0,0
+1793846845272,7,Get Todo Data,200,,Create Todo 3-4,text,true,,693,576,19,76,http://localhost:8080/todo,7,0,0
+1793846853347,18,Create Todo,201,,Create Todo 3-4,text,true,,428,666,17,43,http://localhost:8080/todo,18,0,0
+1793846854880,7,Get Todo Data,200,,Create Todo 3-4,text,true,,777,576,17,39,http://localhost:8080/todo,7,0,0
+1793846862891,14,Create Todo,201,,Create Todo 3-4,text,true,,428,666,12,19,http://localhost:8080/todo,14,0,0
+1793846864407,5,Get Todo Data,200,,Create Todo 3-4,text,true,,861,576,11,17,http://localhost:8080/todo,5,0,0
+1793846870418,4,Logout,204,,Create Todo 3-4,,true,,377,632,9,11,http://localhost:8080/logout,0,0,0
+1793846871983,2,Navigate to Login,200,,Create Todo 3-4,text,true,,1392,515,9,10,http://localhost:8080/index.html,2,0,0
+1793846832858,81,Transaction Controller - Edit Todo,200,"Number of samples in transaction : 10, number of failing samples : 0",Edit Todo 4-20,,true,,7942,5834,1,9,null,0,39425,1
+1793846832859,6,Navigate to Login,200,,Edit Todo 4-20,text,true,,1431,448,20,100,http://localhost:8080/,6,0,1
+1793846838966,9,Login,204,,Edit Todo 4-20,,true,,518,514,20,93,http://localhost:8080/login,0,0,0
+1793846840492,6,Navigate to Dashboard,200,,Edit Todo 4-20,text,true,,1794,660,20,91,http://localhost:8080/dashboard.html,6,0,0
+1793846840500,6,Get Todo Data,200,,Edit Todo 4-20,text,true,,526,576,20,91,http://localhost:8080/todo,6,0,0
+1793846846563,19,Change Todo Name,200,,Edit Todo 4-20,text,true,,427,657,16,71,http://localhost:8080/todo,19,0,0
+1793846852642,7,Get Todo Data,200,,Edit Todo 4-20,text,true,,520,576,10,44,http://localhost:8080/todo,7,0,0
+1793846858709,16,Mark Todo as Complete,200,,Edit Todo 4-20,text,true,,432,680,6,29,http://localhost:8080/todo,16,0,0
+1793846864740,6,Get Todo Data,200,,Edit Todo 4-20,text,true,,525,576,5,16,http://localhost:8080/todo,6,0,0
+1793846870847,4,Logout,204,,Edit Todo 4-20,,true,,377,632,1,10,http://localhost:8080/logout,0,0,0
+1793846872362,2,Navigate to Login,200,,Edit Todo 4-20,text,true,,1392,515,1,9,http://localhost:8080/index.html,2,0,0
+1793846828830,127,Transaction Controller - Create Todo,200,"Number of samples in transaction : 12, number of failing samples : 0",Create Todo 3-16,,true,,9407,7071,8,8,null,0,45550,1
+1793846828831,4,Navigate to Login,200,,Create Todo 3-16,text,true,,1431,448,16,79,http://localhost:8080/,4,0,1
+1793846834920,8,Login,204,,Create Todo 3-16,,true,,518,514,20,99,http://localhost:8080/login,0,0,0
+1793846836445,6,Redirect to Dashboard,200,,Create Todo 3-16,text,true,,1794,660,20,98,http://localhost:8080/dashboard.html,6,0,0
+1793846837990,7,Get Todo Data,200,,Create Todo 3-16,text,true,,526,576,20,94,http://localhost:8080/todo,6,0,0
+1793846846016,17,Create Todo,201,,Create Todo 3-16,text,true,,428,666,19,72,http://localhost:8080/todo,17,0,0
+1793846847628,7,Get Todo Data,200,,Create Todo 3-16,text,true,,611,576,17,63,http://localhost:8080/todo,7,0,0
+1793846855736,18,Create Todo,201,,Create Todo 3-16,text,true,,428,666,16,36,http://localhost:8080/todo,18,0,0
+1793846857315,6,Get Todo Data,200,,Create Todo 3-16,text,true,,695,576,16,33,http://localhost:8080/todo,6,0,0
+1793846865359,44,Create Todo,201,,Create Todo 3-16,text,true,,428,666,11,16,http://localhost:8080/todo,44,0,0
+1793846866922,5,Get Todo Data,200,,Create Todo 3-16,text,true,,779,576,10,15,http://localhost:8080/todo,5,0,0
+1793846872962,3,Logout,204,,Create Todo 3-16,,true,,377,632,8,8,http://localhost:8080/logout,0,0,0
+1793846874505,2,Navigate to Login,200,,Create Todo 3-16,text,true,,1392,515,8,8,http://localhost:8080/index.html,2,0,0
+1793846814837,651,Transaction Controller - Create Todo,500,"Number of samples in transaction : 16, number of failing samples : 1",Create Todo 3-2,,false,,11549,9555,7,7,null,0,64944,3
+1793846814839,9,Navigate to Login,200,,Create Todo 3-2,text,true,,1431,448,2,8,http://localhost:8080/,9,0,1
+1793846820905,10,Login,204,,Create Todo 3-2,,true,,518,514,8,40,http://localhost:8080/login,0,0,0
+1793846822516,444,Redirect to Dashboard,200,,Create Todo 3-2,text,true,,1794,660,10,49,http://localhost:8080/dashboard.html,444,0,0
+1793846824513,9,Get Todo Data,200,,Create Todo 3-2,text,true,,524,576,11,55,http://localhost:8080/todo,9,0,0
+1793846832585,79,Create Todo,500,,Create Todo 3-2,text,false,,337,666,19,97,http://localhost:8080/todo,79,0,0
+1793846834195,10,Get Todo Data,200,,Create Todo 3-2,text,true,,524,576,20,100,http://localhost:8080/todo,9,0,2
+1793846842291,19,Create Todo,201,,Create Todo 3-2,text,true,,428,666,20,85,http://localhost:8080/todo,19,0,0
+1793846843874,6,Get Todo Data,200,,Create Todo 3-2,text,true,,609,576,19,79,http://localhost:8080/todo,6,0,0
+1793846851913,16,Create Todo,201,,Create Todo 3-2,text,true,,428,666,17,47,http://localhost:8080/todo,16,0,0
+1793846853508,7,Get Todo Data,200,,Create Todo 3-2,text,true,,693,576,17,43,http://localhost:8080/todo,7,0,0
+1793846861564,12,Create Todo,201,,Create Todo 3-2,text,true,,428,666,13,21,http://localhost:8080/todo,12,0,0
+1793846863174,4,Get Todo Data,200,,Create Todo 3-2,text,true,,777,576,12,19,http://localhost:8080/todo,4,0,0
+1793846871271,13,Create Todo,201,,Create Todo 3-2,text,true,,428,666,9,10,http://localhost:8080/todo,13,0,0
+1793846872836,7,Get Todo Data,200,,Create Todo 3-2,text,true,,861,576,8,8,http://localhost:8080/todo,7,0,0
+1793846878857,4,Logout,204,,Create Todo 3-2,,true,,377,632,7,7,http://localhost:8080/logout,0,0,0
+1793846880429,2,Navigate to Login,200,,Create Todo 3-2,text,true,,1392,515,7,7,http://localhost:8080/index.html,2,0,0
+1793846830829,276,Transaction Controller - Create Todo,200,"Number of samples in transaction : 14, number of failing samples : 0",Create Todo 3-18,,true,,10698,8313,6,6,null,0,55263,1
+1793846830830,6,Navigate to Login,200,,Create Todo 3-18,text,true,,1431,448,18,88,http://localhost:8080/,6,0,1
+1793846836936,7,Login,204,,Create Todo 3-18,,true,,518,514,20,98,http://localhost:8080/login,0,0,0
+1793846838503,16,Redirect to Dashboard,200,,Create Todo 3-18,text,true,,1794,660,20,94,http://localhost:8080/dashboard.html,16,0,0
+1793846840091,6,Get Todo Data,200,,Create Todo 3-18,text,true,,526,576,20,91,http://localhost:8080/todo,6,0,0
+1793846848183,46,Create Todo,201,,Create Todo 3-18,text,true,,428,666,17,61,http://localhost:8080/todo,46,0,0
+1793846849759,6,Get Todo Data,200,,Create Todo 3-18,text,true,,611,576,17,56,http://localhost:8080/todo,6,0,0
+1793846857774,48,Create Todo,201,,Create Todo 3-18,text,true,,428,666,16,31,http://localhost:8080/todo,48,0,0
+1793846859415,5,Get Todo Data,200,,Create Todo 3-18,text,true,,695,576,15,25,http://localhost:8080/todo,5,0,0
+1793846867475,47,Create Todo,201,,Create Todo 3-18,text,true,,428,666,10,14,http://localhost:8080/todo,47,0,0
+1793846869066,8,Get Todo Data,200,,Create Todo 3-18,text,true,,779,576,9,12,http://localhost:8080/todo,8,0,0
+1793846877175,59,Create Todo,201,,Create Todo 3-18,text,true,,428,666,7,7,http://localhost:8080/todo,59,0,0
+1793846878777,4,Get Todo Data,200,,Create Todo 3-18,text,true,,863,576,7,7,http://localhost:8080/todo,4,0,0
+1793846884831,16,Logout,204,,Create Todo 3-18,,true,,377,632,6,6,http://localhost:8080/logout,0,0,0
+1793846886366,2,Navigate to Login,200,,Create Todo 3-18,text,true,,1392,515,6,6,http://localhost:8080/index.html,2,0,0
+1793846825829,281,Transaction Controller - Create Todo,200,"Number of samples in transaction : 16, number of failing samples : 0",Create Todo 3-13,,true,,12073,9555,5,5,null,0,64648,3
+1793846825830,6,Navigate to Login,200,,Create Todo 3-13,text,true,,1431,448,13,63,http://localhost:8080/,6,0,1
+1793846831872,11,Login,204,,Create Todo 3-13,,true,,518,514,19,95,http://localhost:8080/login,0,0,0
+1793846833397,7,Redirect to Dashboard,200,,Create Todo 3-13,text,true,,1794,660,20,100,http://localhost:8080/dashboard.html,7,0,0
+1793846834978,8,Get Todo Data,200,,Create Todo 3-13,text,true,,526,576,20,99,http://localhost:8080/todo,8,0,0
+1793846843007,19,Create Todo,201,,Create Todo 3-13,text,true,,428,666,19,80,http://localhost:8080/todo,18,0,0
+1793846844613,49,Get Todo Data,200,,Create Todo 3-13,text,true,,611,576,19,76,http://localhost:8080/todo,49,0,0
+1793846852755,17,Create Todo,201,,Create Todo 3-13,text,true,,428,666,17,44,http://localhost:8080/todo,17,0,0
+1793846854343,5,Get Todo Data,200,,Create Todo 3-13,text,true,,695,576,17,39,http://localhost:8080/todo,5,0,0
+1793846862373,44,Create Todo,201,,Create Todo 3-13,text,true,,428,666,13,20,http://localhost:8080/todo,44,0,0
+1793846863931,5,Get Todo Data,200,,Create Todo 3-13,text,true,,779,576,11,17,http://localhost:8080/todo,5,0,0
+1793846871952,43,Create Todo,201,,Create Todo 3-13,text,true,,428,666,8,9,http://localhost:8080/todo,43,0,0
+1793846873513,6,Get Todo Data,200,,Create Todo 3-13,text,true,,863,576,8,8,http://localhost:8080/todo,6,0,0
+1793846881546,48,Create Todo,201,,Create Todo 3-13,text,true,,428,666,6,6,http://localhost:8080/todo,48,0,0
+1793846883129,7,Get Todo Data,200,,Create Todo 3-13,text,true,,947,576,6,6,http://localhost:8080/todo,7,0,0
+1793846889199,3,Logout,204,,Create Todo 3-13,,true,,377,632,5,5,http://localhost:8080/logout,0,0,2
+1793846890755,3,Navigate to Login,200,,Create Todo 3-13,text,true,,1392,515,5,5,http://localhost:8080/index.html,3,0,0
+1793846831833,198,Transaction Controller - Create Todo,200,"Number of samples in transaction : 16, number of failing samples : 0",Create Todo 3-19,,true,,12073,9555,4,4,null,0,64975,3
+1793846831835,7,Navigate to Login,200,,Create Todo 3-19,text,true,,1431,448,19,94,http://localhost:8080/,7,0,1
+1793846837903,9,Login,204,,Create Todo 3-19,,true,,518,514,20,95,http://localhost:8080/login,0,0,0
+1793846839474,6,Redirect to Dashboard,200,,Create Todo 3-19,text,true,,1794,660,20,93,http://localhost:8080/dashboard.html,6,0,0
+1793846841081,5,Get Todo Data,200,,Create Todo 3-19,text,true,,526,576,20,90,http://localhost:8080/todo,5,0,0
+1793846849186,21,Create Todo,201,,Create Todo 3-19,text,true,,428,666,17,58,http://localhost:8080/todo,21,0,0
+1793846850794,6,Get Todo Data,200,,Create Todo 3-19,text,true,,611,576,17,52,http://localhost:8080/todo,5,0,0
+1793846858852,16,Create Todo,201,,Create Todo 3-19,text,true,,428,666,16,28,http://localhost:8080/todo,16,0,0
+1793846860424,5,Get Todo Data,200,,Create Todo 3-19,text,true,,695,576,14,24,http://localhost:8080/todo,5,0,0
+1793846868475,16,Create Todo,201,,Create Todo 3-19,text,true,,428,666,10,13,http://localhost:8080/todo,16,0,0
+1793846870080,5,Get Todo Data,200,,Create Todo 3-19,text,true,,779,576,9,11,http://localhost:8080/todo,5,0,0
+1793846878140,43,Create Todo,201,,Create Todo 3-19,text,true,,428,666,7,7,http://localhost:8080/todo,43,0,0
+1793846879729,5,Get Todo Data,200,,Create Todo 3-19,text,true,,863,576,7,7,http://localhost:8080/todo,5,0,0
+1793846887800,43,Create Todo,201,,Create Todo 3-19,text,true,,428,666,5,5,http://localhost:8080/todo,43,0,0
+1793846889409,5,Get Todo Data,200,,Create Todo 3-19,text,true,,947,576,5,5,http://localhost:8080/todo,5,0,0
+1793846895479,3,Logout,204,,Create Todo 3-19,,true,,377,632,4,4,http://localhost:8080/logout,0,0,2
+1793846897001,3,Navigate to Login,200,,Create Todo 3-19,text,true,,1392,515,4,4,http://localhost:8080/index.html,3,0,0
+1793846827828,275,Transaction Controller - Create Todo,200,"Number of samples in transaction : 18, number of failing samples : 0",Create Todo 3-15,,true,,13532,10797,3,3,null,0,74439,2
+1793846827828,5,Navigate to Login,200,,Create Todo 3-15,text,true,,1431,448,15,74,http://localhost:8080/,5,0,1
+1793846833929,8,Login,204,,Create Todo 3-15,,true,,518,514,20,100,http://localhost:8080/login,0,0,0
+1793846835492,5,Redirect to Dashboard,200,,Create Todo 3-15,text,true,,1794,660,20,99,http://localhost:8080/dashboard.html,5,0,0
+1793846837021,8,Get Todo Data,200,,Create Todo 3-15,text,true,,526,576,20,98,http://localhost:8080/todo,8,0,0
+1793846845120,14,Create Todo,201,,Create Todo 3-15,text,true,,428,666,19,76,http://localhost:8080/todo,14,0,0
+1793846846658,6,Get Todo Data,200,,Create Todo 3-15,text,true,,611,576,18,70,http://localhost:8080/todo,5,0,0
+1793846854699,16,Create Todo,201,,Create Todo 3-15,text,true,,428,666,17,39,http://localhost:8080/todo,16,0,0
+1793846856271,5,Get Todo Data,200,,Create Todo 3-15,text,true,,695,576,16,36,http://localhost:8080/todo,5,0,0
+1793846864361,42,Create Todo,201,,Create Todo 3-15,text,true,,428,666,11,17,http://localhost:8080/todo,42,0,0
+1793846865928,6,Get Todo Data,200,,Create Todo 3-15,text,true,,779,576,11,16,http://localhost:8080/todo,5,0,0
+1793846873957,47,Create Todo,201,,Create Todo 3-15,text,true,,428,666,8,8,http://localhost:8080/todo,47,0,0
+1793846875560,6,Get Todo Data,200,,Create Todo 3-15,text,true,,863,576,7,7,http://localhost:8080/todo,6,0,0
+1793846883603,47,Create Todo,201,,Create Todo 3-15,text,true,,428,666,6,6,http://localhost:8080/todo,46,0,0
+1793846885192,7,Get Todo Data,200,,Create Todo 3-15,text,true,,947,576,6,6,http://localhost:8080/todo,7,0,0
+1793846893307,42,Create Todo,201,,Create Todo 3-15,text,true,,428,666,4,4,http://localhost:8080/todo,42,0,1
+1793846894925,6,Get Todo Data,200,,Create Todo 3-15,text,true,,1031,576,4,4,http://localhost:8080/todo,6,0,0
+1793846900975,2,Logout,204,,Create Todo 3-15,,true,,377,632,3,3,http://localhost:8080/logout,0,0,0
+1793846902540,3,Navigate to Login,200,,Create Todo 3-15,text,true,,1392,515,3,3,http://localhost:8080/index.html,3,0,0
+1793846824829,672,Transaction Controller - Create Todo,200,"Number of samples in transaction : 28, number of failing samples : 0",Create Todo 3-12,,true,,22087,17007,2,2,null,0,122528,3
+1793846824830,5,Navigate to Login,200,,Create Todo 3-12,text,true,,1431,448,12,59,http://localhost:8080/,5,0,1
+1793846830917,8,Login,204,,Create Todo 3-12,,true,,518,514,18,89,http://localhost:8080/login,0,0,0
+1793846832488,6,Redirect to Dashboard,200,,Create Todo 3-12,text,true,,1794,660,19,95,http://localhost:8080/dashboard.html,6,0,0
+1793846834042,16,Get Todo Data,200,,Create Todo 3-12,text,true,,526,576,20,100,http://localhost:8080/todo,16,0,0
+1793846842135,50,Create Todo,201,,Create Todo 3-12,text,true,,428,666,20,85,http://localhost:8080/todo,50,0,0
+1793846843725,7,Get Todo Data,200,,Create Todo 3-12,text,true,,611,576,19,79,http://localhost:8080/todo,6,0,0
+1793846851745,49,Create Todo,201,,Create Todo 3-12,text,true,,428,666,17,47,http://localhost:8080/todo,49,0,0
+1793846853354,16,Get Todo Data,200,,Create Todo 3-12,text,true,,695,576,17,43,http://localhost:8080/todo,16,0,0
+1793846861418,44,Create Todo,201,,Create Todo 3-12,text,true,,428,666,13,22,http://localhost:8080/todo,44,0,0
+1793846863024,5,Get Todo Data,200,,Create Todo 3-12,text,true,,779,576,12,19,http://localhost:8080/todo,5,0,0
+1793846871065,14,Create Todo,201,,Create Todo 3-12,text,true,,428,666,9,10,http://localhost:8080/todo,14,0,0
+1793846872660,6,Get Todo Data,200,,Create Todo 3-12,text,true,,863,576,8,8,http://localhost:8080/todo,6,0,0
+1793846880735,45,Create Todo,201,,Create Todo 3-12,text,true,,428,666,6,6,http://localhost:8080/todo,45,0,0
+1793846882289,6,Get Todo Data,200,,Create Todo 3-12,text,true,,947,576,6,6,http://localhost:8080/todo,6,0,0
+1793846890341,45,Create Todo,201,,Create Todo 3-12,text,true,,428,666,5,5,http://localhost:8080/todo,45,0,2
+1793846891911,4,Get Todo Data,200,,Create Todo 3-12,text,true,,1031,576,4,4,http://localhost:8080/todo,4,0,0
+1793846899980,58,Create Todo,201,,Create Todo 3-12,text,true,,428,666,3,3,http://localhost:8080/todo,58,0,0
+1793846901615,6,Get Todo Data,200,,Create Todo 3-12,text,true,,1115,576,3,3,http://localhost:8080/todo,6,0,0
+1793846909634,58,Create Todo,201,,Create Todo 3-12,text,true,,428,666,2,2,http://localhost:8080/todo,58,0,0
+1793846911222,7,Get Todo Data,200,,Create Todo 3-12,text,true,,1199,576,2,2,http://localhost:8080/todo,7,0,0
+1793846919330,59,Create Todo,201,,Create Todo 3-12,text,true,,428,666,2,2,http://localhost:8080/todo,59,0,0
+1793846920968,7,Get Todo Data,200,,Create Todo 3-12,text,true,,1283,576,2,2,http://localhost:8080/todo,7,0,0
+1793846929039,59,Create Todo,201,,Create Todo 3-12,text,true,,428,666,2,2,http://localhost:8080/todo,59,0,0
+1793846930642,8,Get Todo Data,200,,Create Todo 3-12,text,true,,1367,576,2,2,http://localhost:8080/todo,7,0,0
+1793846938745,56,Create Todo,201,,Create Todo 3-12,text,true,,428,666,2,2,http://localhost:8080/todo,56,0,0
+1793846940404,7,Get Todo Data,200,,Create Todo 3-12,text,true,,1451,576,2,2,http://localhost:8080/todo,7,0,0
+1793846946430,17,Logout,204,,Create Todo 3-12,,true,,377,632,2,2,http://localhost:8080/logout,0,0,0
+1793846948025,4,Navigate to Login,200,,Create Todo 3-12,text,true,,1392,515,2,2,http://localhost:8080/index.html,4,0,0
+1793846821829,802,Transaction Controller - Create Todo,200,"Number of samples in transaction : 36, number of failing samples : 0",Create Todo 3-9,,true,,30411,21975,1,1,null,0,160856,6
+1793846821830,7,Navigate to Login,200,,Create Todo 3-9,text,true,,1431,448,9,43,http://localhost:8080/,6,0,1
+1793846827918,6,Login,204,,Create Todo 3-9,,true,,518,514,15,75,http://localhost:8080/login,0,0,0
+1793846829470,6,Redirect to Dashboard,200,,Create Todo 3-9,text,true,,1794,660,16,80,http://localhost:8080/dashboard.html,6,0,0
+1793846830986,10,Get Todo Data,200,,Create Todo 3-9,text,true,,524,576,18,89,http://localhost:8080/todo,10,0,0
+1793846839097,17,Create Todo,201,,Create Todo 3-9,text,true,,428,666,20,93,http://localhost:8080/todo,17,0,0
+1793846840671,7,Get Todo Data,200,,Create Todo 3-9,text,true,,609,576,20,90,http://localhost:8080/todo,7,0,0
+1793846848690,49,Create Todo,201,,Create Todo 3-9,text,true,,428,666,17,58,http://localhost:8080/todo,49,0,0
+1793846850299,8,Get Todo Data,200,,Create Todo 3-9,text,true,,693,576,17,53,http://localhost:8080/todo,8,0,0
+1793846858367,46,Create Todo,201,,Create Todo 3-9,text,true,,428,666,16,29,http://localhost:8080/todo,46,0,0
+1793846859983,6,Get Todo Data,200,,Create Todo 3-9,text,true,,777,576,14,24,http://localhost:8080/todo,6,0,0
+1793846868000,48,Create Todo,201,,Create Todo 3-9,text,true,,428,666,10,14,http://localhost:8080/todo,48,0,0
+1793846869555,5,Get Todo Data,200,,Create Todo 3-9,text,true,,861,576,9,11,http://localhost:8080/todo,5,0,0
+1793846877569,47,Create Todo,201,,Create Todo 3-9,text,true,,428,666,7,7,http://localhost:8080/todo,47,0,0
+1793846879146,7,Get Todo Data,200,,Create Todo 3-9,text,true,,945,576,7,7,http://localhost:8080/todo,7,0,0
+1793846887232,15,Create Todo,201,,Create Todo 3-9,text,true,,428,666,5,5,http://localhost:8080/todo,14,0,3
+1793846888789,7,Get Todo Data,200,,Create Todo 3-9,text,true,,1029,576,5,5,http://localhost:8080/todo,7,0,0
+1793846896815,28,Create Todo,201,,Create Todo 3-9,text,true,,428,666,4,4,http://localhost:8080/todo,28,0,0
+1793846898381,6,Get Todo Data,200,,Create Todo 3-9,text,true,,1113,576,3,3,http://localhost:8080/todo,6,0,0
+1793846906440,27,Create Todo,201,,Create Todo 3-9,text,true,,428,666,2,2,http://localhost:8080/todo,27,0,0
+1793846908023,6,Get Todo Data,200,,Create Todo 3-9,text,true,,1197,576,2,2,http://localhost:8080/todo,6,0,0
+1793846916053,29,Create Todo,201,,Create Todo 3-9,text,true,,428,666,2,2,http://localhost:8080/todo,29,0,0
+1793846917672,7,Get Todo Data,200,,Create Todo 3-9,text,true,,1281,576,2,2,http://localhost:8080/todo,7,0,0
+1793846925719,58,Create Todo,201,,Create Todo 3-9,text,true,,428,666,2,2,http://localhost:8080/todo,57,0,0
+1793846927383,7,Get Todo Data,200,,Create Todo 3-9,text,true,,1365,576,2,2,http://localhost:8080/todo,7,0,0
+1793846935459,59,Create Todo,201,,Create Todo 3-9,text,true,,428,666,2,2,http://localhost:8080/todo,59,0,0
+1793846937110,5,Get Todo Data,200,,Create Todo 3-9,text,true,,1449,576,2,2,http://localhost:8080/todo,5,0,0
+1793846945193,57,Create Todo,201,,Create Todo 3-9,text,true,,428,666,2,2,http://localhost:8080/todo,57,0,0
+1793846946816,7,Get Todo Data,200,,Create Todo 3-9,text,true,,1533,576,2,2,http://localhost:8080/todo,7,0,0
+1793846954835,49,Create Todo,201,,Create Todo 3-9,text,true,,428,666,1,1,http://localhost:8080/todo,48,0,2
+1793846956448,7,Get Todo Data,200,,Create Todo 3-9,text,true,,1617,576,1,1,http://localhost:8080/todo,7,0,0
+1793846964508,64,Create Todo,201,,Create Todo 3-9,text,true,,428,666,1,1,http://localhost:8080/todo,64,0,0
+1793846966172,8,Get Todo Data,200,,Create Todo 3-9,text,true,,1701,576,1,1,http://localhost:8080/todo,8,0,0
+1793846974258,59,Create Todo,201,,Create Todo 3-9,text,true,,428,666,1,1,http://localhost:8080/todo,59,0,0
+1793846975867,10,Get Todo Data,200,,Create Todo 3-9,text,true,,1785,576,1,1,http://localhost:8080/todo,9,0,0
+1793846981928,16,Logout,204,,Create Todo 3-9,,true,,377,632,1,1,http://localhost:8080/logout,0,0,0
+1793846983485,2,Navigate to Login,200,,Create Todo 3-9,text,true,,1392,515,1,1,http://localhost:8080/index.html,2,0,0

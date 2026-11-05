@@ -1,141 +1,461 @@
-2026-11-03 12:01:04,506 INFO o.a.j.u.JMeterUtils: Setting Locale to en_EN
-2026-11-03 12:01:04,533 INFO o.a.j.JMeter: Loading user properties from: C:\Program Files\apache-jmeter-5.6.3\bin\user.properties
-2026-11-03 12:01:04,534 INFO o.a.j.JMeter: Loading system properties from: C:\Program Files\apache-jmeter-5.6.3\bin\system.properties
-2026-11-03 12:01:04,545 INFO o.a.j.JMeter: Copyright (c) 1998-2024 The Apache Software Foundation
-2026-11-03 12:01:04,546 INFO o.a.j.JMeter: Version 5.6.3
-2026-11-03 12:01:04,546 INFO o.a.j.JMeter: java.version=25.0.4
-2026-11-03 12:01:04,546 INFO o.a.j.JMeter: java.vm.name=Java HotSpot(TM) 64-Bit Server VM
-2026-11-03 12:01:04,546 INFO o.a.j.JMeter: os.name=Windows 11
-2026-11-03 12:01:04,547 INFO o.a.j.JMeter: os.arch=amd64
-2026-11-03 12:01:04,577 INFO o.a.j.JMeter: os.version=10.0
-2026-11-03 12:01:04,577 INFO o.a.j.JMeter: file.encoding=UTF-8
-2026-11-03 12:01:04,578 INFO o.a.j.JMeter: java.awt.headless=null
-2026-11-03 12:01:04,578 INFO o.a.j.JMeter: Max memory     =1073741824
-2026-11-03 12:01:04,578 INFO o.a.j.JMeter: Available Processors =12
-2026-11-03 12:01:04,602 INFO o.a.j.JMeter: Default Locale=English (EN)
-2026-11-03 12:01:04,603 INFO o.a.j.JMeter: JMeter  Locale=English (EN)
-2026-11-03 12:01:04,604 INFO o.a.j.JMeter: JMeterHome=C:\Program Files\apache-jmeter-5.6.3
-2026-11-03 12:01:04,604 INFO o.a.j.JMeter: user.dir  =C:\Users\dj409\OneDrive\Desktop\JMeter-Team-2-project-\JMeter-Scripts
-2026-11-03 12:01:04,605 INFO o.a.j.JMeter: PWD       =C:\Users\dj409\OneDrive\Desktop\JMeter-Team-2-project-\JMeter-Scripts
-2026-11-03 12:01:04,633 INFO o.a.j.JMeter: IP: 192.168.40.176 Name: DG2PC FullName: DG2PC.home.arpa
-2026-11-03 12:01:04,651 INFO o.a.j.JMeter: Loaded icon properties from org/apache/jmeter/images/icon.properties
-2026-11-03 12:01:04,898 INFO o.a.j.JMeterGuiLauncher: Setting LAF to: com.github.weisj.darklaf.DarkLaf:com.github.weisj.darklaf.theme.DarculaTheme
-2026-11-03 12:01:16,173 INFO o.a.j.s.FileServer: Default base='C:\Users\dj409\OneDrive\Desktop\JMeter-Team-2-project-\JMeter-Scripts'
-2026-11-03 12:01:16,179 INFO o.a.j.g.a.Load: Loading file: C:\Users\dj409\OneDrive\Desktop\JMeter-Team-2-project-\JMeter-Scripts\CreateSubtask.jmx
-2026-11-03 12:01:16,179 INFO o.a.j.s.FileServer: Set new base='C:\Users\dj409\OneDrive\Desktop\JMeter-Team-2-project-\JMeter-Scripts'
-2026-11-03 12:01:16,505 INFO o.a.j.s.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2
-2026-11-03 12:01:16,528 INFO o.a.j.s.SaveService: Using SaveService properties version 5.0
-2026-11-03 12:01:16,530 INFO o.a.j.s.SaveService: Using SaveService properties file encoding UTF-8
-2026-11-03 12:01:16,532 INFO o.a.j.s.SaveService: Loading file: C:\Users\dj409\OneDrive\Desktop\JMeter-Team-2-project-\JMeter-Scripts\CreateSubtask.jmx
-2026-11-03 12:01:16,554 INFO o.a.j.p.h.c.CookieManager: Settings: Delete null: true Check: true Allow variable: true Save: false Prefix: COOKIE_
-2026-11-03 12:01:16,566 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
-2026-11-03 12:01:16,566 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
-2026-11-03 12:01:16,566 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
-2026-11-03 12:01:16,566 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
-2026-11-03 12:01:16,567 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser
-2026-11-03 12:01:16,567 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser
-2026-11-03 12:01:16,835 INFO o.a.j.e.KeyToolUtils: keytool found at 'keytool'
-2026-11-03 12:01:16,837 INFO o.a.j.p.h.p.ProxyControl: HTTP(S) Test Script Recorder SSL Proxy will use keys that support embedded 3rd party resources in file C:\Program Files\apache-jmeter-5.6.3\bin\proxyserver.jks
-2026-11-03 12:01:17,416 INFO o.a.j.s.SampleResult: Note: Sample TimeStamps are START times
-2026-11-03 12:01:17,417 INFO o.a.j.s.SampleResult: sampleresult.default.encoding is set to UTF-8
-2026-11-03 12:01:17,417 INFO o.a.j.s.SampleResult: sampleresult.useNanoTime=true
-2026-11-03 12:01:17,417 INFO o.a.j.s.SampleResult: sampleresult.nanoThreadSleep=5000
-2026-11-03 12:01:17,717 INFO o.a.j.s.FileServer: Set new base='C:\Users\dj409\OneDrive\Desktop\JMeter-Team-2-project-\JMeter-Scripts'
-2026-11-03 12:01:26,629 ERROR o.a.j.g.a.AbstractAction: Could not delete existing file C:\Users\dj409\OneDrive\Desktop\JMeter-Team-2-project-\JMeter-Scripts
-2026-11-03 12:01:43,803 INFO o.a.j.e.StandardJMeterEngine: Running the test!
-2026-11-03 12:01:43,804 INFO o.a.j.s.SampleEvent: List of sample_variables: []
-2026-11-03 12:01:43,804 INFO o.a.j.s.SampleEvent: List of sample_variables: []
-2026-11-03 12:01:43,805 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must contain the string: '.functions.'
-2026-11-03 12:01:43,805 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must not contain the string: '.gui.'
-2026-11-03 12:01:43,890 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
-2026-11-03 12:01:43,954 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Create Subtask
-2026-11-03 12:01:43,955 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group Create Subtask.
-2026-11-03 12:01:43,955 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
-2026-11-03 12:01:43,955 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=0 delayedStart=false
-2026-11-03 12:01:43,963 INFO o.a.j.t.ThreadGroup: Started thread group number 1
-2026-11-03 12:01:43,963 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
-2026-11-03 12:01:43,969 INFO o.a.j.t.JMeterThread: Thread started: Create Subtask 1-1
-2026-11-03 12:01:43,972 INFO o.a.j.s.FileServer: Stored: C:/Users/dj409/OneDrive/Desktop/JMeter-Team-2-project-/test-data/test-data-subtasks/todos.csv
-2026-11-03 12:01:43,993 INFO o.a.j.s.FileServer: Stored: C:/Users/dj409/OneDrive/Desktop/JMeter-Team-2-project-/test-data/test-data-subtasks/users.csv
-2026-11-03 12:01:44,542 INFO o.a.j.p.h.s.HTTPHCAbstractImpl: Local host = DG2PC
-2026-11-03 12:01:44,552 INFO o.a.j.p.h.s.HTTPHC4Impl: HTTP request retry count = 0
-2026-11-03 12:01:48,418 INFO o.a.j.t.JMeterThread: Thread is done: Create Subtask 1-1
-2026-11-03 12:01:48,418 INFO o.a.j.t.JMeterThread: Thread finished: Create Subtask 1-1
-2026-11-03 12:01:48,420 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
-2026-11-03 12:01:48,420 INFO o.a.j.s.FileServer: Close: C:/Users/dj409/OneDrive/Desktop/JMeter-Team-2-project-/test-data/test-data-subtasks/users.csv
-2026-11-03 12:01:48,425 INFO o.a.j.s.FileServer: Close: C:/Users/dj409/OneDrive/Desktop/JMeter-Team-2-project-/test-data/test-data-subtasks/todos.csv
-2026-11-03 12:01:48,425 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
-2026-11-03 12:06:30,591 INFO o.a.j.e.StandardJMeterEngine: Running the test!
-2026-11-03 12:06:30,592 INFO o.a.j.s.SampleEvent: List of sample_variables: []
-2026-11-03 12:06:30,596 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
-2026-11-03 12:06:30,687 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Create Subtask
-2026-11-03 12:06:30,689 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group Create Subtask.
-2026-11-03 12:06:30,689 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
-2026-11-03 12:06:30,689 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=0 delayedStart=false
-2026-11-03 12:06:30,692 INFO o.a.j.t.ThreadGroup: Started thread group number 1
-2026-11-03 12:06:30,692 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
-2026-11-03 12:06:30,694 INFO o.a.j.t.JMeterThread: Thread started: Create Subtask 1-1
-2026-11-03 12:06:30,695 INFO o.a.j.s.FileServer: Stored: C:/Users/dj409/OneDrive/Desktop/JMeter-Team-2-project-/test-data/test-data-subtasks/todos.csv
-2026-11-03 12:06:30,698 INFO o.a.j.s.FileServer: Stored: C:/Users/dj409/OneDrive/Desktop/JMeter-Team-2-project-/test-data/test-data-subtasks/users.csv
-2026-11-03 12:06:34,808 INFO o.a.j.t.JMeterThread: Thread is done: Create Subtask 1-1
-2026-11-03 12:06:34,809 INFO o.a.j.t.JMeterThread: Thread finished: Create Subtask 1-1
-2026-11-03 12:06:34,809 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
-2026-11-03 12:06:34,810 INFO o.a.j.s.FileServer: Close: C:/Users/dj409/OneDrive/Desktop/JMeter-Team-2-project-/test-data/test-data-subtasks/users.csv
-2026-11-03 12:06:34,810 INFO o.a.j.s.FileServer: Close: C:/Users/dj409/OneDrive/Desktop/JMeter-Team-2-project-/test-data/test-data-subtasks/todos.csv
-2026-11-03 12:06:34,810 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
-2026-11-03 12:21:51,316 INFO o.a.j.e.StandardJMeterEngine: Running the test!
-2026-11-03 12:21:51,317 INFO o.a.j.s.SampleEvent: List of sample_variables: []
-2026-11-03 12:21:51,319 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
-2026-11-03 12:21:51,386 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Create Subtask
-2026-11-03 12:21:51,388 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group Create Subtask.
-2026-11-03 12:21:51,388 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
-2026-11-03 12:21:51,389 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=0 delayedStart=false
-2026-11-03 12:21:51,390 INFO o.a.j.t.ThreadGroup: Started thread group number 1
-2026-11-03 12:21:51,390 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
-2026-11-03 12:21:51,390 INFO o.a.j.t.JMeterThread: Thread started: Create Subtask 1-1
-2026-11-03 12:21:51,392 INFO o.a.j.s.FileServer: Stored: C:/Users/dj409/OneDrive/Desktop/JMeter-Team-2-project-/test-data/test-data-subtasks/todos.csv
-2026-11-03 12:21:51,395 INFO o.a.j.s.FileServer: Stored: C:/Users/dj409/OneDrive/Desktop/JMeter-Team-2-project-/test-data/test-data-subtasks/users.csv
-2026-11-03 12:21:55,496 INFO o.a.j.t.JMeterThread: Thread is done: Create Subtask 1-1
-2026-11-03 12:21:55,496 INFO o.a.j.t.JMeterThread: Thread finished: Create Subtask 1-1
-2026-11-03 12:21:55,496 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
-2026-11-03 12:21:55,497 INFO o.a.j.s.FileServer: Close: C:/Users/dj409/OneDrive/Desktop/JMeter-Team-2-project-/test-data/test-data-subtasks/users.csv
-2026-11-03 12:21:55,497 INFO o.a.j.s.FileServer: Close: C:/Users/dj409/OneDrive/Desktop/JMeter-Team-2-project-/test-data/test-data-subtasks/todos.csv
-2026-11-03 12:21:55,497 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
-2026-11-03 12:49:33,137 INFO o.a.j.e.StandardJMeterEngine: Running the test!
-2026-11-03 12:49:33,142 INFO o.a.j.s.SampleEvent: List of sample_variables: []
-2026-11-03 12:49:33,146 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
-2026-11-03 12:49:33,304 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Create Subtask
-2026-11-03 12:49:33,305 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group Create Subtask.
-2026-11-03 12:49:33,305 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
-2026-11-03 12:49:33,305 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=0 delayedStart=false
-2026-11-03 12:49:33,308 INFO o.a.j.t.ThreadGroup: Started thread group number 1
-2026-11-03 12:49:33,308 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
-2026-11-03 12:49:33,309 INFO o.a.j.t.JMeterThread: Thread started: Create Subtask 1-1
-2026-11-03 12:49:33,311 INFO o.a.j.s.FileServer: Stored: C:/Users/dj409/OneDrive/Desktop/JMeter-Team-2-project-/test-data/test-data-subtasks/todos.csv
-2026-11-03 12:49:33,315 INFO o.a.j.s.FileServer: Stored: C:/Users/dj409/OneDrive/Desktop/JMeter-Team-2-project-/test-data/test-data-subtasks/users.csv
-2026-11-03 12:49:37,516 INFO o.a.j.t.JMeterThread: Thread is done: Create Subtask 1-1
-2026-11-03 12:49:37,516 INFO o.a.j.t.JMeterThread: Thread finished: Create Subtask 1-1
-2026-11-03 12:49:37,517 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
-2026-11-03 12:49:37,517 INFO o.a.j.s.FileServer: Close: C:/Users/dj409/OneDrive/Desktop/JMeter-Team-2-project-/test-data/test-data-subtasks/users.csv
-2026-11-03 12:49:37,517 INFO o.a.j.s.FileServer: Close: C:/Users/dj409/OneDrive/Desktop/JMeter-Team-2-project-/test-data/test-data-subtasks/todos.csv
-2026-11-03 12:49:37,517 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
-2026-11-03 12:50:58,616 INFO o.a.j.e.StandardJMeterEngine: Running the test!
-2026-11-03 12:50:58,616 INFO o.a.j.s.SampleEvent: List of sample_variables: []
-2026-11-03 12:50:58,619 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
-2026-11-03 12:50:58,710 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Create Subtask
-2026-11-03 12:50:58,712 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group Create Subtask.
-2026-11-03 12:50:58,712 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
-2026-11-03 12:50:58,712 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=0 delayedStart=false
-2026-11-03 12:50:58,714 INFO o.a.j.t.ThreadGroup: Started thread group number 1
-2026-11-03 12:50:58,714 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
-2026-11-03 12:50:58,715 INFO o.a.j.t.JMeterThread: Thread started: Create Subtask 1-1
-2026-11-03 12:50:58,716 INFO o.a.j.s.FileServer: Stored: C:/Users/dj409/OneDrive/Desktop/JMeter-Team-2-project-/test-data/test-data-subtasks/todos.csv
-2026-11-03 12:50:58,719 INFO o.a.j.s.FileServer: Stored: C:/Users/dj409/OneDrive/Desktop/JMeter-Team-2-project-/test-data/test-data-subtasks/users.csv
-2026-11-03 12:51:03,378 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
-2026-11-03 12:51:05,968 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
-2026-11-03 12:51:06,978 INFO o.a.j.t.JMeterThread: Thread is done: Create Subtask 1-1
-2026-11-03 12:51:06,978 INFO o.a.j.t.JMeterThread: Thread finished: Create Subtask 1-1
-2026-11-03 12:51:06,979 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
-2026-11-03 12:51:06,979 INFO o.a.j.s.FileServer: Close: C:/Users/dj409/OneDrive/Desktop/JMeter-Team-2-project-/test-data/test-data-subtasks/users.csv
-2026-11-03 12:51:06,979 INFO o.a.j.s.FileServer: Close: C:/Users/dj409/OneDrive/Desktop/JMeter-Team-2-project-/test-data/test-data-subtasks/todos.csv
-2026-11-03 12:51:06,980 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2026-11-04 20:46:52,606 INFO o.a.j.u.JMeterUtils: Setting Locale to en_EN
+2026-11-04 20:46:52,629 INFO o.a.j.JMeter: Loading user properties from: C:\Program Files\apache-jmeter-5.6.3\bin\user.properties
+2026-11-04 20:46:52,629 INFO o.a.j.JMeter: Loading system properties from: C:\Program Files\apache-jmeter-5.6.3\bin\system.properties
+2026-11-04 20:46:52,637 INFO o.a.j.JMeter: Copyright (c) 1998-2024 The Apache Software Foundation
+2026-11-04 20:46:52,637 INFO o.a.j.JMeter: Version 5.6.3
+2026-11-04 20:46:52,637 INFO o.a.j.JMeter: java.version=21.0.13
+2026-11-04 20:46:52,637 INFO o.a.j.JMeter: java.vm.name=OpenJDK 64-Bit Server VM
+2026-11-04 20:46:52,637 INFO o.a.j.JMeter: os.name=Windows 11
+2026-11-04 20:46:52,637 INFO o.a.j.JMeter: os.arch=amd64
+2026-11-04 20:46:52,637 INFO o.a.j.JMeter: os.version=10.0
+2026-11-04 20:46:52,637 INFO o.a.j.JMeter: file.encoding=UTF-8
+2026-11-04 20:46:52,637 INFO o.a.j.JMeter: java.awt.headless=true
+2026-11-04 20:46:52,637 INFO o.a.j.JMeter: Max memory     =1073741824
+2026-11-04 20:46:52,637 INFO o.a.j.JMeter: Available Processors =12
+2026-11-04 20:46:52,649 INFO o.a.j.JMeter: Default Locale=English (EN)
+2026-11-04 20:46:52,649 INFO o.a.j.JMeter: JMeter  Locale=English (EN)
+2026-11-04 20:46:52,649 INFO o.a.j.JMeter: JMeterHome=C:\Program Files\apache-jmeter-5.6.3
+2026-11-04 20:46:52,649 INFO o.a.j.JMeter: user.dir  =C:\Users\dj409\OneDrive\Desktop\JMeter-Team-2-project-\JMeter-Scripts
+2026-11-04 20:46:52,650 INFO o.a.j.JMeter: PWD       =C:\Users\dj409\OneDrive\Desktop\JMeter-Team-2-project-\JMeter-Scripts
+2026-11-04 20:46:52,686 INFO o.a.j.JMeter: IP: 192.168.40.176 Name: DG2PC FullName: DG2PC.home.arpa
+2026-11-04 20:46:52,704 INFO o.a.j.JMeter: Setting property 'jmeter.reportgenerator.outputdir' to:'C:\Users\dj409\OneDrive\Desktop\JMeter-Team-2-project-\JMeter-Scripts\HTMLReport'
+2026-11-04 20:46:52,706 INFO o.a.j.s.FileServer: Default base='C:\Users\dj409\OneDrive\Desktop\JMeter-Team-2-project-\JMeter-Scripts'
+2026-11-04 20:46:52,708 INFO o.a.j.s.FileServer: Set new base='C:\Users\dj409\OneDrive\Desktop\JMeter-Team-2-project-\JMeter-Scripts'
+2026-11-04 20:46:52,935 INFO o.a.j.s.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2
+2026-11-04 20:46:52,974 INFO o.a.j.s.SaveService: Using SaveService properties version 5.0
+2026-11-04 20:46:52,978 INFO o.a.j.s.SaveService: Using SaveService properties file encoding UTF-8
+2026-11-04 20:46:52,982 INFO o.a.j.s.SaveService: Loading file: TodoPerformanceTest.jmx
+2026-11-04 20:46:53,041 INFO o.a.j.p.h.c.CookieManager: Settings: Delete null: true Check: true Allow variable: true Save: false Prefix: COOKIE_
+2026-11-04 20:46:53,076 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2026-11-04 20:46:53,077 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2026-11-04 20:46:53,077 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2026-11-04 20:46:53,077 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2026-11-04 20:46:53,077 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser
+2026-11-04 20:46:53,077 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser
+2026-11-04 20:46:53,286 INFO o.a.j.JMeter: Creating summariser <summary>
+2026-11-04 20:46:53,293 INFO o.a.j.r.d.ReportGenerator: ReportGenerator will use for Parsing the separator: ','
+2026-11-04 20:46:53,293 INFO o.a.j.r.d.ReportGenerator: Will generate report at end of test from  results file: results.jtl
+2026-11-04 20:46:53,293 INFO o.a.j.r.d.ReportGenerator: Reading report generator properties from: C:\Program Files\apache-jmeter-5.6.3\bin\reportgenerator.properties
+2026-11-04 20:46:53,296 INFO o.a.j.r.d.ReportGenerator: Merging with JMeter properties
+2026-11-04 20:46:53,303 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.temp_dir' not found, using default value 'temp' instead.
+2026-11-04 20:46:53,306 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.apdex_per_transaction' not found, using default value 'null' instead.
+2026-11-04 20:46:53,306 INFO o.a.j.r.c.ReportGeneratorConfiguration: apdex_per_transaction is empty, not APDEX per transaction customization
+2026-11-04 20:46:53,306 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.sample_filter' not found, using default value 'null' instead.
+2026-11-04 20:46:53,307 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.report_title' not found, using default value 'null' instead.
+2026-11-04 20:46:53,307 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.start_date' not found, using default value 'null' instead.
+2026-11-04 20:46:53,307 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.end_date' not found, using default value 'null' instead.
+2026-11-04 20:46:53,307 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.date_format' not found, using default value 'null' instead.
+2026-11-04 20:46:53,307 INFO o.a.j.r.c.ReportGeneratorConfiguration: Will use date range start date: null, end date: null
+2026-11-04 20:46:53,314 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.totalTPS.exclude_controllers' not found, using default value 'false' instead.
+2026-11-04 20:46:53,314 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.activeThreadsOverTime.exclude_controllers' not found, using default value 'false' instead.
+2026-11-04 20:46:53,314 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.timeVsThreads.exclude_controllers' not found, using default value 'false' instead.
+2026-11-04 20:46:53,314 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimeDistribution.exclude_controllers' not found, using default value 'false' instead.
+2026-11-04 20:46:53,314 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.transactionsPerSecond.exclude_controllers' not found, using default value 'false' instead.
+2026-11-04 20:46:53,315 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimePercentiles.exclude_controllers' not found, using default value 'false' instead.
+2026-11-04 20:46:53,315 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimePercentilesOverTime.exclude_controllers' not found, using default value 'false' instead.
+2026-11-04 20:46:53,315 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimesOverTime.exclude_controllers' not found, using default value 'false' instead.
+2026-11-04 20:46:53,315 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.connectTimeOverTime.exclude_controllers' not found, using default value 'false' instead.
+2026-11-04 20:46:53,316 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.latenciesOverTime.exclude_controllers' not found, using default value 'false' instead.
+2026-11-04 20:46:53,317 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.json.filters_only_sample_series' not found, using default value 'true' instead.
+2026-11-04 20:46:53,317 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.json.series_filter' not found, using default value '' instead.
+2026-11-04 20:46:53,317 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.json.show_controllers_only' not found, using default value 'false' instead.
+2026-11-04 20:46:53,317 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.html.filters_only_sample_series' not found, using default value 'true' instead.
+2026-11-04 20:46:53,317 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.html.series_filter' not found, using default value '' instead.
+2026-11-04 20:46:53,319 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.html.show_controllers_only' not found, using default value 'false' instead.
+2026-11-04 20:46:53,337 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2026-11-04 20:46:53,339 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2026-11-04 20:46:53,339 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2026-11-04 20:46:53,345 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must contain the string: '.functions.'
+2026-11-04 20:46:53,345 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must not contain the string: '.gui.'
+2026-11-04 20:46:53,759 INFO o.a.j.JMeter: Running test (1793846813759)
+2026-11-04 20:46:53,779 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Register
+2026-11-04 20:46:53,779 INFO o.a.j.e.StandardJMeterEngine: Starting 10 threads for group Register.
+2026-11-04 20:46:53,779 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2026-11-04 20:46:53,779 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=10 ramp-up=20 delayedStart=false
+2026-11-04 20:46:53,793 INFO o.a.j.s.SampleResult: Note: Sample TimeStamps are START times
+2026-11-04 20:46:53,793 INFO o.a.j.s.SampleResult: sampleresult.default.encoding is set to UTF-8
+2026-11-04 20:46:53,793 INFO o.a.j.s.SampleResult: sampleresult.useNanoTime=true
+2026-11-04 20:46:53,793 INFO o.a.j.s.SampleResult: sampleresult.nanoThreadSleep=5000
+2026-11-04 20:46:53,795 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2026-11-04 20:46:53,795 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 2 : Login
+2026-11-04 20:46:53,795 INFO o.a.j.e.StandardJMeterEngine: Starting 20 threads for group Login.
+2026-11-04 20:46:53,795 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2026-11-04 20:46:53,795 INFO o.a.j.t.ThreadGroup: Starting thread group... number=2 threads=20 ramp-up=20 delayedStart=false
+2026-11-04 20:46:53,795 INFO o.a.j.t.JMeterThread: Thread started: Register 1-1
+2026-11-04 20:46:53,819 INFO o.a.j.t.JMeterThread: Thread started: Login 2-1
+2026-11-04 20:46:53,820 INFO o.a.j.s.FileServer: Stored: C:/Users/dj409/OneDrive/Desktop/JMeter-Team-2-project-/test-data/login.csv
+2026-11-04 20:46:53,826 INFO o.a.j.t.ThreadGroup: Started thread group number 2
+2026-11-04 20:46:53,826 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 3 : Create Todo
+2026-11-04 20:46:53,826 INFO o.a.j.e.StandardJMeterEngine: Starting 20 threads for group Create Todo.
+2026-11-04 20:46:53,826 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2026-11-04 20:46:53,826 INFO o.a.j.t.ThreadGroup: Starting thread group... number=3 threads=20 ramp-up=20 delayedStart=false
+2026-11-04 20:46:53,828 INFO o.a.j.p.h.s.HTTPHCAbstractImpl: Local host = DG2PC
+2026-11-04 20:46:53,829 INFO o.a.j.t.JMeterThread: Thread started: Create Todo 3-1
+2026-11-04 20:46:53,843 INFO o.a.j.p.h.s.HTTPHC4Impl: HTTP request retry count = 0
+2026-11-04 20:46:53,854 INFO o.a.j.t.ThreadGroup: Started thread group number 3
+2026-11-04 20:46:53,854 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 4 : Edit Todo
+2026-11-04 20:46:53,854 INFO o.a.j.e.StandardJMeterEngine: Starting 20 threads for group Edit Todo.
+2026-11-04 20:46:53,854 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2026-11-04 20:46:53,854 INFO o.a.j.t.ThreadGroup: Starting thread group... number=4 threads=20 ramp-up=20 delayedStart=false
+2026-11-04 20:46:53,857 INFO o.a.j.t.JMeterThread: Thread started: Edit Todo 4-1
+2026-11-04 20:46:53,862 INFO o.a.j.s.FileServer: Stored: C:/Users/dj409/OneDrive/Desktop/JMeter-Team-2-project-/test-data/editTodo.csv
+2026-11-04 20:46:53,863 INFO o.a.j.s.FileServer: Stored: C:/Users/dj409/OneDrive/Desktop/JMeter-Team-2-project-/test-data/createTodo.csv
+2026-11-04 20:46:53,887 INFO o.a.j.t.ThreadGroup: Started thread group number 4
+2026-11-04 20:46:53,887 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 5 : Create Subtask
+2026-11-04 20:46:53,887 INFO o.a.j.e.StandardJMeterEngine: Starting 15 threads for group Create Subtask.
+2026-11-04 20:46:53,887 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2026-11-04 20:46:53,887 INFO o.a.j.t.ThreadGroup: Starting thread group... number=5 threads=15 ramp-up=20 delayedStart=false
+2026-11-04 20:46:53,889 INFO o.a.j.t.JMeterThread: Thread started: Create Subtask 5-1
+2026-11-04 20:46:53,890 INFO o.a.j.s.FileServer: Stored: C:/Users/dj409/OneDrive/Desktop/JMeter-Team-2-project-/test-data/createSubtask.csv
+2026-11-04 20:46:53,902 INFO o.a.j.t.ThreadGroup: Started thread group number 5
+2026-11-04 20:46:53,902 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 6 : Edit Subtask
+2026-11-04 20:46:53,902 INFO o.a.j.e.StandardJMeterEngine: Starting 15 threads for group Edit Subtask.
+2026-11-04 20:46:53,902 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2026-11-04 20:46:53,902 INFO o.a.j.t.ThreadGroup: Starting thread group... number=6 threads=15 ramp-up=20 delayedStart=false
+2026-11-04 20:46:53,905 INFO o.a.j.t.JMeterThread: Thread started: Edit Subtask 6-1
+2026-11-04 20:46:53,922 INFO o.a.j.s.FileServer: Stored: C:/Users/dj409/OneDrive/Desktop/JMeter-Team-2-project-/test-data/editSubtask.csv
+2026-11-04 20:46:53,927 INFO o.a.j.t.ThreadGroup: Started thread group number 6
+2026-11-04 20:46:53,927 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2026-11-04 20:46:54,822 INFO o.a.j.t.JMeterThread: Thread started: Login 2-2
+2026-11-04 20:46:54,835 INFO o.a.j.t.JMeterThread: Thread started: Create Todo 3-2
+2026-11-04 20:46:54,857 INFO o.a.j.t.JMeterThread: Thread started: Edit Todo 4-2
+2026-11-04 20:46:55,223 INFO o.a.j.t.JMeterThread: Thread started: Create Subtask 5-2
+2026-11-04 20:46:55,237 INFO o.a.j.t.JMeterThread: Thread started: Edit Subtask 6-2
+2026-11-04 20:46:55,791 INFO o.a.j.t.JMeterThread: Thread started: Register 1-2
+2026-11-04 20:46:55,817 INFO o.a.j.t.JMeterThread: Thread started: Login 2-3
+2026-11-04 20:46:55,830 INFO o.a.j.t.JMeterThread: Thread started: Create Todo 3-3
+2026-11-04 20:46:55,856 INFO o.a.j.t.JMeterThread: Thread started: Edit Todo 4-3
+2026-11-04 20:46:56,556 INFO o.a.j.t.JMeterThread: Thread started: Create Subtask 5-3
+2026-11-04 20:46:56,570 INFO o.a.j.t.JMeterThread: Thread started: Edit Subtask 6-3
+2026-11-04 20:46:56,822 INFO o.a.j.t.JMeterThread: Thread started: Login 2-4
+2026-11-04 20:46:56,829 INFO o.a.j.t.JMeterThread: Thread started: Create Todo 3-4
+2026-11-04 20:46:56,858 INFO o.a.j.t.JMeterThread: Thread started: Edit Todo 4-4
+2026-11-04 20:46:57,790 INFO o.a.j.t.JMeterThread: Thread started: Register 1-3
+2026-11-04 20:46:57,815 INFO o.a.j.t.JMeterThread: Thread started: Login 2-5
+2026-11-04 20:46:57,830 INFO o.a.j.t.JMeterThread: Thread started: Create Todo 3-5
+2026-11-04 20:46:57,857 INFO o.a.j.t.JMeterThread: Thread started: Edit Todo 4-5
+2026-11-04 20:46:57,889 INFO o.a.j.t.JMeterThread: Thread started: Create Subtask 5-4
+2026-11-04 20:46:57,904 INFO o.a.j.t.JMeterThread: Thread started: Edit Subtask 6-4
+2026-11-04 20:46:58,815 INFO o.a.j.t.JMeterThread: Thread started: Login 2-6
+2026-11-04 20:46:58,829 INFO o.a.j.t.JMeterThread: Thread started: Create Todo 3-6
+2026-11-04 20:46:58,858 INFO o.a.j.t.JMeterThread: Thread started: Edit Todo 4-6
+2026-11-04 20:46:59,220 INFO o.a.j.t.JMeterThread: Thread started: Create Subtask 5-5
+2026-11-04 20:46:59,238 INFO o.a.j.t.JMeterThread: Thread started: Edit Subtask 6-5
+2026-11-04 20:46:59,789 INFO o.a.j.t.JMeterThread: Thread started: Register 1-4
+2026-11-04 20:46:59,816 INFO o.a.j.t.JMeterThread: Thread started: Login 2-7
+2026-11-04 20:46:59,830 INFO o.a.j.t.JMeterThread: Thread started: Create Todo 3-7
+2026-11-04 20:46:59,856 INFO o.a.j.t.JMeterThread: Thread started: Edit Todo 4-7
+2026-11-04 20:47:00,554 INFO o.a.j.t.JMeterThread: Thread started: Create Subtask 5-6
+2026-11-04 20:47:00,571 INFO o.a.j.t.JMeterThread: Thread started: Edit Subtask 6-6
+2026-11-04 20:47:00,808 INFO o.a.j.t.JMeterThread: Thread started: Login 2-8
+2026-11-04 20:47:00,829 INFO o.a.j.t.JMeterThread: Thread started: Create Todo 3-8
+2026-11-04 20:47:00,857 INFO o.a.j.t.JMeterThread: Thread started: Edit Todo 4-8
+2026-11-04 20:47:01,787 INFO o.a.j.t.JMeterThread: Thread started: Register 1-5
+2026-11-04 20:47:01,812 INFO o.a.j.t.JMeterThread: Thread started: Login 2-9
+2026-11-04 20:47:01,829 INFO o.a.j.t.JMeterThread: Thread started: Create Todo 3-9
+2026-11-04 20:47:01,857 INFO o.a.j.t.JMeterThread: Thread started: Edit Todo 4-9
+2026-11-04 20:47:01,887 INFO o.a.j.t.JMeterThread: Thread started: Create Subtask 5-7
+2026-11-04 20:47:01,901 INFO o.a.j.t.JMeterThread: Thread started: Edit Subtask 6-7
+2026-11-04 20:47:02,810 INFO o.a.j.t.JMeterThread: Thread started: Login 2-10
+2026-11-04 20:47:02,828 INFO o.a.j.t.JMeterThread: Thread started: Create Todo 3-10
+2026-11-04 20:47:02,859 INFO o.a.j.t.JMeterThread: Thread started: Edit Todo 4-10
+2026-11-04 20:47:03,220 INFO o.a.j.t.JMeterThread: Thread started: Create Subtask 5-8
+2026-11-04 20:47:03,235 INFO o.a.j.t.JMeterThread: Thread started: Edit Subtask 6-8
+2026-11-04 20:47:03,787 INFO o.a.j.t.JMeterThread: Thread started: Register 1-6
+2026-11-04 20:47:03,810 INFO o.a.j.t.JMeterThread: Thread started: Login 2-11
+2026-11-04 20:47:03,829 INFO o.a.j.t.JMeterThread: Thread started: Create Todo 3-11
+2026-11-04 20:47:03,858 INFO o.a.j.t.JMeterThread: Thread started: Edit Todo 4-11
+2026-11-04 20:47:04,554 INFO o.a.j.t.JMeterThread: Thread started: Create Subtask 5-9
+2026-11-04 20:47:04,576 INFO o.a.j.t.JMeterThread: Thread started: Edit Subtask 6-9
+2026-11-04 20:47:04,808 INFO o.a.j.t.JMeterThread: Thread started: Login 2-12
+2026-11-04 20:47:04,829 INFO o.a.j.t.JMeterThread: Thread started: Create Todo 3-12
+2026-11-04 20:47:04,857 INFO o.a.j.t.JMeterThread: Thread started: Edit Todo 4-12
+2026-11-04 20:47:05,785 INFO o.a.j.t.JMeterThread: Thread started: Register 1-7
+2026-11-04 20:47:05,807 INFO o.a.j.t.JMeterThread: Thread started: Login 2-13
+2026-11-04 20:47:05,828 INFO o.a.j.t.JMeterThread: Thread started: Create Todo 3-13
+2026-11-04 20:47:05,857 INFO o.a.j.t.JMeterThread: Thread started: Edit Todo 4-13
+2026-11-04 20:47:05,887 INFO o.a.j.t.JMeterThread: Thread started: Create Subtask 5-10
+2026-11-04 20:47:05,907 INFO o.a.j.t.JMeterThread: Thread started: Edit Subtask 6-10
+2026-11-04 20:47:06,805 INFO o.a.j.t.JMeterThread: Thread started: Login 2-14
+2026-11-04 20:47:06,828 INFO o.a.j.t.JMeterThread: Thread started: Create Todo 3-14
+2026-11-04 20:47:06,858 INFO o.a.j.t.JMeterThread: Thread started: Edit Todo 4-14
+2026-11-04 20:47:07,220 INFO o.a.j.t.JMeterThread: Thread started: Create Subtask 5-11
+2026-11-04 20:47:07,234 INFO o.a.j.t.JMeterThread: Thread started: Edit Subtask 6-11
+2026-11-04 20:47:07,784 INFO o.a.j.t.JMeterThread: Thread started: Register 1-8
+2026-11-04 20:47:07,800 INFO o.a.j.t.JMeterThread: Thread started: Login 2-15
+2026-11-04 20:47:07,827 INFO o.a.j.t.JMeterThread: Thread started: Create Todo 3-15
+2026-11-04 20:47:07,858 INFO o.a.j.t.JMeterThread: Thread started: Edit Todo 4-15
+2026-11-04 20:47:08,552 INFO o.a.j.t.JMeterThread: Thread started: Create Subtask 5-12
+2026-11-04 20:47:08,567 INFO o.a.j.t.JMeterThread: Thread started: Edit Subtask 6-12
+2026-11-04 20:47:08,802 INFO o.a.j.t.JMeterThread: Thread started: Login 2-16
+2026-11-04 20:47:08,830 INFO o.a.j.t.JMeterThread: Thread started: Create Todo 3-16
+2026-11-04 20:47:08,856 INFO o.a.j.t.JMeterThread: Thread started: Edit Todo 4-16
+2026-11-04 20:47:09,783 INFO o.a.j.t.JMeterThread: Thread started: Register 1-9
+2026-11-04 20:47:09,800 INFO o.a.j.t.JMeterThread: Thread started: Login 2-17
+2026-11-04 20:47:09,831 INFO o.a.j.t.JMeterThread: Thread started: Create Todo 3-17
+2026-11-04 20:47:09,857 INFO o.a.j.t.JMeterThread: Thread started: Edit Todo 4-17
+2026-11-04 20:47:09,887 INFO o.a.j.t.JMeterThread: Thread started: Create Subtask 5-13
+2026-11-04 20:47:09,902 INFO o.a.j.t.JMeterThread: Thread started: Edit Subtask 6-13
+2026-11-04 20:47:10,800 INFO o.a.j.t.JMeterThread: Thread started: Login 2-18
+2026-11-04 20:47:10,827 INFO o.a.j.t.JMeterThread: Thread started: Create Todo 3-18
+2026-11-04 20:47:10,856 INFO o.a.j.t.JMeterThread: Thread started: Edit Todo 4-18
+2026-11-04 20:47:11,219 INFO o.a.j.t.JMeterThread: Thread started: Create Subtask 5-14
+2026-11-04 20:47:11,235 INFO o.a.j.t.JMeterThread: Thread started: Edit Subtask 6-14
+2026-11-04 20:47:11,783 INFO o.a.j.t.JMeterThread: Thread started: Register 1-10
+2026-11-04 20:47:11,798 INFO o.a.j.t.JMeterThread: Thread started: Login 2-19
+2026-11-04 20:47:11,832 INFO o.a.j.t.JMeterThread: Thread started: Create Todo 3-19
+2026-11-04 20:47:11,857 INFO o.a.j.t.JMeterThread: Thread started: Edit Todo 4-19
+2026-11-04 20:47:12,553 INFO o.a.j.t.JMeterThread: Thread started: Create Subtask 5-15
+2026-11-04 20:47:12,567 INFO o.a.j.t.JMeterThread: Thread started: Edit Subtask 6-15
+2026-11-04 20:47:12,798 INFO o.a.j.t.JMeterThread: Thread started: Login 2-20
+2026-11-04 20:47:12,829 INFO o.a.j.t.JMeterThread: Thread started: Create Todo 3-20
+2026-11-04 20:47:12,857 INFO o.a.j.t.JMeterThread: Thread started: Edit Todo 4-20
+2026-11-04 20:47:14,513 INFO o.a.j.t.JMeterThread: Thread is done: Register 1-1
+2026-11-04 20:47:14,513 INFO o.a.j.t.JMeterThread: Thread finished: Register 1-1
+2026-11-04 20:47:15,959 INFO o.a.j.t.JMeterThread: Thread is done: Register 1-2
+2026-11-04 20:47:15,959 INFO o.a.j.t.JMeterThread: Thread finished: Register 1-2
+2026-11-04 20:47:17,135 INFO o.a.j.t.JMeterThread: Thread is done: Login 2-2
+2026-11-04 20:47:17,135 INFO o.a.j.t.JMeterThread: Thread finished: Login 2-2
+2026-11-04 20:47:17,178 INFO o.a.j.t.JMeterThread: Thread is done: Login 2-1
+2026-11-04 20:47:17,178 INFO o.a.j.t.JMeterThread: Thread finished: Login 2-1
+2026-11-04 20:47:17,599 INFO o.a.j.t.JMeterThread: Thread is done: Login 2-3
+2026-11-04 20:47:17,599 INFO o.a.j.t.JMeterThread: Thread finished: Login 2-3
+2026-11-04 20:47:17,989 INFO o.a.j.t.JMeterThread: Thread is done: Register 1-3
+2026-11-04 20:47:17,989 INFO o.a.j.t.JMeterThread: Thread finished: Register 1-3
+2026-11-04 20:47:18,584 INFO o.a.j.t.JMeterThread: Thread is done: Login 2-4
+2026-11-04 20:47:18,584 INFO o.a.j.t.JMeterThread: Thread finished: Login 2-4
+2026-11-04 20:47:19,735 INFO o.a.j.t.JMeterThread: Thread is done: Login 2-5
+2026-11-04 20:47:19,735 INFO o.a.j.t.JMeterThread: Thread finished: Login 2-5
+2026-11-04 20:47:19,955 INFO o.a.j.t.JMeterThread: Thread is done: Register 1-4
+2026-11-04 20:47:19,955 INFO o.a.j.t.JMeterThread: Thread finished: Register 1-4
+2026-11-04 20:47:20,657 INFO o.a.j.t.JMeterThread: Thread is done: Login 2-6
+2026-11-04 20:47:20,658 INFO o.a.j.t.JMeterThread: Thread finished: Login 2-6
+2026-11-04 20:47:21,616 INFO o.a.j.t.JMeterThread: Thread is done: Login 2-7
+2026-11-04 20:47:21,616 INFO o.a.j.t.JMeterThread: Thread finished: Login 2-7
+2026-11-04 20:47:21,780 INFO o.a.j.t.JMeterThread: Thread is done: Create Subtask 5-2
+2026-11-04 20:47:21,782 INFO o.a.j.t.JMeterThread: Thread finished: Create Subtask 5-2
+2026-11-04 20:47:21,879 INFO o.a.j.t.JMeterThread: Thread is done: Create Subtask 5-1
+2026-11-04 20:47:21,879 INFO o.a.j.t.JMeterThread: Thread finished: Create Subtask 5-1
+2026-11-04 20:47:22,062 INFO o.a.j.t.JMeterThread: Thread is done: Register 1-5
+2026-11-04 20:47:22,063 INFO o.a.j.t.JMeterThread: Thread finished: Register 1-5
+2026-11-04 20:47:22,144 INFO o.a.j.t.JMeterThread: Thread is done: Edit Todo 4-14
+2026-11-04 20:47:22,144 INFO o.a.j.t.JMeterThread: Thread finished: Edit Todo 4-14
+2026-11-04 20:47:22,368 INFO o.a.j.t.JMeterThread: Thread is done: Create Todo 3-3
+2026-11-04 20:47:22,368 INFO o.a.j.t.JMeterThread: Thread finished: Create Todo 3-3
+2026-11-04 20:47:22,526 INFO o.a.j.t.JMeterThread: Thread is done: Login 2-8
+2026-11-04 20:47:22,527 INFO o.a.j.t.JMeterThread: Thread finished: Login 2-8
+2026-11-04 20:47:22,792 INFO o.a.j.t.JMeterThread: Thread is done: Edit Todo 4-1
+2026-11-04 20:47:22,792 INFO o.a.j.t.JMeterThread: Thread finished: Edit Todo 4-1
+2026-11-04 20:47:22,917 INFO o.a.j.t.JMeterThread: Thread is done: Edit Todo 4-2
+2026-11-04 20:47:22,917 INFO o.a.j.t.JMeterThread: Thread finished: Edit Todo 4-2
+2026-11-04 20:47:22,994 INFO o.a.j.t.JMeterThread: Thread is done: Create Subtask 5-3
+2026-11-04 20:47:22,994 INFO o.a.j.t.JMeterThread: Thread finished: Create Subtask 5-3
+2026-11-04 20:47:23,666 INFO o.a.j.t.JMeterThread: Thread is done: Login 2-9
+2026-11-04 20:47:23,666 INFO o.a.j.t.JMeterThread: Thread finished: Login 2-9
+2026-11-04 20:47:24,014 INFO o.a.j.t.JMeterThread: Thread is done: Register 1-6
+2026-11-04 20:47:24,014 INFO o.a.j.t.JMeterThread: Thread finished: Register 1-6
+2026-11-04 20:47:24,493 INFO o.a.j.t.JMeterThread: Thread is done: Create Subtask 5-4
+2026-11-04 20:47:24,493 INFO o.a.j.t.JMeterThread: Thread finished: Create Subtask 5-4
+2026-11-04 20:47:24,607 INFO o.a.j.t.JMeterThread: Thread is done: Login 2-10
+2026-11-04 20:47:24,607 INFO o.a.j.t.JMeterThread: Thread finished: Login 2-10
+2026-11-04 20:47:25,323 INFO o.a.j.t.JMeterThread: Thread is done: Edit Todo 4-5
+2026-11-04 20:47:25,324 INFO o.a.j.t.JMeterThread: Thread finished: Edit Todo 4-5
+2026-11-04 20:47:25,628 INFO o.a.j.t.JMeterThread: Thread is done: Login 2-11
+2026-11-04 20:47:25,628 INFO o.a.j.t.JMeterThread: Thread finished: Login 2-11
+2026-11-04 20:47:25,688 INFO o.a.j.t.JMeterThread: Thread is done: Create Subtask 5-5
+2026-11-04 20:47:25,688 INFO o.a.j.t.JMeterThread: Thread finished: Create Subtask 5-5
+2026-11-04 20:47:26,008 INFO o.a.j.t.JMeterThread: Thread is done: Register 1-7
+2026-11-04 20:47:26,008 INFO o.a.j.t.JMeterThread: Thread finished: Register 1-7
+2026-11-04 20:47:26,270 INFO o.a.j.t.JMeterThread: Thread is done: Create Todo 3-7
+2026-11-04 20:47:26,270 INFO o.a.j.t.JMeterThread: Thread finished: Create Todo 3-7
+2026-11-04 20:47:26,656 INFO o.a.j.t.JMeterThread: Thread is done: Login 2-12
+2026-11-04 20:47:26,656 INFO o.a.j.t.JMeterThread: Thread finished: Login 2-12
+2026-11-04 20:47:27,086 INFO o.a.j.t.JMeterThread: Thread is done: Create Subtask 5-6
+2026-11-04 20:47:27,086 INFO o.a.j.t.JMeterThread: Thread finished: Create Subtask 5-6
+2026-11-04 20:47:27,145 INFO o.a.j.t.JMeterThread: Thread is done: Edit Todo 4-19
+2026-11-04 20:47:27,146 INFO o.a.j.t.JMeterThread: Thread finished: Edit Todo 4-19
+2026-11-04 20:47:27,167 INFO o.a.j.t.JMeterThread: Thread is done: Edit Todo 4-7
+2026-11-04 20:47:27,167 INFO o.a.j.t.JMeterThread: Thread finished: Edit Todo 4-7
+2026-11-04 20:47:27,305 INFO o.a.j.t.JMeterThread: Thread is done: Create Todo 3-8
+2026-11-04 20:47:27,305 INFO o.a.j.t.JMeterThread: Thread finished: Create Todo 3-8
+2026-11-04 20:47:27,358 INFO o.a.j.t.JMeterThread: Thread is done: Edit Subtask 6-2
+2026-11-04 20:47:27,359 INFO o.a.j.t.JMeterThread: Thread finished: Edit Subtask 6-2
+2026-11-04 20:47:27,395 INFO o.a.j.t.JMeterThread: Thread is done: Edit Subtask 6-1
+2026-11-04 20:47:27,395 INFO o.a.j.t.JMeterThread: Thread finished: Edit Subtask 6-1
+2026-11-04 20:47:27,589 INFO o.a.j.t.JMeterThread: Thread is done: Login 2-13
+2026-11-04 20:47:27,589 INFO o.a.j.t.JMeterThread: Thread finished: Login 2-13
+2026-11-04 20:47:27,925 INFO o.a.j.t.JMeterThread: Thread is done: Register 1-8
+2026-11-04 20:47:27,925 INFO o.a.j.t.JMeterThread: Thread finished: Register 1-8
+2026-11-04 20:47:28,187 INFO o.a.j.t.JMeterThread: Thread is done: Edit Todo 4-8
+2026-11-04 20:47:28,187 INFO o.a.j.t.JMeterThread: Thread finished: Edit Todo 4-8
+2026-11-04 20:47:28,429 INFO o.a.j.t.JMeterThread: Thread is done: Create Subtask 5-7
+2026-11-04 20:47:28,429 INFO o.a.j.t.JMeterThread: Thread finished: Create Subtask 5-7
+2026-11-04 20:47:28,576 INFO o.a.j.t.JMeterThread: Thread is done: Login 2-14
+2026-11-04 20:47:28,576 INFO o.a.j.t.JMeterThread: Thread finished: Login 2-14
+2026-11-04 20:47:28,700 INFO o.a.j.t.JMeterThread: Thread is done: Edit Subtask 6-3
+2026-11-04 20:47:28,701 INFO o.a.j.t.JMeterThread: Thread finished: Edit Subtask 6-3
+2026-11-04 20:47:29,626 INFO o.a.j.t.JMeterThread: Thread is done: Login 2-15
+2026-11-04 20:47:29,626 INFO o.a.j.t.JMeterThread: Thread finished: Login 2-15
+2026-11-04 20:47:29,636 INFO o.a.j.t.JMeterThread: Thread is done: Create Subtask 5-8
+2026-11-04 20:47:29,636 INFO o.a.j.t.JMeterThread: Thread finished: Create Subtask 5-8
+2026-11-04 20:47:29,962 INFO o.a.j.t.JMeterThread: Thread is done: Register 1-9
+2026-11-04 20:47:29,962 INFO o.a.j.t.JMeterThread: Thread finished: Register 1-9
+2026-11-04 20:47:30,085 INFO o.a.j.t.JMeterThread: Thread is done: Edit Subtask 6-4
+2026-11-04 20:47:30,086 INFO o.a.j.t.JMeterThread: Thread finished: Edit Subtask 6-4
+2026-11-04 20:47:30,294 INFO o.a.j.t.JMeterThread: Thread is done: Edit Todo 4-10
+2026-11-04 20:47:30,294 INFO o.a.j.t.JMeterThread: Thread finished: Edit Todo 4-10
+2026-11-04 20:47:30,641 INFO o.a.j.t.JMeterThread: Thread is done: Login 2-16
+2026-11-04 20:47:30,641 INFO o.a.j.t.JMeterThread: Thread finished: Login 2-16
+2026-11-04 20:47:30,942 INFO o.a.j.t.JMeterThread: Thread is done: Create Subtask 5-9
+2026-11-04 20:47:30,942 INFO o.a.j.t.JMeterThread: Thread finished: Create Subtask 5-9
+2026-11-04 20:47:31,022 INFO o.a.j.t.JMeterThread: Thread is done: Edit Subtask 6-6
+2026-11-04 20:47:31,022 INFO o.a.j.t.JMeterThread: Thread finished: Edit Subtask 6-6
+2026-11-04 20:47:31,200 INFO o.a.j.t.JMeterThread: Thread is done: Edit Todo 4-11
+2026-11-04 20:47:31,200 INFO o.a.j.t.JMeterThread: Thread finished: Edit Todo 4-11
+2026-11-04 20:47:31,355 INFO o.a.j.t.JMeterThread: Thread is done: Edit Subtask 6-5
+2026-11-04 20:47:31,356 INFO o.a.j.t.JMeterThread: Thread finished: Edit Subtask 6-5
+2026-11-04 20:47:31,590 INFO o.a.j.t.JMeterThread: Thread is done: Login 2-17
+2026-11-04 20:47:31,590 INFO o.a.j.t.JMeterThread: Thread finished: Login 2-17
+2026-11-04 20:47:32,027 INFO o.a.j.t.JMeterThread: Thread is done: Register 1-10
+2026-11-04 20:47:32,027 INFO o.a.j.t.JMeterThread: Thread finished: Register 1-10
+2026-11-04 20:47:32,290 INFO o.a.j.t.JMeterThread: Thread is done: Edit Todo 4-12
+2026-11-04 20:47:32,291 INFO o.a.j.t.JMeterThread: Thread finished: Edit Todo 4-12
+2026-11-04 20:47:32,410 INFO o.a.j.t.JMeterThread: Thread is done: Create Subtask 5-10
+2026-11-04 20:47:32,410 INFO o.a.j.t.JMeterThread: Thread finished: Create Subtask 5-10
+2026-11-04 20:47:33,290 INFO o.a.j.t.JMeterThread: Thread is done: Edit Todo 4-13
+2026-11-04 20:47:33,291 INFO o.a.j.t.JMeterThread: Thread finished: Edit Todo 4-13
+2026-11-04 20:47:33,611 INFO o.a.j.t.JMeterThread: Thread is done: Login 2-19
+2026-11-04 20:47:33,611 INFO o.a.j.t.JMeterThread: Thread finished: Login 2-19
+2026-11-04 20:47:33,751 INFO o.a.j.t.JMeterThread: Thread is done: Edit Subtask 6-8
+2026-11-04 20:47:33,751 INFO o.a.j.t.JMeterThread: Thread finished: Edit Subtask 6-8
+2026-11-04 20:47:33,789 INFO o.a.j.t.JMeterThread: Thread is done: Create Subtask 5-11
+2026-11-04 20:47:33,789 INFO o.a.j.t.JMeterThread: Thread finished: Create Subtask 5-11
+2026-11-04 20:47:33,881 INFO o.a.j.t.JMeterThread: Thread is done: Edit Subtask 6-7
+2026-11-04 20:47:33,882 INFO o.a.j.t.JMeterThread: Thread finished: Edit Subtask 6-7
+2026-11-04 20:47:34,928 INFO o.a.j.t.JMeterThread: Thread is done: Create Subtask 5-12
+2026-11-04 20:47:34,928 INFO o.a.j.t.JMeterThread: Thread finished: Create Subtask 5-12
+2026-11-04 20:47:34,967 INFO o.a.j.t.JMeterThread: Thread is done: Create Todo 3-6
+2026-11-04 20:47:34,967 INFO o.a.j.t.JMeterThread: Thread finished: Create Todo 3-6
+2026-11-04 20:47:35,340 INFO o.a.j.t.JMeterThread: Thread is done: Edit Todo 4-3
+2026-11-04 20:47:35,340 INFO o.a.j.t.JMeterThread: Thread finished: Edit Todo 4-3
+2026-11-04 20:47:36,461 INFO o.a.j.t.JMeterThread: Thread is done: Edit Todo 4-4
+2026-11-04 20:47:36,462 INFO o.a.j.t.JMeterThread: Thread finished: Edit Todo 4-4
+2026-11-04 20:47:36,473 INFO o.a.j.t.JMeterThread: Thread is done: Create Subtask 5-13
+2026-11-04 20:47:36,474 INFO o.a.j.t.JMeterThread: Thread finished: Create Subtask 5-13
+2026-11-04 20:47:36,541 INFO o.a.j.t.JMeterThread: Thread is done: Edit Subtask 6-9
+2026-11-04 20:47:36,542 INFO o.a.j.t.JMeterThread: Thread finished: Edit Subtask 6-9
+2026-11-04 20:47:37,686 INFO o.a.j.t.JMeterThread: Thread is done: Edit Subtask 6-11
+2026-11-04 20:47:37,686 INFO o.a.j.t.JMeterThread: Thread finished: Edit Subtask 6-11
+2026-11-04 20:47:37,759 INFO o.a.j.t.JMeterThread: Thread is done: Create Subtask 5-14
+2026-11-04 20:47:37,760 INFO o.a.j.t.JMeterThread: Thread finished: Create Subtask 5-14
+2026-11-04 20:47:37,949 INFO o.a.j.t.JMeterThread: Thread is done: Edit Subtask 6-10
+2026-11-04 20:47:37,949 INFO o.a.j.t.JMeterThread: Thread finished: Edit Subtask 6-10
+2026-11-04 20:47:38,352 INFO o.a.j.t.JMeterThread: Thread is done: Edit Todo 4-6
+2026-11-04 20:47:38,353 INFO o.a.j.t.JMeterThread: Thread finished: Edit Todo 4-6
+2026-11-04 20:47:38,823 INFO o.a.j.t.JMeterThread: Thread is done: Login 2-18
+2026-11-04 20:47:38,823 INFO o.a.j.t.JMeterThread: Thread finished: Login 2-18
+2026-11-04 20:47:39,030 INFO o.a.j.t.JMeterThread: Thread is done: Edit Subtask 6-12
+2026-11-04 20:47:39,030 INFO o.a.j.t.JMeterThread: Thread finished: Edit Subtask 6-12
+2026-11-04 20:47:39,084 INFO o.a.j.t.JMeterThread: Thread is done: Create Subtask 5-15
+2026-11-04 20:47:39,084 INFO o.a.j.t.JMeterThread: Thread finished: Create Subtask 5-15
+2026-11-04 20:47:39,364 INFO o.a.j.t.JMeterThread: Thread is done: Create Todo 3-20
+2026-11-04 20:47:39,364 INFO o.a.j.t.JMeterThread: Thread finished: Create Todo 3-20
+2026-11-04 20:47:39,802 INFO o.a.j.t.JMeterThread: Thread is done: Create Todo 3-11
+2026-11-04 20:47:39,802 INFO o.a.j.t.JMeterThread: Thread finished: Create Todo 3-11
+2026-11-04 20:47:40,635 INFO o.a.j.t.JMeterThread: Thread is done: Login 2-20
+2026-11-04 20:47:40,635 INFO o.a.j.t.JMeterThread: Thread finished: Login 2-20
+2026-11-04 20:47:40,964 INFO o.a.j.t.JMeterThread: Thread is done: Create Todo 3-1
+2026-11-04 20:47:40,964 INFO o.a.j.t.JMeterThread: Thread finished: Create Todo 3-1
+2026-11-04 20:47:41,516 INFO o.a.j.t.JMeterThread: Thread is done: Edit Todo 4-9
+2026-11-04 20:47:41,516 INFO o.a.j.t.JMeterThread: Thread finished: Edit Todo 4-9
+2026-11-04 20:47:41,950 INFO o.a.j.t.JMeterThread: Thread is done: Edit Subtask 6-13
+2026-11-04 20:47:41,950 INFO o.a.j.t.JMeterThread: Thread finished: Edit Subtask 6-13
+2026-11-04 20:47:42,817 INFO o.a.j.t.JMeterThread: Thread is done: Create Todo 3-14
+2026-11-04 20:47:42,827 INFO o.a.j.t.JMeterThread: Thread finished: Create Todo 3-14
+2026-11-04 20:47:43,189 INFO o.a.j.t.JMeterThread: Thread is done: Edit Subtask 6-14
+2026-11-04 20:47:43,189 INFO o.a.j.t.JMeterThread: Thread finished: Edit Subtask 6-14
+2026-11-04 20:47:43,497 INFO o.a.j.t.JMeterThread: Thread is done: Create Todo 3-5
+2026-11-04 20:47:43,497 INFO o.a.j.t.JMeterThread: Thread finished: Create Todo 3-5
+2026-11-04 20:47:44,521 INFO o.a.j.t.JMeterThread: Thread is done: Edit Subtask 6-15
+2026-11-04 20:47:44,522 INFO o.a.j.t.JMeterThread: Thread finished: Edit Subtask 6-15
+2026-11-04 20:47:46,010 INFO o.a.j.t.JMeterThread: Thread is done: Create Todo 3-17
+2026-11-04 20:47:46,010 INFO o.a.j.t.JMeterThread: Thread finished: Create Todo 3-17
+2026-11-04 20:47:47,290 INFO o.a.j.t.JMeterThread: Thread is done: Edit Todo 4-15
+2026-11-04 20:47:47,290 INFO o.a.j.t.JMeterThread: Thread finished: Edit Todo 4-15
+2026-11-04 20:47:48,395 INFO o.a.j.t.JMeterThread: Thread is done: Edit Todo 4-16
+2026-11-04 20:47:48,395 INFO o.a.j.t.JMeterThread: Thread finished: Edit Todo 4-16
+2026-11-04 20:47:48,495 INFO o.a.j.t.JMeterThread: Thread is done: Create Todo 3-10
+2026-11-04 20:47:48,496 INFO o.a.j.t.JMeterThread: Thread finished: Create Todo 3-10
+2026-11-04 20:47:49,482 INFO o.a.j.t.JMeterThread: Thread is done: Edit Todo 4-17
+2026-11-04 20:47:49,483 INFO o.a.j.t.JMeterThread: Thread finished: Edit Todo 4-17
+2026-11-04 20:47:50,504 INFO o.a.j.t.JMeterThread: Thread is done: Edit Todo 4-18
+2026-11-04 20:47:50,504 INFO o.a.j.t.JMeterThread: Thread finished: Edit Todo 4-18
+2026-11-04 20:47:51,985 INFO o.a.j.t.JMeterThread: Thread is done: Create Todo 3-4
+2026-11-04 20:47:51,985 INFO o.a.j.t.JMeterThread: Thread finished: Create Todo 3-4
+2026-11-04 20:47:52,364 INFO o.a.j.t.JMeterThread: Thread is done: Edit Todo 4-20
+2026-11-04 20:47:52,364 INFO o.a.j.t.JMeterThread: Thread finished: Edit Todo 4-20
+2026-11-04 20:47:54,507 INFO o.a.j.t.JMeterThread: Thread is done: Create Todo 3-16
+2026-11-04 20:47:54,507 INFO o.a.j.t.JMeterThread: Thread finished: Create Todo 3-16
+2026-11-04 20:48:00,431 INFO o.a.j.t.JMeterThread: Thread is done: Create Todo 3-2
+2026-11-04 20:48:00,431 INFO o.a.j.t.JMeterThread: Thread finished: Create Todo 3-2
+2026-11-04 20:48:06,367 INFO o.a.j.t.JMeterThread: Thread is done: Create Todo 3-18
+2026-11-04 20:48:06,367 INFO o.a.j.t.JMeterThread: Thread finished: Create Todo 3-18
+2026-11-04 20:48:10,758 INFO o.a.j.t.JMeterThread: Thread is done: Create Todo 3-13
+2026-11-04 20:48:10,759 INFO o.a.j.t.JMeterThread: Thread finished: Create Todo 3-13
+2026-11-04 20:48:17,005 INFO o.a.j.t.JMeterThread: Thread is done: Create Todo 3-19
+2026-11-04 20:48:17,005 INFO o.a.j.t.JMeterThread: Thread finished: Create Todo 3-19
+2026-11-04 20:48:22,542 INFO o.a.j.t.JMeterThread: Thread is done: Create Todo 3-15
+2026-11-04 20:48:22,542 INFO o.a.j.t.JMeterThread: Thread finished: Create Todo 3-15
+2026-11-04 20:49:08,029 INFO o.a.j.t.JMeterThread: Thread is done: Create Todo 3-12
+2026-11-04 20:49:08,029 INFO o.a.j.t.JMeterThread: Thread finished: Create Todo 3-12
+2026-11-04 20:49:43,487 INFO o.a.j.t.JMeterThread: Thread is done: Create Todo 3-9
+2026-11-04 20:49:43,487 INFO o.a.j.t.JMeterThread: Thread finished: Create Todo 3-9
+2026-11-04 20:49:43,489 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2026-11-04 20:49:43,489 INFO o.a.j.s.FileServer: Close: C:/Users/dj409/OneDrive/Desktop/JMeter-Team-2-project-/test-data/editTodo.csv
+2026-11-04 20:49:43,490 INFO o.a.j.s.FileServer: Close: C:/Users/dj409/OneDrive/Desktop/JMeter-Team-2-project-/test-data/createTodo.csv
+2026-11-04 20:49:43,490 INFO o.a.j.s.FileServer: Close: C:/Users/dj409/OneDrive/Desktop/JMeter-Team-2-project-/test-data/createSubtask.csv
+2026-11-04 20:49:43,490 INFO o.a.j.s.FileServer: Close: C:/Users/dj409/OneDrive/Desktop/JMeter-Team-2-project-/test-data/login.csv
+2026-11-04 20:49:43,490 INFO o.a.j.s.FileServer: Close: C:/Users/dj409/OneDrive/Desktop/JMeter-Team-2-project-/test-data/editSubtask.csv
+2026-11-04 20:49:43,495 INFO o.a.j.r.Summariser: summary =      0 in 00:00:00 = ******/s Avg:     0 Min: 9223372036854775807 Max: -9223372036854775808 Err:     0 (0.00%)
+2026-11-04 20:49:43,498 INFO o.a.j.JMeter: Generating Dashboard
+2026-11-04 20:49:43,498 INFO o.a.j.r.d.ReportGenerator: Flushing result collector before report Generation
+2026-11-04 20:49:43,539 INFO o.a.j.r.p.NormalizerSampleConsumer: Using format, 'ms', to parse timeStamp field
+2026-11-04 20:49:43,732 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.AggregateConsumer#stopProducing(): beginDate produced 0 samples
+2026-11-04 20:49:43,732 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.AggregateConsumer#stopProducing(): endDate produced 0 samples
+2026-11-04 20:49:43,736 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.ApdexSummaryConsumer#stopProducing(): apdexSummary produced 0 samples
+2026-11-04 20:49:43,737 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.RequestsSummaryConsumer#stopProducing(): requestsSummary produced 0 samples
+2026-11-04 20:49:43,744 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.StatisticsSummaryConsumer#stopProducing(): statisticsSummary produced 0 samples
+2026-11-04 20:49:43,748 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.Top5ErrorsBySamplerConsumer#stopProducing(): top5ErrorsBySampler produced 0 samples
+2026-11-04 20:49:43,748 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.ErrorsSummaryConsumer#stopProducing(): errorsSummary produced 0 samples
+2026-11-04 20:49:43,748 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.HitsPerSecondGraphConsumer#stopProducing(): hitsPerSecond produced 0 samples
+2026-11-04 20:49:43,813 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.LatencyVSRequestGraphConsumer#stopProducing(): latencyVsRequest produced 0 samples
+2026-11-04 20:49:43,814 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.SyntheticResponseTimeDistributionGraphConsumer#stopProducing(): syntheticResponseTimeDistribution produced 0 samples
+2026-11-04 20:49:43,814 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.BytesThroughputGraphConsumer#stopProducing(): bytesThroughputOverTime produced 0 samples
+2026-11-04 20:49:43,815 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.CodesPerSecondGraphConsumer#stopProducing(): codesPerSecond produced 0 samples
+2026-11-04 20:49:43,846 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimeVSRequestGraphConsumer#stopProducing(): responseTimeVsRequest produced 0 samples
+2026-11-04 20:49:43,847 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.FilterConsumer#stopProducing(): startIntervalControlerFilter produced 6132 samples
+2026-11-04 20:49:43,847 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.TotalTPSGraphConsumer#stopProducing(): totalTPS produced 0 samples
+2026-11-04 20:49:43,847 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ActiveThreadsGraphConsumer#stopProducing(): activeThreadsOverTime produced 0 samples
+2026-11-04 20:49:43,847 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.TimeVSThreadGraphConsumer#stopProducing(): timeVsThreads produced 0 samples
+2026-11-04 20:49:43,849 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimeDistributionGraphConsumer#stopProducing(): responseTimeDistribution produced 0 samples
+2026-11-04 20:49:43,850 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.TransactionsPerSecondGraphConsumer#stopProducing(): transactionsPerSecond produced 0 samples
+2026-11-04 20:49:43,850 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimePercentilesGraphConsumer#stopProducing(): responseTimePercentiles produced 0 samples
+2026-11-04 20:49:43,859 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimePercentilesOverTimeGraphConsumer#stopProducing(): responseTimePercentilesOverTime produced 0 samples
+2026-11-04 20:49:43,859 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimeOverTimeGraphConsumer#stopProducing(): responseTimesOverTime produced 0 samples
+2026-11-04 20:49:43,860 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ConnectTimeOverTimeGraphConsumer#stopProducing(): connectTimeOverTime produced 0 samples
+2026-11-04 20:49:43,860 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.LatencyOverTimeGraphConsumer#stopProducing(): latenciesOverTime produced 0 samples
+2026-11-04 20:49:43,860 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.FilterConsumer#stopProducing(): nameFilter produced 14640 samples
+2026-11-04 20:49:43,860 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.FilterConsumer#stopProducing(): dateRangeFilter produced 2928 samples
+2026-11-04 20:49:43,860 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.NormalizerSampleConsumer#stopProducing(): normalizer produced 976 samples
+2026-11-04 20:49:43,861 INFO o.a.j.r.p.CsvFileSampleSource: produce(): 976 samples produced in 288ms on channel 0
+2026-11-04 20:49:43,861 INFO o.a.j.r.d.ReportGenerator: Exporting data using exporter:'json' of className:'org.apache.jmeter.report.dashboard.JsonExporter'
+2026-11-04 20:49:43,982 INFO o.a.j.r.d.JsonExporter: Found data for consumer statisticsSummary in context
+2026-11-04 20:49:43,982 INFO o.a.j.r.d.JsonExporter: Creating statistics for overall
+2026-11-04 20:49:43,983 INFO o.a.j.r.d.JsonExporter: Creating statistics for other transactions
+2026-11-04 20:49:43,997 INFO o.a.j.r.d.JsonExporter: Checking output folder
+2026-11-04 20:49:43,999 INFO o.a.j.r.d.JsonExporter: Writing statistics JSON to C:\Users\dj409\OneDrive\Desktop\JMeter-Team-2-project-\JMeter-Scripts\HTMLReport\statistics.json
+2026-11-04 20:49:44,097 INFO o.a.j.r.d.ReportGenerator: Exporting data using exporter:'html' of className:'org.apache.jmeter.report.dashboard.HtmlTemplateExporter'
+2026-11-04 20:49:44,102 INFO o.a.j.r.d.HtmlTemplateExporter: Will generate dashboard in folder: C:\Users\dj409\OneDrive\Desktop\JMeter-Team-2-project-\JMeter-Scripts\HTMLReport
+2026-11-04 20:49:44,396 INFO o.a.j.r.d.HtmlTemplateExporter: Report will be generated in: C:\Users\dj409\OneDrive\Desktop\JMeter-Team-2-project-\JMeter-Scripts\HTMLReport, creating folder structure
+2026-11-04 20:49:44,398 INFO o.a.j.r.d.TemplateVisitor: Copying folder from 'C:\Program Files\apache-jmeter-5.6.3\bin\report-template' to 'C:\Users\dj409\OneDrive\Desktop\JMeter-Team-2-project-\JMeter-Scripts\HTMLReport', got message: C:\Users\dj409\OneDrive\Desktop\JMeter-Team-2-project-\JMeter-Scripts\HTMLReport, found non empty folder with following content [C:\Users\dj409\OneDrive\Desktop\JMeter-Team-2-project-\JMeter-Scripts\HTMLReport\statistics.json], will be ignored
+2026-11-04 20:49:45,082 INFO o.a.j.JMeter: Dashboard generated
