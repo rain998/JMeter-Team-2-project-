@@ -1,2 +1,7 @@
 We should save our JMeter scripts in this folder
-Command to run the test: jmeter -n -t TodoPerformanceTest.jmx -l results.jtl -e -o HTMLReport
+Command to run the load test: jmeter -n -t TodoPerformanceTest.jmx -l ./results/load-test-results.jtl -e -o load-test-html-report
+The -n flag tells jmeter to run without the GUI
+The -t flag and the following parameter tells jmeter what jmx file to run
+The -l flag and the following parameter tells jmeter where to store the results file
+The -e flag tells jmeter to create an HTML report
+The -o flag and the following parameter tells jmeter where to store the HTML report directory
