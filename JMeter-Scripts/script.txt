@@ -1,1 +1,2 @@
 We should save our JMeter scripts in this folder
+Command to run the test: jmeter -n -t TodoPerformanceTest.jmx -l results.jtl -e -o HTMLReport

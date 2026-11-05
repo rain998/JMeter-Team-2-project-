@@ -1,461 +1,639 @@
-2026-11-04 20:46:52,606 INFO o.a.j.u.JMeterUtils: Setting Locale to en_EN
-2026-11-04 20:46:52,629 INFO o.a.j.JMeter: Loading user properties from: C:\Program Files\apache-jmeter-5.6.3\bin\user.properties
-2026-11-04 20:46:52,629 INFO o.a.j.JMeter: Loading system properties from: C:\Program Files\apache-jmeter-5.6.3\bin\system.properties
-2026-11-04 20:46:52,637 INFO o.a.j.JMeter: Copyright (c) 1998-2024 The Apache Software Foundation
-2026-11-04 20:46:52,637 INFO o.a.j.JMeter: Version 5.6.3
-2026-11-04 20:46:52,637 INFO o.a.j.JMeter: java.version=21.0.13
-2026-11-04 20:46:52,637 INFO o.a.j.JMeter: java.vm.name=OpenJDK 64-Bit Server VM
-2026-11-04 20:46:52,637 INFO o.a.j.JMeter: os.name=Windows 11
-2026-11-04 20:46:52,637 INFO o.a.j.JMeter: os.arch=amd64
-2026-11-04 20:46:52,637 INFO o.a.j.JMeter: os.version=10.0
-2026-11-04 20:46:52,637 INFO o.a.j.JMeter: file.encoding=UTF-8
-2026-11-04 20:46:52,637 INFO o.a.j.JMeter: java.awt.headless=true
-2026-11-04 20:46:52,637 INFO o.a.j.JMeter: Max memory     =1073741824
-2026-11-04 20:46:52,637 INFO o.a.j.JMeter: Available Processors =12
-2026-11-04 20:46:52,649 INFO o.a.j.JMeter: Default Locale=English (EN)
-2026-11-04 20:46:52,649 INFO o.a.j.JMeter: JMeter  Locale=English (EN)
-2026-11-04 20:46:52,649 INFO o.a.j.JMeter: JMeterHome=C:\Program Files\apache-jmeter-5.6.3
-2026-11-04 20:46:52,649 INFO o.a.j.JMeter: user.dir  =C:\Users\dj409\OneDrive\Desktop\JMeter-Team-2-project-\JMeter-Scripts
-2026-11-04 20:46:52,650 INFO o.a.j.JMeter: PWD       =C:\Users\dj409\OneDrive\Desktop\JMeter-Team-2-project-\JMeter-Scripts
-2026-11-04 20:46:52,686 INFO o.a.j.JMeter: IP: 192.168.40.176 Name: DG2PC FullName: DG2PC.home.arpa
-2026-11-04 20:46:52,704 INFO o.a.j.JMeter: Setting property 'jmeter.reportgenerator.outputdir' to:'C:\Users\dj409\OneDrive\Desktop\JMeter-Team-2-project-\JMeter-Scripts\HTMLReport'
-2026-11-04 20:46:52,706 INFO o.a.j.s.FileServer: Default base='C:\Users\dj409\OneDrive\Desktop\JMeter-Team-2-project-\JMeter-Scripts'
-2026-11-04 20:46:52,708 INFO o.a.j.s.FileServer: Set new base='C:\Users\dj409\OneDrive\Desktop\JMeter-Team-2-project-\JMeter-Scripts'
-2026-11-04 20:46:52,935 INFO o.a.j.s.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2
-2026-11-04 20:46:52,974 INFO o.a.j.s.SaveService: Using SaveService properties version 5.0
-2026-11-04 20:46:52,978 INFO o.a.j.s.SaveService: Using SaveService properties file encoding UTF-8
-2026-11-04 20:46:52,982 INFO o.a.j.s.SaveService: Loading file: TodoPerformanceTest.jmx
-2026-11-04 20:46:53,041 INFO o.a.j.p.h.c.CookieManager: Settings: Delete null: true Check: true Allow variable: true Save: false Prefix: COOKIE_
-2026-11-04 20:46:53,076 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
-2026-11-04 20:46:53,077 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
-2026-11-04 20:46:53,077 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
-2026-11-04 20:46:53,077 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
-2026-11-04 20:46:53,077 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser
-2026-11-04 20:46:53,077 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser
-2026-11-04 20:46:53,286 INFO o.a.j.JMeter: Creating summariser <summary>
-2026-11-04 20:46:53,293 INFO o.a.j.r.d.ReportGenerator: ReportGenerator will use for Parsing the separator: ','
-2026-11-04 20:46:53,293 INFO o.a.j.r.d.ReportGenerator: Will generate report at end of test from  results file: results.jtl
-2026-11-04 20:46:53,293 INFO o.a.j.r.d.ReportGenerator: Reading report generator properties from: C:\Program Files\apache-jmeter-5.6.3\bin\reportgenerator.properties
-2026-11-04 20:46:53,296 INFO o.a.j.r.d.ReportGenerator: Merging with JMeter properties
-2026-11-04 20:46:53,303 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.temp_dir' not found, using default value 'temp' instead.
-2026-11-04 20:46:53,306 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.apdex_per_transaction' not found, using default value 'null' instead.
-2026-11-04 20:46:53,306 INFO o.a.j.r.c.ReportGeneratorConfiguration: apdex_per_transaction is empty, not APDEX per transaction customization
-2026-11-04 20:46:53,306 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.sample_filter' not found, using default value 'null' instead.
-2026-11-04 20:46:53,307 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.report_title' not found, using default value 'null' instead.
-2026-11-04 20:46:53,307 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.start_date' not found, using default value 'null' instead.
-2026-11-04 20:46:53,307 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.end_date' not found, using default value 'null' instead.
-2026-11-04 20:46:53,307 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.date_format' not found, using default value 'null' instead.
-2026-11-04 20:46:53,307 INFO o.a.j.r.c.ReportGeneratorConfiguration: Will use date range start date: null, end date: null
-2026-11-04 20:46:53,314 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.totalTPS.exclude_controllers' not found, using default value 'false' instead.
-2026-11-04 20:46:53,314 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.activeThreadsOverTime.exclude_controllers' not found, using default value 'false' instead.
-2026-11-04 20:46:53,314 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.timeVsThreads.exclude_controllers' not found, using default value 'false' instead.
-2026-11-04 20:46:53,314 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimeDistribution.exclude_controllers' not found, using default value 'false' instead.
-2026-11-04 20:46:53,314 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.transactionsPerSecond.exclude_controllers' not found, using default value 'false' instead.
-2026-11-04 20:46:53,315 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimePercentiles.exclude_controllers' not found, using default value 'false' instead.
-2026-11-04 20:46:53,315 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimePercentilesOverTime.exclude_controllers' not found, using default value 'false' instead.
-2026-11-04 20:46:53,315 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimesOverTime.exclude_controllers' not found, using default value 'false' instead.
-2026-11-04 20:46:53,315 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.connectTimeOverTime.exclude_controllers' not found, using default value 'false' instead.
-2026-11-04 20:46:53,316 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.latenciesOverTime.exclude_controllers' not found, using default value 'false' instead.
-2026-11-04 20:46:53,317 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.json.filters_only_sample_series' not found, using default value 'true' instead.
-2026-11-04 20:46:53,317 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.json.series_filter' not found, using default value '' instead.
-2026-11-04 20:46:53,317 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.json.show_controllers_only' not found, using default value 'false' instead.
-2026-11-04 20:46:53,317 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.html.filters_only_sample_series' not found, using default value 'true' instead.
-2026-11-04 20:46:53,317 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.html.series_filter' not found, using default value '' instead.
-2026-11-04 20:46:53,319 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.html.show_controllers_only' not found, using default value 'false' instead.
-2026-11-04 20:46:53,337 INFO o.a.j.e.StandardJMeterEngine: Running the test!
-2026-11-04 20:46:53,339 INFO o.a.j.s.SampleEvent: List of sample_variables: []
-2026-11-04 20:46:53,339 INFO o.a.j.s.SampleEvent: List of sample_variables: []
-2026-11-04 20:46:53,345 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must contain the string: '.functions.'
-2026-11-04 20:46:53,345 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must not contain the string: '.gui.'
-2026-11-04 20:46:53,759 INFO o.a.j.JMeter: Running test (1793846813759)
-2026-11-04 20:46:53,779 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Register
-2026-11-04 20:46:53,779 INFO o.a.j.e.StandardJMeterEngine: Starting 10 threads for group Register.
-2026-11-04 20:46:53,779 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
-2026-11-04 20:46:53,779 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=10 ramp-up=20 delayedStart=false
-2026-11-04 20:46:53,793 INFO o.a.j.s.SampleResult: Note: Sample TimeStamps are START times
-2026-11-04 20:46:53,793 INFO o.a.j.s.SampleResult: sampleresult.default.encoding is set to UTF-8
-2026-11-04 20:46:53,793 INFO o.a.j.s.SampleResult: sampleresult.useNanoTime=true
-2026-11-04 20:46:53,793 INFO o.a.j.s.SampleResult: sampleresult.nanoThreadSleep=5000
-2026-11-04 20:46:53,795 INFO o.a.j.t.ThreadGroup: Started thread group number 1
-2026-11-04 20:46:53,795 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 2 : Login
-2026-11-04 20:46:53,795 INFO o.a.j.e.StandardJMeterEngine: Starting 20 threads for group Login.
-2026-11-04 20:46:53,795 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
-2026-11-04 20:46:53,795 INFO o.a.j.t.ThreadGroup: Starting thread group... number=2 threads=20 ramp-up=20 delayedStart=false
-2026-11-04 20:46:53,795 INFO o.a.j.t.JMeterThread: Thread started: Register 1-1
-2026-11-04 20:46:53,819 INFO o.a.j.t.JMeterThread: Thread started: Login 2-1
-2026-11-04 20:46:53,820 INFO o.a.j.s.FileServer: Stored: C:/Users/dj409/OneDrive/Desktop/JMeter-Team-2-project-/test-data/login.csv
-2026-11-04 20:46:53,826 INFO o.a.j.t.ThreadGroup: Started thread group number 2
-2026-11-04 20:46:53,826 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 3 : Create Todo
-2026-11-04 20:46:53,826 INFO o.a.j.e.StandardJMeterEngine: Starting 20 threads for group Create Todo.
-2026-11-04 20:46:53,826 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
-2026-11-04 20:46:53,826 INFO o.a.j.t.ThreadGroup: Starting thread group... number=3 threads=20 ramp-up=20 delayedStart=false
-2026-11-04 20:46:53,828 INFO o.a.j.p.h.s.HTTPHCAbstractImpl: Local host = DG2PC
-2026-11-04 20:46:53,829 INFO o.a.j.t.JMeterThread: Thread started: Create Todo 3-1
-2026-11-04 20:46:53,843 INFO o.a.j.p.h.s.HTTPHC4Impl: HTTP request retry count = 0
-2026-11-04 20:46:53,854 INFO o.a.j.t.ThreadGroup: Started thread group number 3
-2026-11-04 20:46:53,854 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 4 : Edit Todo
-2026-11-04 20:46:53,854 INFO o.a.j.e.StandardJMeterEngine: Starting 20 threads for group Edit Todo.
-2026-11-04 20:46:53,854 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
-2026-11-04 20:46:53,854 INFO o.a.j.t.ThreadGroup: Starting thread group... number=4 threads=20 ramp-up=20 delayedStart=false
-2026-11-04 20:46:53,857 INFO o.a.j.t.JMeterThread: Thread started: Edit Todo 4-1
-2026-11-04 20:46:53,862 INFO o.a.j.s.FileServer: Stored: C:/Users/dj409/OneDrive/Desktop/JMeter-Team-2-project-/test-data/editTodo.csv
-2026-11-04 20:46:53,863 INFO o.a.j.s.FileServer: Stored: C:/Users/dj409/OneDrive/Desktop/JMeter-Team-2-project-/test-data/createTodo.csv
-2026-11-04 20:46:53,887 INFO o.a.j.t.ThreadGroup: Started thread group number 4
-2026-11-04 20:46:53,887 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 5 : Create Subtask
-2026-11-04 20:46:53,887 INFO o.a.j.e.StandardJMeterEngine: Starting 15 threads for group Create Subtask.
-2026-11-04 20:46:53,887 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
-2026-11-04 20:46:53,887 INFO o.a.j.t.ThreadGroup: Starting thread group... number=5 threads=15 ramp-up=20 delayedStart=false
-2026-11-04 20:46:53,889 INFO o.a.j.t.JMeterThread: Thread started: Create Subtask 5-1
-2026-11-04 20:46:53,890 INFO o.a.j.s.FileServer: Stored: C:/Users/dj409/OneDrive/Desktop/JMeter-Team-2-project-/test-data/createSubtask.csv
-2026-11-04 20:46:53,902 INFO o.a.j.t.ThreadGroup: Started thread group number 5
-2026-11-04 20:46:53,902 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 6 : Edit Subtask
-2026-11-04 20:46:53,902 INFO o.a.j.e.StandardJMeterEngine: Starting 15 threads for group Edit Subtask.
-2026-11-04 20:46:53,902 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
-2026-11-04 20:46:53,902 INFO o.a.j.t.ThreadGroup: Starting thread group... number=6 threads=15 ramp-up=20 delayedStart=false
-2026-11-04 20:46:53,905 INFO o.a.j.t.JMeterThread: Thread started: Edit Subtask 6-1
-2026-11-04 20:46:53,922 INFO o.a.j.s.FileServer: Stored: C:/Users/dj409/OneDrive/Desktop/JMeter-Team-2-project-/test-data/editSubtask.csv
-2026-11-04 20:46:53,927 INFO o.a.j.t.ThreadGroup: Started thread group number 6
-2026-11-04 20:46:53,927 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
-2026-11-04 20:46:54,822 INFO o.a.j.t.JMeterThread: Thread started: Login 2-2
-2026-11-04 20:46:54,835 INFO o.a.j.t.JMeterThread: Thread started: Create Todo 3-2
-2026-11-04 20:46:54,857 INFO o.a.j.t.JMeterThread: Thread started: Edit Todo 4-2
-2026-11-04 20:46:55,223 INFO o.a.j.t.JMeterThread: Thread started: Create Subtask 5-2
-2026-11-04 20:46:55,237 INFO o.a.j.t.JMeterThread: Thread started: Edit Subtask 6-2
-2026-11-04 20:46:55,791 INFO o.a.j.t.JMeterThread: Thread started: Register 1-2
-2026-11-04 20:46:55,817 INFO o.a.j.t.JMeterThread: Thread started: Login 2-3
-2026-11-04 20:46:55,830 INFO o.a.j.t.JMeterThread: Thread started: Create Todo 3-3
-2026-11-04 20:46:55,856 INFO o.a.j.t.JMeterThread: Thread started: Edit Todo 4-3
-2026-11-04 20:46:56,556 INFO o.a.j.t.JMeterThread: Thread started: Create Subtask 5-3
-2026-11-04 20:46:56,570 INFO o.a.j.t.JMeterThread: Thread started: Edit Subtask 6-3
-2026-11-04 20:46:56,822 INFO o.a.j.t.JMeterThread: Thread started: Login 2-4
-2026-11-04 20:46:56,829 INFO o.a.j.t.JMeterThread: Thread started: Create Todo 3-4
-2026-11-04 20:46:56,858 INFO o.a.j.t.JMeterThread: Thread started: Edit Todo 4-4
-2026-11-04 20:46:57,790 INFO o.a.j.t.JMeterThread: Thread started: Register 1-3
-2026-11-04 20:46:57,815 INFO o.a.j.t.JMeterThread: Thread started: Login 2-5
-2026-11-04 20:46:57,830 INFO o.a.j.t.JMeterThread: Thread started: Create Todo 3-5
-2026-11-04 20:46:57,857 INFO o.a.j.t.JMeterThread: Thread started: Edit Todo 4-5
-2026-11-04 20:46:57,889 INFO o.a.j.t.JMeterThread: Thread started: Create Subtask 5-4
-2026-11-04 20:46:57,904 INFO o.a.j.t.JMeterThread: Thread started: Edit Subtask 6-4
-2026-11-04 20:46:58,815 INFO o.a.j.t.JMeterThread: Thread started: Login 2-6
-2026-11-04 20:46:58,829 INFO o.a.j.t.JMeterThread: Thread started: Create Todo 3-6
-2026-11-04 20:46:58,858 INFO o.a.j.t.JMeterThread: Thread started: Edit Todo 4-6
-2026-11-04 20:46:59,220 INFO o.a.j.t.JMeterThread: Thread started: Create Subtask 5-5
-2026-11-04 20:46:59,238 INFO o.a.j.t.JMeterThread: Thread started: Edit Subtask 6-5
-2026-11-04 20:46:59,789 INFO o.a.j.t.JMeterThread: Thread started: Register 1-4
-2026-11-04 20:46:59,816 INFO o.a.j.t.JMeterThread: Thread started: Login 2-7
-2026-11-04 20:46:59,830 INFO o.a.j.t.JMeterThread: Thread started: Create Todo 3-7
-2026-11-04 20:46:59,856 INFO o.a.j.t.JMeterThread: Thread started: Edit Todo 4-7
-2026-11-04 20:47:00,554 INFO o.a.j.t.JMeterThread: Thread started: Create Subtask 5-6
-2026-11-04 20:47:00,571 INFO o.a.j.t.JMeterThread: Thread started: Edit Subtask 6-6
-2026-11-04 20:47:00,808 INFO o.a.j.t.JMeterThread: Thread started: Login 2-8
-2026-11-04 20:47:00,829 INFO o.a.j.t.JMeterThread: Thread started: Create Todo 3-8
-2026-11-04 20:47:00,857 INFO o.a.j.t.JMeterThread: Thread started: Edit Todo 4-8
-2026-11-04 20:47:01,787 INFO o.a.j.t.JMeterThread: Thread started: Register 1-5
-2026-11-04 20:47:01,812 INFO o.a.j.t.JMeterThread: Thread started: Login 2-9
-2026-11-04 20:47:01,829 INFO o.a.j.t.JMeterThread: Thread started: Create Todo 3-9
-2026-11-04 20:47:01,857 INFO o.a.j.t.JMeterThread: Thread started: Edit Todo 4-9
-2026-11-04 20:47:01,887 INFO o.a.j.t.JMeterThread: Thread started: Create Subtask 5-7
-2026-11-04 20:47:01,901 INFO o.a.j.t.JMeterThread: Thread started: Edit Subtask 6-7
-2026-11-04 20:47:02,810 INFO o.a.j.t.JMeterThread: Thread started: Login 2-10
-2026-11-04 20:47:02,828 INFO o.a.j.t.JMeterThread: Thread started: Create Todo 3-10
-2026-11-04 20:47:02,859 INFO o.a.j.t.JMeterThread: Thread started: Edit Todo 4-10
-2026-11-04 20:47:03,220 INFO o.a.j.t.JMeterThread: Thread started: Create Subtask 5-8
-2026-11-04 20:47:03,235 INFO o.a.j.t.JMeterThread: Thread started: Edit Subtask 6-8
-2026-11-04 20:47:03,787 INFO o.a.j.t.JMeterThread: Thread started: Register 1-6
-2026-11-04 20:47:03,810 INFO o.a.j.t.JMeterThread: Thread started: Login 2-11
-2026-11-04 20:47:03,829 INFO o.a.j.t.JMeterThread: Thread started: Create Todo 3-11
-2026-11-04 20:47:03,858 INFO o.a.j.t.JMeterThread: Thread started: Edit Todo 4-11
-2026-11-04 20:47:04,554 INFO o.a.j.t.JMeterThread: Thread started: Create Subtask 5-9
-2026-11-04 20:47:04,576 INFO o.a.j.t.JMeterThread: Thread started: Edit Subtask 6-9
-2026-11-04 20:47:04,808 INFO o.a.j.t.JMeterThread: Thread started: Login 2-12
-2026-11-04 20:47:04,829 INFO o.a.j.t.JMeterThread: Thread started: Create Todo 3-12
-2026-11-04 20:47:04,857 INFO o.a.j.t.JMeterThread: Thread started: Edit Todo 4-12
-2026-11-04 20:47:05,785 INFO o.a.j.t.JMeterThread: Thread started: Register 1-7
-2026-11-04 20:47:05,807 INFO o.a.j.t.JMeterThread: Thread started: Login 2-13
-2026-11-04 20:47:05,828 INFO o.a.j.t.JMeterThread: Thread started: Create Todo 3-13
-2026-11-04 20:47:05,857 INFO o.a.j.t.JMeterThread: Thread started: Edit Todo 4-13
-2026-11-04 20:47:05,887 INFO o.a.j.t.JMeterThread: Thread started: Create Subtask 5-10
-2026-11-04 20:47:05,907 INFO o.a.j.t.JMeterThread: Thread started: Edit Subtask 6-10
-2026-11-04 20:47:06,805 INFO o.a.j.t.JMeterThread: Thread started: Login 2-14
-2026-11-04 20:47:06,828 INFO o.a.j.t.JMeterThread: Thread started: Create Todo 3-14
-2026-11-04 20:47:06,858 INFO o.a.j.t.JMeterThread: Thread started: Edit Todo 4-14
-2026-11-04 20:47:07,220 INFO o.a.j.t.JMeterThread: Thread started: Create Subtask 5-11
-2026-11-04 20:47:07,234 INFO o.a.j.t.JMeterThread: Thread started: Edit Subtask 6-11
-2026-11-04 20:47:07,784 INFO o.a.j.t.JMeterThread: Thread started: Register 1-8
-2026-11-04 20:47:07,800 INFO o.a.j.t.JMeterThread: Thread started: Login 2-15
-2026-11-04 20:47:07,827 INFO o.a.j.t.JMeterThread: Thread started: Create Todo 3-15
-2026-11-04 20:47:07,858 INFO o.a.j.t.JMeterThread: Thread started: Edit Todo 4-15
-2026-11-04 20:47:08,552 INFO o.a.j.t.JMeterThread: Thread started: Create Subtask 5-12
-2026-11-04 20:47:08,567 INFO o.a.j.t.JMeterThread: Thread started: Edit Subtask 6-12
-2026-11-04 20:47:08,802 INFO o.a.j.t.JMeterThread: Thread started: Login 2-16
-2026-11-04 20:47:08,830 INFO o.a.j.t.JMeterThread: Thread started: Create Todo 3-16
-2026-11-04 20:47:08,856 INFO o.a.j.t.JMeterThread: Thread started: Edit Todo 4-16
-2026-11-04 20:47:09,783 INFO o.a.j.t.JMeterThread: Thread started: Register 1-9
-2026-11-04 20:47:09,800 INFO o.a.j.t.JMeterThread: Thread started: Login 2-17
-2026-11-04 20:47:09,831 INFO o.a.j.t.JMeterThread: Thread started: Create Todo 3-17
-2026-11-04 20:47:09,857 INFO o.a.j.t.JMeterThread: Thread started: Edit Todo 4-17
-2026-11-04 20:47:09,887 INFO o.a.j.t.JMeterThread: Thread started: Create Subtask 5-13
-2026-11-04 20:47:09,902 INFO o.a.j.t.JMeterThread: Thread started: Edit Subtask 6-13
-2026-11-04 20:47:10,800 INFO o.a.j.t.JMeterThread: Thread started: Login 2-18
-2026-11-04 20:47:10,827 INFO o.a.j.t.JMeterThread: Thread started: Create Todo 3-18
-2026-11-04 20:47:10,856 INFO o.a.j.t.JMeterThread: Thread started: Edit Todo 4-18
-2026-11-04 20:47:11,219 INFO o.a.j.t.JMeterThread: Thread started: Create Subtask 5-14
-2026-11-04 20:47:11,235 INFO o.a.j.t.JMeterThread: Thread started: Edit Subtask 6-14
-2026-11-04 20:47:11,783 INFO o.a.j.t.JMeterThread: Thread started: Register 1-10
-2026-11-04 20:47:11,798 INFO o.a.j.t.JMeterThread: Thread started: Login 2-19
-2026-11-04 20:47:11,832 INFO o.a.j.t.JMeterThread: Thread started: Create Todo 3-19
-2026-11-04 20:47:11,857 INFO o.a.j.t.JMeterThread: Thread started: Edit Todo 4-19
-2026-11-04 20:47:12,553 INFO o.a.j.t.JMeterThread: Thread started: Create Subtask 5-15
-2026-11-04 20:47:12,567 INFO o.a.j.t.JMeterThread: Thread started: Edit Subtask 6-15
-2026-11-04 20:47:12,798 INFO o.a.j.t.JMeterThread: Thread started: Login 2-20
-2026-11-04 20:47:12,829 INFO o.a.j.t.JMeterThread: Thread started: Create Todo 3-20
-2026-11-04 20:47:12,857 INFO o.a.j.t.JMeterThread: Thread started: Edit Todo 4-20
-2026-11-04 20:47:14,513 INFO o.a.j.t.JMeterThread: Thread is done: Register 1-1
-2026-11-04 20:47:14,513 INFO o.a.j.t.JMeterThread: Thread finished: Register 1-1
-2026-11-04 20:47:15,959 INFO o.a.j.t.JMeterThread: Thread is done: Register 1-2
-2026-11-04 20:47:15,959 INFO o.a.j.t.JMeterThread: Thread finished: Register 1-2
-2026-11-04 20:47:17,135 INFO o.a.j.t.JMeterThread: Thread is done: Login 2-2
-2026-11-04 20:47:17,135 INFO o.a.j.t.JMeterThread: Thread finished: Login 2-2
-2026-11-04 20:47:17,178 INFO o.a.j.t.JMeterThread: Thread is done: Login 2-1
-2026-11-04 20:47:17,178 INFO o.a.j.t.JMeterThread: Thread finished: Login 2-1
-2026-11-04 20:47:17,599 INFO o.a.j.t.JMeterThread: Thread is done: Login 2-3
-2026-11-04 20:47:17,599 INFO o.a.j.t.JMeterThread: Thread finished: Login 2-3
-2026-11-04 20:47:17,989 INFO o.a.j.t.JMeterThread: Thread is done: Register 1-3
-2026-11-04 20:47:17,989 INFO o.a.j.t.JMeterThread: Thread finished: Register 1-3
-2026-11-04 20:47:18,584 INFO o.a.j.t.JMeterThread: Thread is done: Login 2-4
-2026-11-04 20:47:18,584 INFO o.a.j.t.JMeterThread: Thread finished: Login 2-4
-2026-11-04 20:47:19,735 INFO o.a.j.t.JMeterThread: Thread is done: Login 2-5
-2026-11-04 20:47:19,735 INFO o.a.j.t.JMeterThread: Thread finished: Login 2-5
-2026-11-04 20:47:19,955 INFO o.a.j.t.JMeterThread: Thread is done: Register 1-4
-2026-11-04 20:47:19,955 INFO o.a.j.t.JMeterThread: Thread finished: Register 1-4
-2026-11-04 20:47:20,657 INFO o.a.j.t.JMeterThread: Thread is done: Login 2-6
-2026-11-04 20:47:20,658 INFO o.a.j.t.JMeterThread: Thread finished: Login 2-6
-2026-11-04 20:47:21,616 INFO o.a.j.t.JMeterThread: Thread is done: Login 2-7
-2026-11-04 20:47:21,616 INFO o.a.j.t.JMeterThread: Thread finished: Login 2-7
-2026-11-04 20:47:21,780 INFO o.a.j.t.JMeterThread: Thread is done: Create Subtask 5-2
-2026-11-04 20:47:21,782 INFO o.a.j.t.JMeterThread: Thread finished: Create Subtask 5-2
-2026-11-04 20:47:21,879 INFO o.a.j.t.JMeterThread: Thread is done: Create Subtask 5-1
-2026-11-04 20:47:21,879 INFO o.a.j.t.JMeterThread: Thread finished: Create Subtask 5-1
-2026-11-04 20:47:22,062 INFO o.a.j.t.JMeterThread: Thread is done: Register 1-5
-2026-11-04 20:47:22,063 INFO o.a.j.t.JMeterThread: Thread finished: Register 1-5
-2026-11-04 20:47:22,144 INFO o.a.j.t.JMeterThread: Thread is done: Edit Todo 4-14
-2026-11-04 20:47:22,144 INFO o.a.j.t.JMeterThread: Thread finished: Edit Todo 4-14
-2026-11-04 20:47:22,368 INFO o.a.j.t.JMeterThread: Thread is done: Create Todo 3-3
-2026-11-04 20:47:22,368 INFO o.a.j.t.JMeterThread: Thread finished: Create Todo 3-3
-2026-11-04 20:47:22,526 INFO o.a.j.t.JMeterThread: Thread is done: Login 2-8
-2026-11-04 20:47:22,527 INFO o.a.j.t.JMeterThread: Thread finished: Login 2-8
-2026-11-04 20:47:22,792 INFO o.a.j.t.JMeterThread: Thread is done: Edit Todo 4-1
-2026-11-04 20:47:22,792 INFO o.a.j.t.JMeterThread: Thread finished: Edit Todo 4-1
-2026-11-04 20:47:22,917 INFO o.a.j.t.JMeterThread: Thread is done: Edit Todo 4-2
-2026-11-04 20:47:22,917 INFO o.a.j.t.JMeterThread: Thread finished: Edit Todo 4-2
-2026-11-04 20:47:22,994 INFO o.a.j.t.JMeterThread: Thread is done: Create Subtask 5-3
-2026-11-04 20:47:22,994 INFO o.a.j.t.JMeterThread: Thread finished: Create Subtask 5-3
-2026-11-04 20:47:23,666 INFO o.a.j.t.JMeterThread: Thread is done: Login 2-9
-2026-11-04 20:47:23,666 INFO o.a.j.t.JMeterThread: Thread finished: Login 2-9
-2026-11-04 20:47:24,014 INFO o.a.j.t.JMeterThread: Thread is done: Register 1-6
-2026-11-04 20:47:24,014 INFO o.a.j.t.JMeterThread: Thread finished: Register 1-6
-2026-11-04 20:47:24,493 INFO o.a.j.t.JMeterThread: Thread is done: Create Subtask 5-4
-2026-11-04 20:47:24,493 INFO o.a.j.t.JMeterThread: Thread finished: Create Subtask 5-4
-2026-11-04 20:47:24,607 INFO o.a.j.t.JMeterThread: Thread is done: Login 2-10
-2026-11-04 20:47:24,607 INFO o.a.j.t.JMeterThread: Thread finished: Login 2-10
-2026-11-04 20:47:25,323 INFO o.a.j.t.JMeterThread: Thread is done: Edit Todo 4-5
-2026-11-04 20:47:25,324 INFO o.a.j.t.JMeterThread: Thread finished: Edit Todo 4-5
-2026-11-04 20:47:25,628 INFO o.a.j.t.JMeterThread: Thread is done: Login 2-11
-2026-11-04 20:47:25,628 INFO o.a.j.t.JMeterThread: Thread finished: Login 2-11
-2026-11-04 20:47:25,688 INFO o.a.j.t.JMeterThread: Thread is done: Create Subtask 5-5
-2026-11-04 20:47:25,688 INFO o.a.j.t.JMeterThread: Thread finished: Create Subtask 5-5
-2026-11-04 20:47:26,008 INFO o.a.j.t.JMeterThread: Thread is done: Register 1-7
-2026-11-04 20:47:26,008 INFO o.a.j.t.JMeterThread: Thread finished: Register 1-7
-2026-11-04 20:47:26,270 INFO o.a.j.t.JMeterThread: Thread is done: Create Todo 3-7
-2026-11-04 20:47:26,270 INFO o.a.j.t.JMeterThread: Thread finished: Create Todo 3-7
-2026-11-04 20:47:26,656 INFO o.a.j.t.JMeterThread: Thread is done: Login 2-12
-2026-11-04 20:47:26,656 INFO o.a.j.t.JMeterThread: Thread finished: Login 2-12
-2026-11-04 20:47:27,086 INFO o.a.j.t.JMeterThread: Thread is done: Create Subtask 5-6
-2026-11-04 20:47:27,086 INFO o.a.j.t.JMeterThread: Thread finished: Create Subtask 5-6
-2026-11-04 20:47:27,145 INFO o.a.j.t.JMeterThread: Thread is done: Edit Todo 4-19
-2026-11-04 20:47:27,146 INFO o.a.j.t.JMeterThread: Thread finished: Edit Todo 4-19
-2026-11-04 20:47:27,167 INFO o.a.j.t.JMeterThread: Thread is done: Edit Todo 4-7
-2026-11-04 20:47:27,167 INFO o.a.j.t.JMeterThread: Thread finished: Edit Todo 4-7
-2026-11-04 20:47:27,305 INFO o.a.j.t.JMeterThread: Thread is done: Create Todo 3-8
-2026-11-04 20:47:27,305 INFO o.a.j.t.JMeterThread: Thread finished: Create Todo 3-8
-2026-11-04 20:47:27,358 INFO o.a.j.t.JMeterThread: Thread is done: Edit Subtask 6-2
-2026-11-04 20:47:27,359 INFO o.a.j.t.JMeterThread: Thread finished: Edit Subtask 6-2
-2026-11-04 20:47:27,395 INFO o.a.j.t.JMeterThread: Thread is done: Edit Subtask 6-1
-2026-11-04 20:47:27,395 INFO o.a.j.t.JMeterThread: Thread finished: Edit Subtask 6-1
-2026-11-04 20:47:27,589 INFO o.a.j.t.JMeterThread: Thread is done: Login 2-13
-2026-11-04 20:47:27,589 INFO o.a.j.t.JMeterThread: Thread finished: Login 2-13
-2026-11-04 20:47:27,925 INFO o.a.j.t.JMeterThread: Thread is done: Register 1-8
-2026-11-04 20:47:27,925 INFO o.a.j.t.JMeterThread: Thread finished: Register 1-8
-2026-11-04 20:47:28,187 INFO o.a.j.t.JMeterThread: Thread is done: Edit Todo 4-8
-2026-11-04 20:47:28,187 INFO o.a.j.t.JMeterThread: Thread finished: Edit Todo 4-8
-2026-11-04 20:47:28,429 INFO o.a.j.t.JMeterThread: Thread is done: Create Subtask 5-7
-2026-11-04 20:47:28,429 INFO o.a.j.t.JMeterThread: Thread finished: Create Subtask 5-7
-2026-11-04 20:47:28,576 INFO o.a.j.t.JMeterThread: Thread is done: Login 2-14
-2026-11-04 20:47:28,576 INFO o.a.j.t.JMeterThread: Thread finished: Login 2-14
-2026-11-04 20:47:28,700 INFO o.a.j.t.JMeterThread: Thread is done: Edit Subtask 6-3
-2026-11-04 20:47:28,701 INFO o.a.j.t.JMeterThread: Thread finished: Edit Subtask 6-3
-2026-11-04 20:47:29,626 INFO o.a.j.t.JMeterThread: Thread is done: Login 2-15
-2026-11-04 20:47:29,626 INFO o.a.j.t.JMeterThread: Thread finished: Login 2-15
-2026-11-04 20:47:29,636 INFO o.a.j.t.JMeterThread: Thread is done: Create Subtask 5-8
-2026-11-04 20:47:29,636 INFO o.a.j.t.JMeterThread: Thread finished: Create Subtask 5-8
-2026-11-04 20:47:29,962 INFO o.a.j.t.JMeterThread: Thread is done: Register 1-9
-2026-11-04 20:47:29,962 INFO o.a.j.t.JMeterThread: Thread finished: Register 1-9
-2026-11-04 20:47:30,085 INFO o.a.j.t.JMeterThread: Thread is done: Edit Subtask 6-4
-2026-11-04 20:47:30,086 INFO o.a.j.t.JMeterThread: Thread finished: Edit Subtask 6-4
-2026-11-04 20:47:30,294 INFO o.a.j.t.JMeterThread: Thread is done: Edit Todo 4-10
-2026-11-04 20:47:30,294 INFO o.a.j.t.JMeterThread: Thread finished: Edit Todo 4-10
-2026-11-04 20:47:30,641 INFO o.a.j.t.JMeterThread: Thread is done: Login 2-16
-2026-11-04 20:47:30,641 INFO o.a.j.t.JMeterThread: Thread finished: Login 2-16
-2026-11-04 20:47:30,942 INFO o.a.j.t.JMeterThread: Thread is done: Create Subtask 5-9
-2026-11-04 20:47:30,942 INFO o.a.j.t.JMeterThread: Thread finished: Create Subtask 5-9
-2026-11-04 20:47:31,022 INFO o.a.j.t.JMeterThread: Thread is done: Edit Subtask 6-6
-2026-11-04 20:47:31,022 INFO o.a.j.t.JMeterThread: Thread finished: Edit Subtask 6-6
-2026-11-04 20:47:31,200 INFO o.a.j.t.JMeterThread: Thread is done: Edit Todo 4-11
-2026-11-04 20:47:31,200 INFO o.a.j.t.JMeterThread: Thread finished: Edit Todo 4-11
-2026-11-04 20:47:31,355 INFO o.a.j.t.JMeterThread: Thread is done: Edit Subtask 6-5
-2026-11-04 20:47:31,356 INFO o.a.j.t.JMeterThread: Thread finished: Edit Subtask 6-5
-2026-11-04 20:47:31,590 INFO o.a.j.t.JMeterThread: Thread is done: Login 2-17
-2026-11-04 20:47:31,590 INFO o.a.j.t.JMeterThread: Thread finished: Login 2-17
-2026-11-04 20:47:32,027 INFO o.a.j.t.JMeterThread: Thread is done: Register 1-10
-2026-11-04 20:47:32,027 INFO o.a.j.t.JMeterThread: Thread finished: Register 1-10
-2026-11-04 20:47:32,290 INFO o.a.j.t.JMeterThread: Thread is done: Edit Todo 4-12
-2026-11-04 20:47:32,291 INFO o.a.j.t.JMeterThread: Thread finished: Edit Todo 4-12
-2026-11-04 20:47:32,410 INFO o.a.j.t.JMeterThread: Thread is done: Create Subtask 5-10
-2026-11-04 20:47:32,410 INFO o.a.j.t.JMeterThread: Thread finished: Create Subtask 5-10
-2026-11-04 20:47:33,290 INFO o.a.j.t.JMeterThread: Thread is done: Edit Todo 4-13
-2026-11-04 20:47:33,291 INFO o.a.j.t.JMeterThread: Thread finished: Edit Todo 4-13
-2026-11-04 20:47:33,611 INFO o.a.j.t.JMeterThread: Thread is done: Login 2-19
-2026-11-04 20:47:33,611 INFO o.a.j.t.JMeterThread: Thread finished: Login 2-19
-2026-11-04 20:47:33,751 INFO o.a.j.t.JMeterThread: Thread is done: Edit Subtask 6-8
-2026-11-04 20:47:33,751 INFO o.a.j.t.JMeterThread: Thread finished: Edit Subtask 6-8
-2026-11-04 20:47:33,789 INFO o.a.j.t.JMeterThread: Thread is done: Create Subtask 5-11
-2026-11-04 20:47:33,789 INFO o.a.j.t.JMeterThread: Thread finished: Create Subtask 5-11
-2026-11-04 20:47:33,881 INFO o.a.j.t.JMeterThread: Thread is done: Edit Subtask 6-7
-2026-11-04 20:47:33,882 INFO o.a.j.t.JMeterThread: Thread finished: Edit Subtask 6-7
-2026-11-04 20:47:34,928 INFO o.a.j.t.JMeterThread: Thread is done: Create Subtask 5-12
-2026-11-04 20:47:34,928 INFO o.a.j.t.JMeterThread: Thread finished: Create Subtask 5-12
-2026-11-04 20:47:34,967 INFO o.a.j.t.JMeterThread: Thread is done: Create Todo 3-6
-2026-11-04 20:47:34,967 INFO o.a.j.t.JMeterThread: Thread finished: Create Todo 3-6
-2026-11-04 20:47:35,340 INFO o.a.j.t.JMeterThread: Thread is done: Edit Todo 4-3
-2026-11-04 20:47:35,340 INFO o.a.j.t.JMeterThread: Thread finished: Edit Todo 4-3
-2026-11-04 20:47:36,461 INFO o.a.j.t.JMeterThread: Thread is done: Edit Todo 4-4
-2026-11-04 20:47:36,462 INFO o.a.j.t.JMeterThread: Thread finished: Edit Todo 4-4
-2026-11-04 20:47:36,473 INFO o.a.j.t.JMeterThread: Thread is done: Create Subtask 5-13
-2026-11-04 20:47:36,474 INFO o.a.j.t.JMeterThread: Thread finished: Create Subtask 5-13
-2026-11-04 20:47:36,541 INFO o.a.j.t.JMeterThread: Thread is done: Edit Subtask 6-9
-2026-11-04 20:47:36,542 INFO o.a.j.t.JMeterThread: Thread finished: Edit Subtask 6-9
-2026-11-04 20:47:37,686 INFO o.a.j.t.JMeterThread: Thread is done: Edit Subtask 6-11
-2026-11-04 20:47:37,686 INFO o.a.j.t.JMeterThread: Thread finished: Edit Subtask 6-11
-2026-11-04 20:47:37,759 INFO o.a.j.t.JMeterThread: Thread is done: Create Subtask 5-14
-2026-11-04 20:47:37,760 INFO o.a.j.t.JMeterThread: Thread finished: Create Subtask 5-14
-2026-11-04 20:47:37,949 INFO o.a.j.t.JMeterThread: Thread is done: Edit Subtask 6-10
-2026-11-04 20:47:37,949 INFO o.a.j.t.JMeterThread: Thread finished: Edit Subtask 6-10
-2026-11-04 20:47:38,352 INFO o.a.j.t.JMeterThread: Thread is done: Edit Todo 4-6
-2026-11-04 20:47:38,353 INFO o.a.j.t.JMeterThread: Thread finished: Edit Todo 4-6
-2026-11-04 20:47:38,823 INFO o.a.j.t.JMeterThread: Thread is done: Login 2-18
-2026-11-04 20:47:38,823 INFO o.a.j.t.JMeterThread: Thread finished: Login 2-18
-2026-11-04 20:47:39,030 INFO o.a.j.t.JMeterThread: Thread is done: Edit Subtask 6-12
-2026-11-04 20:47:39,030 INFO o.a.j.t.JMeterThread: Thread finished: Edit Subtask 6-12
-2026-11-04 20:47:39,084 INFO o.a.j.t.JMeterThread: Thread is done: Create Subtask 5-15
-2026-11-04 20:47:39,084 INFO o.a.j.t.JMeterThread: Thread finished: Create Subtask 5-15
-2026-11-04 20:47:39,364 INFO o.a.j.t.JMeterThread: Thread is done: Create Todo 3-20
-2026-11-04 20:47:39,364 INFO o.a.j.t.JMeterThread: Thread finished: Create Todo 3-20
-2026-11-04 20:47:39,802 INFO o.a.j.t.JMeterThread: Thread is done: Create Todo 3-11
-2026-11-04 20:47:39,802 INFO o.a.j.t.JMeterThread: Thread finished: Create Todo 3-11
-2026-11-04 20:47:40,635 INFO o.a.j.t.JMeterThread: Thread is done: Login 2-20
-2026-11-04 20:47:40,635 INFO o.a.j.t.JMeterThread: Thread finished: Login 2-20
-2026-11-04 20:47:40,964 INFO o.a.j.t.JMeterThread: Thread is done: Create Todo 3-1
-2026-11-04 20:47:40,964 INFO o.a.j.t.JMeterThread: Thread finished: Create Todo 3-1
-2026-11-04 20:47:41,516 INFO o.a.j.t.JMeterThread: Thread is done: Edit Todo 4-9
-2026-11-04 20:47:41,516 INFO o.a.j.t.JMeterThread: Thread finished: Edit Todo 4-9
-2026-11-04 20:47:41,950 INFO o.a.j.t.JMeterThread: Thread is done: Edit Subtask 6-13
-2026-11-04 20:47:41,950 INFO o.a.j.t.JMeterThread: Thread finished: Edit Subtask 6-13
-2026-11-04 20:47:42,817 INFO o.a.j.t.JMeterThread: Thread is done: Create Todo 3-14
-2026-11-04 20:47:42,827 INFO o.a.j.t.JMeterThread: Thread finished: Create Todo 3-14
-2026-11-04 20:47:43,189 INFO o.a.j.t.JMeterThread: Thread is done: Edit Subtask 6-14
-2026-11-04 20:47:43,189 INFO o.a.j.t.JMeterThread: Thread finished: Edit Subtask 6-14
-2026-11-04 20:47:43,497 INFO o.a.j.t.JMeterThread: Thread is done: Create Todo 3-5
-2026-11-04 20:47:43,497 INFO o.a.j.t.JMeterThread: Thread finished: Create Todo 3-5
-2026-11-04 20:47:44,521 INFO o.a.j.t.JMeterThread: Thread is done: Edit Subtask 6-15
-2026-11-04 20:47:44,522 INFO o.a.j.t.JMeterThread: Thread finished: Edit Subtask 6-15
-2026-11-04 20:47:46,010 INFO o.a.j.t.JMeterThread: Thread is done: Create Todo 3-17
-2026-11-04 20:47:46,010 INFO o.a.j.t.JMeterThread: Thread finished: Create Todo 3-17
-2026-11-04 20:47:47,290 INFO o.a.j.t.JMeterThread: Thread is done: Edit Todo 4-15
-2026-11-04 20:47:47,290 INFO o.a.j.t.JMeterThread: Thread finished: Edit Todo 4-15
-2026-11-04 20:47:48,395 INFO o.a.j.t.JMeterThread: Thread is done: Edit Todo 4-16
-2026-11-04 20:47:48,395 INFO o.a.j.t.JMeterThread: Thread finished: Edit Todo 4-16
-2026-11-04 20:47:48,495 INFO o.a.j.t.JMeterThread: Thread is done: Create Todo 3-10
-2026-11-04 20:47:48,496 INFO o.a.j.t.JMeterThread: Thread finished: Create Todo 3-10
-2026-11-04 20:47:49,482 INFO o.a.j.t.JMeterThread: Thread is done: Edit Todo 4-17
-2026-11-04 20:47:49,483 INFO o.a.j.t.JMeterThread: Thread finished: Edit Todo 4-17
-2026-11-04 20:47:50,504 INFO o.a.j.t.JMeterThread: Thread is done: Edit Todo 4-18
-2026-11-04 20:47:50,504 INFO o.a.j.t.JMeterThread: Thread finished: Edit Todo 4-18
-2026-11-04 20:47:51,985 INFO o.a.j.t.JMeterThread: Thread is done: Create Todo 3-4
-2026-11-04 20:47:51,985 INFO o.a.j.t.JMeterThread: Thread finished: Create Todo 3-4
-2026-11-04 20:47:52,364 INFO o.a.j.t.JMeterThread: Thread is done: Edit Todo 4-20
-2026-11-04 20:47:52,364 INFO o.a.j.t.JMeterThread: Thread finished: Edit Todo 4-20
-2026-11-04 20:47:54,507 INFO o.a.j.t.JMeterThread: Thread is done: Create Todo 3-16
-2026-11-04 20:47:54,507 INFO o.a.j.t.JMeterThread: Thread finished: Create Todo 3-16
-2026-11-04 20:48:00,431 INFO o.a.j.t.JMeterThread: Thread is done: Create Todo 3-2
-2026-11-04 20:48:00,431 INFO o.a.j.t.JMeterThread: Thread finished: Create Todo 3-2
-2026-11-04 20:48:06,367 INFO o.a.j.t.JMeterThread: Thread is done: Create Todo 3-18
-2026-11-04 20:48:06,367 INFO o.a.j.t.JMeterThread: Thread finished: Create Todo 3-18
-2026-11-04 20:48:10,758 INFO o.a.j.t.JMeterThread: Thread is done: Create Todo 3-13
-2026-11-04 20:48:10,759 INFO o.a.j.t.JMeterThread: Thread finished: Create Todo 3-13
-2026-11-04 20:48:17,005 INFO o.a.j.t.JMeterThread: Thread is done: Create Todo 3-19
-2026-11-04 20:48:17,005 INFO o.a.j.t.JMeterThread: Thread finished: Create Todo 3-19
-2026-11-04 20:48:22,542 INFO o.a.j.t.JMeterThread: Thread is done: Create Todo 3-15
-2026-11-04 20:48:22,542 INFO o.a.j.t.JMeterThread: Thread finished: Create Todo 3-15
-2026-11-04 20:49:08,029 INFO o.a.j.t.JMeterThread: Thread is done: Create Todo 3-12
-2026-11-04 20:49:08,029 INFO o.a.j.t.JMeterThread: Thread finished: Create Todo 3-12
-2026-11-04 20:49:43,487 INFO o.a.j.t.JMeterThread: Thread is done: Create Todo 3-9
-2026-11-04 20:49:43,487 INFO o.a.j.t.JMeterThread: Thread finished: Create Todo 3-9
-2026-11-04 20:49:43,489 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
-2026-11-04 20:49:43,489 INFO o.a.j.s.FileServer: Close: C:/Users/dj409/OneDrive/Desktop/JMeter-Team-2-project-/test-data/editTodo.csv
-2026-11-04 20:49:43,490 INFO o.a.j.s.FileServer: Close: C:/Users/dj409/OneDrive/Desktop/JMeter-Team-2-project-/test-data/createTodo.csv
-2026-11-04 20:49:43,490 INFO o.a.j.s.FileServer: Close: C:/Users/dj409/OneDrive/Desktop/JMeter-Team-2-project-/test-data/createSubtask.csv
-2026-11-04 20:49:43,490 INFO o.a.j.s.FileServer: Close: C:/Users/dj409/OneDrive/Desktop/JMeter-Team-2-project-/test-data/login.csv
-2026-11-04 20:49:43,490 INFO o.a.j.s.FileServer: Close: C:/Users/dj409/OneDrive/Desktop/JMeter-Team-2-project-/test-data/editSubtask.csv
-2026-11-04 20:49:43,495 INFO o.a.j.r.Summariser: summary =      0 in 00:00:00 = ******/s Avg:     0 Min: 9223372036854775807 Max: -9223372036854775808 Err:     0 (0.00%)
-2026-11-04 20:49:43,498 INFO o.a.j.JMeter: Generating Dashboard
-2026-11-04 20:49:43,498 INFO o.a.j.r.d.ReportGenerator: Flushing result collector before report Generation
-2026-11-04 20:49:43,539 INFO o.a.j.r.p.NormalizerSampleConsumer: Using format, 'ms', to parse timeStamp field
-2026-11-04 20:49:43,732 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.AggregateConsumer#stopProducing(): beginDate produced 0 samples
-2026-11-04 20:49:43,732 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.AggregateConsumer#stopProducing(): endDate produced 0 samples
-2026-11-04 20:49:43,736 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.ApdexSummaryConsumer#stopProducing(): apdexSummary produced 0 samples
-2026-11-04 20:49:43,737 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.RequestsSummaryConsumer#stopProducing(): requestsSummary produced 0 samples
-2026-11-04 20:49:43,744 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.StatisticsSummaryConsumer#stopProducing(): statisticsSummary produced 0 samples
-2026-11-04 20:49:43,748 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.Top5ErrorsBySamplerConsumer#stopProducing(): top5ErrorsBySampler produced 0 samples
-2026-11-04 20:49:43,748 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.ErrorsSummaryConsumer#stopProducing(): errorsSummary produced 0 samples
-2026-11-04 20:49:43,748 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.HitsPerSecondGraphConsumer#stopProducing(): hitsPerSecond produced 0 samples
-2026-11-04 20:49:43,813 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.LatencyVSRequestGraphConsumer#stopProducing(): latencyVsRequest produced 0 samples
-2026-11-04 20:49:43,814 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.SyntheticResponseTimeDistributionGraphConsumer#stopProducing(): syntheticResponseTimeDistribution produced 0 samples
-2026-11-04 20:49:43,814 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.BytesThroughputGraphConsumer#stopProducing(): bytesThroughputOverTime produced 0 samples
-2026-11-04 20:49:43,815 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.CodesPerSecondGraphConsumer#stopProducing(): codesPerSecond produced 0 samples
-2026-11-04 20:49:43,846 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimeVSRequestGraphConsumer#stopProducing(): responseTimeVsRequest produced 0 samples
-2026-11-04 20:49:43,847 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.FilterConsumer#stopProducing(): startIntervalControlerFilter produced 6132 samples
-2026-11-04 20:49:43,847 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.TotalTPSGraphConsumer#stopProducing(): totalTPS produced 0 samples
-2026-11-04 20:49:43,847 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ActiveThreadsGraphConsumer#stopProducing(): activeThreadsOverTime produced 0 samples
-2026-11-04 20:49:43,847 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.TimeVSThreadGraphConsumer#stopProducing(): timeVsThreads produced 0 samples
-2026-11-04 20:49:43,849 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimeDistributionGraphConsumer#stopProducing(): responseTimeDistribution produced 0 samples
-2026-11-04 20:49:43,850 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.TransactionsPerSecondGraphConsumer#stopProducing(): transactionsPerSecond produced 0 samples
-2026-11-04 20:49:43,850 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimePercentilesGraphConsumer#stopProducing(): responseTimePercentiles produced 0 samples
-2026-11-04 20:49:43,859 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimePercentilesOverTimeGraphConsumer#stopProducing(): responseTimePercentilesOverTime produced 0 samples
-2026-11-04 20:49:43,859 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimeOverTimeGraphConsumer#stopProducing(): responseTimesOverTime produced 0 samples
-2026-11-04 20:49:43,860 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ConnectTimeOverTimeGraphConsumer#stopProducing(): connectTimeOverTime produced 0 samples
-2026-11-04 20:49:43,860 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.LatencyOverTimeGraphConsumer#stopProducing(): latenciesOverTime produced 0 samples
-2026-11-04 20:49:43,860 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.FilterConsumer#stopProducing(): nameFilter produced 14640 samples
-2026-11-04 20:49:43,860 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.FilterConsumer#stopProducing(): dateRangeFilter produced 2928 samples
-2026-11-04 20:49:43,860 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.NormalizerSampleConsumer#stopProducing(): normalizer produced 976 samples
-2026-11-04 20:49:43,861 INFO o.a.j.r.p.CsvFileSampleSource: produce(): 976 samples produced in 288ms on channel 0
-2026-11-04 20:49:43,861 INFO o.a.j.r.d.ReportGenerator: Exporting data using exporter:'json' of className:'org.apache.jmeter.report.dashboard.JsonExporter'
-2026-11-04 20:49:43,982 INFO o.a.j.r.d.JsonExporter: Found data for consumer statisticsSummary in context
-2026-11-04 20:49:43,982 INFO o.a.j.r.d.JsonExporter: Creating statistics for overall
-2026-11-04 20:49:43,983 INFO o.a.j.r.d.JsonExporter: Creating statistics for other transactions
-2026-11-04 20:49:43,997 INFO o.a.j.r.d.JsonExporter: Checking output folder
-2026-11-04 20:49:43,999 INFO o.a.j.r.d.JsonExporter: Writing statistics JSON to C:\Users\dj409\OneDrive\Desktop\JMeter-Team-2-project-\JMeter-Scripts\HTMLReport\statistics.json
-2026-11-04 20:49:44,097 INFO o.a.j.r.d.ReportGenerator: Exporting data using exporter:'html' of className:'org.apache.jmeter.report.dashboard.HtmlTemplateExporter'
-2026-11-04 20:49:44,102 INFO o.a.j.r.d.HtmlTemplateExporter: Will generate dashboard in folder: C:\Users\dj409\OneDrive\Desktop\JMeter-Team-2-project-\JMeter-Scripts\HTMLReport
-2026-11-04 20:49:44,396 INFO o.a.j.r.d.HtmlTemplateExporter: Report will be generated in: C:\Users\dj409\OneDrive\Desktop\JMeter-Team-2-project-\JMeter-Scripts\HTMLReport, creating folder structure
-2026-11-04 20:49:44,398 INFO o.a.j.r.d.TemplateVisitor: Copying folder from 'C:\Program Files\apache-jmeter-5.6.3\bin\report-template' to 'C:\Users\dj409\OneDrive\Desktop\JMeter-Team-2-project-\JMeter-Scripts\HTMLReport', got message: C:\Users\dj409\OneDrive\Desktop\JMeter-Team-2-project-\JMeter-Scripts\HTMLReport, found non empty folder with following content [C:\Users\dj409\OneDrive\Desktop\JMeter-Team-2-project-\JMeter-Scripts\HTMLReport\statistics.json], will be ignored
-2026-11-04 20:49:45,082 INFO o.a.j.JMeter: Dashboard generated
+2026-11-05 08:34:19,672 INFO o.a.j.u.JMeterUtils: Setting Locale to en_EN
+2026-11-05 08:34:19,689 INFO o.a.j.JMeter: Loading user properties from: C:\Program Files\apache-jmeter-5.6.3\bin\user.properties
+2026-11-05 08:34:19,689 INFO o.a.j.JMeter: Loading system properties from: C:\Program Files\apache-jmeter-5.6.3\bin\system.properties
+2026-11-05 08:34:19,695 INFO o.a.j.JMeter: Copyright (c) 1998-2024 The Apache Software Foundation
+2026-11-05 08:34:19,696 INFO o.a.j.JMeter: Version 5.6.3
+2026-11-05 08:34:19,696 INFO o.a.j.JMeter: java.version=21.0.13
+2026-11-05 08:34:19,696 INFO o.a.j.JMeter: java.vm.name=OpenJDK 64-Bit Server VM
+2026-11-05 08:34:19,696 INFO o.a.j.JMeter: os.name=Windows 11
+2026-11-05 08:34:19,696 INFO o.a.j.JMeter: os.arch=amd64
+2026-11-05 08:34:19,710 INFO o.a.j.JMeter: os.version=10.0
+2026-11-05 08:34:19,710 INFO o.a.j.JMeter: file.encoding=UTF-8
+2026-11-05 08:34:19,710 INFO o.a.j.JMeter: java.awt.headless=true
+2026-11-05 08:34:19,710 INFO o.a.j.JMeter: Max memory     =1073741824
+2026-11-05 08:34:19,710 INFO o.a.j.JMeter: Available Processors =12
+2026-11-05 08:34:19,719 INFO o.a.j.JMeter: Default Locale=English (EN)
+2026-11-05 08:34:19,719 INFO o.a.j.JMeter: JMeter  Locale=English (EN)
+2026-11-05 08:34:19,719 INFO o.a.j.JMeter: JMeterHome=C:\Program Files\apache-jmeter-5.6.3
+2026-11-05 08:34:19,719 INFO o.a.j.JMeter: user.dir  =C:\Users\dj409\OneDrive\Desktop\JMeter-Team-2-project-\JMeter-Scripts
+2026-11-05 08:34:19,720 INFO o.a.j.JMeter: PWD       =C:\Users\dj409\OneDrive\Desktop\JMeter-Team-2-project-\JMeter-Scripts
+2026-11-05 08:34:19,758 INFO o.a.j.JMeter: IP: 192.168.40.176 Name: DG2PC FullName: DG2PC.home.arpa
+2026-11-05 08:34:19,768 INFO o.a.j.JMeter: Setting property 'jmeter.reportgenerator.outputdir' to:'C:\Users\dj409\OneDrive\Desktop\JMeter-Team-2-project-\JMeter-Scripts\HTMLReport'
+2026-11-05 08:34:19,770 INFO o.a.j.s.FileServer: Default base='C:\Users\dj409\OneDrive\Desktop\JMeter-Team-2-project-\JMeter-Scripts'
+2026-11-05 08:34:19,771 INFO o.a.j.s.FileServer: Set new base='C:\Users\dj409\OneDrive\Desktop\JMeter-Team-2-project-\JMeter-Scripts'
+2026-11-05 08:34:19,929 INFO o.a.j.s.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2
+2026-11-05 08:34:19,961 INFO o.a.j.s.SaveService: Using SaveService properties version 5.0
+2026-11-05 08:34:19,963 INFO o.a.j.s.SaveService: Using SaveService properties file encoding UTF-8
+2026-11-05 08:34:19,966 INFO o.a.j.s.SaveService: Loading file: TodoPerformanceTest.jmx
+2026-11-05 08:34:20,003 INFO o.a.j.p.h.c.CookieManager: Settings: Delete null: true Check: true Allow variable: true Save: false Prefix: COOKIE_
+2026-11-05 08:34:20,023 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2026-11-05 08:34:20,023 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2026-11-05 08:34:20,023 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2026-11-05 08:34:20,023 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2026-11-05 08:34:20,023 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser
+2026-11-05 08:34:20,023 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser
+2026-11-05 08:34:20,140 INFO o.a.j.JMeter: Creating summariser <summary>
+2026-11-05 08:34:20,145 INFO o.a.j.r.d.ReportGenerator: ReportGenerator will use for Parsing the separator: ','
+2026-11-05 08:34:20,146 INFO o.a.j.r.d.ReportGenerator: Will generate report at end of test from  results file: results.jtl
+2026-11-05 08:34:20,146 INFO o.a.j.r.d.ReportGenerator: Reading report generator properties from: C:\Program Files\apache-jmeter-5.6.3\bin\reportgenerator.properties
+2026-11-05 08:34:20,155 INFO o.a.j.r.d.ReportGenerator: Merging with JMeter properties
+2026-11-05 08:34:20,161 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.temp_dir' not found, using default value 'temp' instead.
+2026-11-05 08:34:20,162 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.apdex_per_transaction' not found, using default value 'null' instead.
+2026-11-05 08:34:20,162 INFO o.a.j.r.c.ReportGeneratorConfiguration: apdex_per_transaction is empty, not APDEX per transaction customization
+2026-11-05 08:34:20,162 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.sample_filter' not found, using default value 'null' instead.
+2026-11-05 08:34:20,163 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.report_title' not found, using default value 'null' instead.
+2026-11-05 08:34:20,163 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.start_date' not found, using default value 'null' instead.
+2026-11-05 08:34:20,163 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.end_date' not found, using default value 'null' instead.
+2026-11-05 08:34:20,163 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.date_format' not found, using default value 'null' instead.
+2026-11-05 08:34:20,163 INFO o.a.j.r.c.ReportGeneratorConfiguration: Will use date range start date: null, end date: null
+2026-11-05 08:34:20,167 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.totalTPS.exclude_controllers' not found, using default value 'false' instead.
+2026-11-05 08:34:20,167 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.activeThreadsOverTime.exclude_controllers' not found, using default value 'false' instead.
+2026-11-05 08:34:20,167 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.timeVsThreads.exclude_controllers' not found, using default value 'false' instead.
+2026-11-05 08:34:20,167 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimeDistribution.exclude_controllers' not found, using default value 'false' instead.
+2026-11-05 08:34:20,167 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.transactionsPerSecond.exclude_controllers' not found, using default value 'false' instead.
+2026-11-05 08:34:20,167 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimePercentiles.exclude_controllers' not found, using default value 'false' instead.
+2026-11-05 08:34:20,167 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimePercentilesOverTime.exclude_controllers' not found, using default value 'false' instead.
+2026-11-05 08:34:20,167 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimesOverTime.exclude_controllers' not found, using default value 'false' instead.
+2026-11-05 08:34:20,168 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.connectTimeOverTime.exclude_controllers' not found, using default value 'false' instead.
+2026-11-05 08:34:20,168 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.latenciesOverTime.exclude_controllers' not found, using default value 'false' instead.
+2026-11-05 08:34:20,168 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.json.filters_only_sample_series' not found, using default value 'true' instead.
+2026-11-05 08:34:20,168 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.json.series_filter' not found, using default value '' instead.
+2026-11-05 08:34:20,168 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.json.show_controllers_only' not found, using default value 'false' instead.
+2026-11-05 08:34:20,169 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.html.filters_only_sample_series' not found, using default value 'true' instead.
+2026-11-05 08:34:20,169 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.html.series_filter' not found, using default value '' instead.
+2026-11-05 08:34:20,169 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.html.show_controllers_only' not found, using default value 'false' instead.
+2026-11-05 08:34:20,179 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2026-11-05 08:34:20,180 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2026-11-05 08:34:20,181 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2026-11-05 08:34:20,183 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must contain the string: '.functions.'
+2026-11-05 08:34:20,183 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must not contain the string: '.gui.'
+2026-11-05 08:34:20,448 INFO o.a.j.JMeter: Running test (1793889260448)
+2026-11-05 08:34:20,464 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Register
+2026-11-05 08:34:20,464 INFO o.a.j.e.StandardJMeterEngine: Starting 10 threads for group Register.
+2026-11-05 08:34:20,464 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2026-11-05 08:34:20,464 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=10 ramp-up=30 delayedStart=false
+2026-11-05 08:34:20,472 INFO o.a.j.s.SampleResult: Note: Sample TimeStamps are START times
+2026-11-05 08:34:20,473 INFO o.a.j.s.SampleResult: sampleresult.default.encoding is set to UTF-8
+2026-11-05 08:34:20,473 INFO o.a.j.s.SampleResult: sampleresult.useNanoTime=true
+2026-11-05 08:34:20,473 INFO o.a.j.s.SampleResult: sampleresult.nanoThreadSleep=5000
+2026-11-05 08:34:20,474 INFO o.a.j.t.JMeterThread: Thread started: Register 1-1
+2026-11-05 08:34:20,475 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2026-11-05 08:34:20,475 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 2 : Login
+2026-11-05 08:34:20,475 INFO o.a.j.e.StandardJMeterEngine: Starting 20 threads for group Login.
+2026-11-05 08:34:20,475 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2026-11-05 08:34:20,475 INFO o.a.j.t.ThreadGroup: Starting thread group... number=2 threads=20 ramp-up=30 delayedStart=false
+2026-11-05 08:34:20,497 INFO o.a.j.t.JMeterThread: Thread started: Login 2-1
+2026-11-05 08:34:20,498 INFO o.a.j.s.FileServer: Stored: C:/Users/dj409/OneDrive/Desktop/JMeter-Team-2-project-/test-data/login.csv
+2026-11-05 08:34:20,500 INFO o.a.j.t.ThreadGroup: Started thread group number 2
+2026-11-05 08:34:20,500 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 3 : Create Todo
+2026-11-05 08:34:20,500 INFO o.a.j.e.StandardJMeterEngine: Starting 20 threads for group Create Todo.
+2026-11-05 08:34:20,500 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2026-11-05 08:34:20,500 INFO o.a.j.t.ThreadGroup: Starting thread group... number=3 threads=20 ramp-up=30 delayedStart=false
+2026-11-05 08:34:20,502 INFO o.a.j.p.h.s.HTTPHCAbstractImpl: Local host = DG2PC
+2026-11-05 08:34:20,502 INFO o.a.j.t.JMeterThread: Thread started: Create Todo 3-1
+2026-11-05 08:34:20,517 INFO o.a.j.t.ThreadGroup: Started thread group number 3
+2026-11-05 08:34:20,517 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 4 : Edit Todo
+2026-11-05 08:34:20,517 INFO o.a.j.e.StandardJMeterEngine: Starting 20 threads for group Edit Todo.
+2026-11-05 08:34:20,517 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2026-11-05 08:34:20,517 INFO o.a.j.t.ThreadGroup: Starting thread group... number=4 threads=20 ramp-up=30 delayedStart=false
+2026-11-05 08:34:20,518 INFO o.a.j.p.h.s.HTTPHC4Impl: HTTP request retry count = 0
+2026-11-05 08:34:20,519 INFO o.a.j.t.JMeterThread: Thread started: Edit Todo 4-1
+2026-11-05 08:34:20,535 INFO o.a.j.s.FileServer: Stored: C:/Users/dj409/OneDrive/Desktop/JMeter-Team-2-project-/test-data/editTodo.csv
+2026-11-05 08:34:20,536 INFO o.a.j.s.FileServer: Stored: C:/Users/dj409/OneDrive/Desktop/JMeter-Team-2-project-/test-data/createTodo.csv
+2026-11-05 08:34:20,549 INFO o.a.j.t.ThreadGroup: Started thread group number 4
+2026-11-05 08:34:20,549 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 5 : Create Subtask
+2026-11-05 08:34:20,549 INFO o.a.j.e.StandardJMeterEngine: Starting 15 threads for group Create Subtask.
+2026-11-05 08:34:20,549 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2026-11-05 08:34:20,549 INFO o.a.j.t.ThreadGroup: Starting thread group... number=5 threads=15 ramp-up=30 delayedStart=false
+2026-11-05 08:34:20,550 INFO o.a.j.t.JMeterThread: Thread started: Create Subtask 5-1
+2026-11-05 08:34:20,551 INFO o.a.j.s.FileServer: Stored: C:/Users/dj409/OneDrive/Desktop/JMeter-Team-2-project-/test-data/createSubtask.csv
+2026-11-05 08:34:20,563 INFO o.a.j.t.ThreadGroup: Started thread group number 5
+2026-11-05 08:34:20,563 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 6 : Edit Subtask
+2026-11-05 08:34:20,563 INFO o.a.j.e.StandardJMeterEngine: Starting 15 threads for group Edit Subtask.
+2026-11-05 08:34:20,563 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2026-11-05 08:34:20,563 INFO o.a.j.t.ThreadGroup: Starting thread group... number=6 threads=15 ramp-up=30 delayedStart=false
+2026-11-05 08:34:20,564 INFO o.a.j.t.JMeterThread: Thread started: Edit Subtask 6-1
+2026-11-05 08:34:20,565 INFO o.a.j.s.FileServer: Stored: C:/Users/dj409/OneDrive/Desktop/JMeter-Team-2-project-/test-data/editSubtask.csv
+2026-11-05 08:34:20,585 INFO o.a.j.t.ThreadGroup: Started thread group number 6
+2026-11-05 08:34:20,585 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2026-11-05 08:34:21,996 INFO o.a.j.t.JMeterThread: Thread started: Login 2-2
+2026-11-05 08:34:22,003 INFO o.a.j.t.JMeterThread: Thread started: Create Todo 3-2
+2026-11-05 08:34:22,019 INFO o.a.j.t.JMeterThread: Thread started: Edit Todo 4-2
+2026-11-05 08:34:22,551 INFO o.a.j.t.JMeterThread: Thread started: Create Subtask 5-2
+2026-11-05 08:34:22,564 INFO o.a.j.t.JMeterThread: Thread started: Edit Subtask 6-2
+2026-11-05 08:34:23,470 INFO o.a.j.t.JMeterThread: Thread started: Register 1-2
+2026-11-05 08:34:23,492 INFO o.a.j.t.JMeterThread: Thread started: Login 2-3
+2026-11-05 08:34:23,502 INFO o.a.j.t.JMeterThread: Thread started: Create Todo 3-3
+2026-11-05 08:34:23,520 INFO o.a.j.t.JMeterThread: Thread started: Edit Todo 4-3
+2026-11-05 08:34:24,555 INFO o.a.j.t.JMeterThread: Thread started: Create Subtask 5-3
+2026-11-05 08:34:24,564 INFO o.a.j.t.JMeterThread: Thread started: Edit Subtask 6-3
+2026-11-05 08:34:24,994 INFO o.a.j.t.JMeterThread: Thread started: Login 2-4
+2026-11-05 08:34:25,003 INFO o.a.j.t.JMeterThread: Thread started: Create Todo 3-4
+2026-11-05 08:34:25,022 INFO o.a.j.t.JMeterThread: Thread started: Edit Todo 4-4
+2026-11-05 08:34:26,469 INFO o.a.j.t.JMeterThread: Thread started: Register 1-3
+2026-11-05 08:34:26,491 INFO o.a.j.t.JMeterThread: Thread started: Login 2-5
+2026-11-05 08:34:26,503 INFO o.a.j.t.JMeterThread: Thread started: Create Todo 3-5
+2026-11-05 08:34:26,520 INFO o.a.j.t.JMeterThread: Thread started: Edit Todo 4-5
+2026-11-05 08:34:26,552 INFO o.a.j.t.JMeterThread: Thread started: Create Subtask 5-4
+2026-11-05 08:34:26,564 INFO o.a.j.t.JMeterThread: Thread started: Edit Subtask 6-4
+2026-11-05 08:34:27,991 INFO o.a.j.t.JMeterThread: Thread started: Login 2-6
+2026-11-05 08:34:28,003 INFO o.a.j.t.JMeterThread: Thread started: Create Todo 3-6
+2026-11-05 08:34:28,019 INFO o.a.j.t.JMeterThread: Thread started: Edit Todo 4-6
+2026-11-05 08:34:28,552 INFO o.a.j.t.JMeterThread: Thread started: Create Subtask 5-5
+2026-11-05 08:34:28,564 INFO o.a.j.t.JMeterThread: Thread started: Edit Subtask 6-5
+2026-11-05 08:34:29,470 INFO o.a.j.t.JMeterThread: Thread started: Register 1-4
+2026-11-05 08:34:29,491 INFO o.a.j.t.JMeterThread: Thread started: Login 2-7
+2026-11-05 08:34:29,504 INFO o.a.j.t.JMeterThread: Thread started: Create Todo 3-7
+2026-11-05 08:34:29,519 INFO o.a.j.t.JMeterThread: Thread started: Edit Todo 4-7
+2026-11-05 08:34:30,551 INFO o.a.j.t.JMeterThread: Thread started: Create Subtask 5-6
+2026-11-05 08:34:30,565 INFO o.a.j.t.JMeterThread: Thread started: Edit Subtask 6-6
+2026-11-05 08:34:30,990 INFO o.a.j.t.JMeterThread: Thread started: Login 2-8
+2026-11-05 08:34:31,004 INFO o.a.j.t.JMeterThread: Thread started: Create Todo 3-8
+2026-11-05 08:34:31,019 INFO o.a.j.t.JMeterThread: Thread started: Edit Todo 4-8
+2026-11-05 08:34:32,468 INFO o.a.j.t.JMeterThread: Thread started: Register 1-5
+2026-11-05 08:34:32,489 INFO o.a.j.t.JMeterThread: Thread started: Login 2-9
+2026-11-05 08:34:32,505 INFO o.a.j.t.JMeterThread: Thread started: Create Todo 3-9
+2026-11-05 08:34:32,519 INFO o.a.j.t.JMeterThread: Thread started: Edit Todo 4-9
+2026-11-05 08:34:32,551 INFO o.a.j.t.JMeterThread: Thread started: Create Subtask 5-7
+2026-11-05 08:34:32,566 INFO o.a.j.t.JMeterThread: Thread started: Edit Subtask 6-7
+2026-11-05 08:34:33,987 INFO o.a.j.t.JMeterThread: Thread started: Login 2-10
+2026-11-05 08:34:34,005 INFO o.a.j.t.JMeterThread: Thread started: Create Todo 3-10
+2026-11-05 08:34:34,020 INFO o.a.j.t.JMeterThread: Thread started: Edit Todo 4-10
+2026-11-05 08:34:34,551 INFO o.a.j.t.JMeterThread: Thread started: Create Subtask 5-8
+2026-11-05 08:34:34,572 INFO o.a.j.t.JMeterThread: Thread started: Edit Subtask 6-8
+2026-11-05 08:34:35,468 INFO o.a.j.t.JMeterThread: Thread started: Register 1-6
+2026-11-05 08:34:35,485 INFO o.a.j.t.JMeterThread: Thread started: Login 2-11
+2026-11-05 08:34:35,503 INFO o.a.j.t.JMeterThread: Thread started: Create Todo 3-11
+2026-11-05 08:34:35,520 INFO o.a.j.t.JMeterThread: Thread started: Edit Todo 4-11
+2026-11-05 08:34:36,551 INFO o.a.j.t.JMeterThread: Thread started: Create Subtask 5-9
+2026-11-05 08:34:36,573 INFO o.a.j.t.JMeterThread: Thread started: Edit Subtask 6-9
+2026-11-05 08:34:36,986 INFO o.a.j.t.JMeterThread: Thread started: Login 2-12
+2026-11-05 08:34:37,003 INFO o.a.j.t.JMeterThread: Thread started: Create Todo 3-12
+2026-11-05 08:34:37,019 INFO o.a.j.t.JMeterThread: Thread started: Edit Todo 4-12
+2026-11-05 08:34:38,466 INFO o.a.j.t.JMeterThread: Thread started: Register 1-7
+2026-11-05 08:34:38,484 INFO o.a.j.t.JMeterThread: Thread started: Login 2-13
+2026-11-05 08:34:38,503 INFO o.a.j.t.JMeterThread: Thread started: Create Todo 3-13
+2026-11-05 08:34:38,520 INFO o.a.j.t.JMeterThread: Thread started: Edit Todo 4-13
+2026-11-05 08:34:38,552 INFO o.a.j.t.JMeterThread: Thread started: Create Subtask 5-10
+2026-11-05 08:34:38,566 INFO o.a.j.t.JMeterThread: Thread started: Edit Subtask 6-10
+2026-11-05 08:34:39,982 INFO o.a.j.t.JMeterThread: Thread started: Login 2-14
+2026-11-05 08:34:40,003 INFO o.a.j.t.JMeterThread: Thread started: Create Todo 3-14
+2026-11-05 08:34:40,021 INFO o.a.j.t.JMeterThread: Thread started: Edit Todo 4-14
+2026-11-05 08:34:40,551 INFO o.a.j.t.JMeterThread: Thread started: Create Subtask 5-11
+2026-11-05 08:34:40,564 INFO o.a.j.t.JMeterThread: Thread started: Edit Subtask 6-11
+2026-11-05 08:34:41,466 INFO o.a.j.t.JMeterThread: Thread started: Register 1-8
+2026-11-05 08:34:41,480 INFO o.a.j.t.JMeterThread: Thread started: Login 2-15
+2026-11-05 08:34:41,503 INFO o.a.j.t.JMeterThread: Thread started: Create Todo 3-15
+2026-11-05 08:34:41,521 INFO o.a.j.t.JMeterThread: Thread started: Edit Todo 4-15
+2026-11-05 08:34:42,551 INFO o.a.j.t.JMeterThread: Thread started: Create Subtask 5-12
+2026-11-05 08:34:42,565 INFO o.a.j.t.JMeterThread: Thread started: Edit Subtask 6-12
+2026-11-05 08:34:42,980 INFO o.a.j.t.JMeterThread: Thread started: Login 2-16
+2026-11-05 08:34:43,002 INFO o.a.j.t.JMeterThread: Thread started: Create Todo 3-16
+2026-11-05 08:34:43,020 INFO o.a.j.t.JMeterThread: Thread started: Edit Todo 4-16
+2026-11-05 08:34:44,465 INFO o.a.j.t.JMeterThread: Thread started: Register 1-9
+2026-11-05 08:34:44,481 INFO o.a.j.t.JMeterThread: Thread started: Login 2-17
+2026-11-05 08:34:44,503 INFO o.a.j.t.JMeterThread: Thread started: Create Todo 3-17
+2026-11-05 08:34:44,521 INFO o.a.j.t.JMeterThread: Thread started: Edit Todo 4-17
+2026-11-05 08:34:44,551 INFO o.a.j.t.JMeterThread: Thread started: Create Subtask 5-13
+2026-11-05 08:34:44,566 INFO o.a.j.t.JMeterThread: Thread started: Edit Subtask 6-13
+2026-11-05 08:34:45,977 INFO o.a.j.t.JMeterThread: Thread started: Login 2-18
+2026-11-05 08:34:46,003 INFO o.a.j.t.JMeterThread: Thread started: Create Todo 3-18
+2026-11-05 08:34:46,020 INFO o.a.j.t.JMeterThread: Thread started: Edit Todo 4-18
+2026-11-05 08:34:46,551 INFO o.a.j.t.JMeterThread: Thread started: Create Subtask 5-14
+2026-11-05 08:34:46,565 INFO o.a.j.t.JMeterThread: Thread started: Edit Subtask 6-14
+2026-11-05 08:34:47,466 INFO o.a.j.t.JMeterThread: Thread started: Register 1-10
+2026-11-05 08:34:47,477 INFO o.a.j.t.JMeterThread: Thread started: Login 2-19
+2026-11-05 08:34:47,502 INFO o.a.j.t.JMeterThread: Thread started: Create Todo 3-19
+2026-11-05 08:34:47,519 INFO o.a.j.t.JMeterThread: Thread started: Edit Todo 4-19
+2026-11-05 08:34:48,551 INFO o.a.j.t.JMeterThread: Thread started: Create Subtask 5-15
+2026-11-05 08:34:48,565 INFO o.a.j.t.JMeterThread: Thread started: Edit Subtask 6-15
+2026-11-05 08:34:48,978 INFO o.a.j.t.JMeterThread: Thread started: Login 2-20
+2026-11-05 08:34:49,005 INFO o.a.j.t.JMeterThread: Thread started: Create Todo 3-20
+2026-11-05 08:34:49,019 INFO o.a.j.t.JMeterThread: Thread started: Edit Todo 4-20
+2026-11-05 08:35:20,555 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-11-05 08:35:20,807 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-11-05 08:35:22,367 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-11-05 08:35:23,913 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-11-05 08:35:24,118 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-11-05 08:35:25,183 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-11-05 08:35:25,484 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-11-05 08:35:26,117 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-11-05 08:35:26,590 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-11-05 08:35:26,830 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-11-05 08:35:26,992 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-11-05 08:35:27,955 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-11-05 08:35:29,435 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-11-05 08:35:29,865 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-11-05 08:35:30,024 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-11-05 08:35:30,853 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-11-05 08:35:30,943 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-11-05 08:35:31,346 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-11-05 08:35:31,780 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-11-05 08:35:32,807 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-11-05 08:35:32,891 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-11-05 08:35:33,771 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-11-05 08:35:33,884 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-11-05 08:35:34,097 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-11-05 08:35:34,196 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-11-05 08:35:34,375 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-11-05 08:35:34,712 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-11-05 08:35:34,975 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-11-05 08:35:35,261 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-11-05 08:35:35,438 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-11-05 08:35:35,611 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-11-05 08:35:35,724 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-11-05 08:35:35,773 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-11-05 08:35:35,937 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-11-05 08:35:36,060 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-11-05 08:35:36,087 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-11-05 08:35:36,652 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-11-05 08:35:36,942 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-11-05 08:35:37,261 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-11-05 08:35:37,697 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-11-05 08:35:38,058 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-11-05 08:35:38,211 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-11-05 08:35:39,520 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-11-05 08:35:39,664 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-11-05 08:35:40,009 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-11-05 08:35:40,240 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-11-05 08:35:40,365 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-11-05 08:35:40,760 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-11-05 08:35:41,137 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-11-05 08:35:41,213 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-11-05 08:35:41,512 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-11-05 08:35:41,774 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-11-05 08:35:43,286 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-11-05 08:35:43,691 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-11-05 08:35:44,041 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-11-05 08:35:44,159 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-11-05 08:35:44,649 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-11-05 08:35:44,949 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-11-05 08:35:45,568 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-11-05 08:35:45,872 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-11-05 08:35:46,015 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-11-05 08:35:46,191 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-11-05 08:35:46,351 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-11-05 08:35:46,465 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-11-05 08:35:47,050 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-11-05 08:35:47,139 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-11-05 08:35:47,408 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-11-05 08:35:47,700 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-11-05 08:35:47,913 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-11-05 08:35:47,959 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-11-05 08:35:48,115 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-11-05 08:35:48,533 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-11-05 08:35:48,603 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-11-05 08:35:48,726 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-11-05 08:35:48,806 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-11-05 08:35:49,426 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-11-05 08:35:49,649 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-11-05 08:35:49,896 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-11-05 08:35:50,010 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-11-05 08:35:50,026 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-11-05 08:35:50,681 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-11-05 08:35:51,401 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-11-05 08:35:51,732 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-11-05 08:35:51,993 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-11-05 08:35:52,501 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-11-05 08:35:52,903 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-11-05 08:35:53,401 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-11-05 08:35:53,584 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-11-05 08:35:54,336 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-11-05 08:35:54,402 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-11-05 08:35:54,578 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-11-05 08:35:54,895 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-11-05 08:35:55,247 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-11-05 08:35:55,953 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-11-05 08:35:56,224 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-11-05 08:35:56,764 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-11-05 08:35:56,769 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-11-05 08:35:57,505 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-11-05 08:35:57,532 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-11-05 08:35:57,609 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-11-05 08:35:57,904 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-11-05 08:35:58,035 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-11-05 08:35:58,412 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-11-05 08:35:58,468 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-11-05 08:35:58,919 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-11-05 08:35:59,029 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-11-05 08:35:59,779 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-11-05 08:36:00,479 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-11-05 08:36:01,067 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-11-05 08:36:01,121 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-11-05 08:36:01,300 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-11-05 08:36:01,419 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-11-05 08:36:01,455 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-11-05 08:36:02,022 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-11-05 08:36:02,087 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-11-05 08:36:02,617 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-11-05 08:36:02,832 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-11-05 08:36:02,879 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-11-05 08:36:03,391 INFO o.a.j.t.JMeterThread: Thread is done: Register 1-1
+2026-11-05 08:36:03,392 INFO o.a.j.t.JMeterThread: Thread finished: Register 1-1
+2026-11-05 08:36:04,960 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-11-05 08:36:05,211 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-11-05 08:36:05,799 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-11-05 08:36:05,886 INFO o.a.j.t.JMeterThread: Thread is done: Register 1-2
+2026-11-05 08:36:05,886 INFO o.a.j.t.JMeterThread: Thread finished: Register 1-2
+2026-11-05 08:36:06,088 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-11-05 08:36:06,771 INFO o.a.j.t.JMeterThread: Thread is done: Edit Todo 4-2
+2026-11-05 08:36:06,771 INFO o.a.j.t.JMeterThread: Thread finished: Edit Todo 4-2
+2026-11-05 08:36:06,935 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-11-05 08:36:07,010 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-11-05 08:36:07,171 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-11-05 08:36:07,172 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-11-05 08:36:07,650 INFO o.a.j.t.JMeterThread: Thread is done: Login 2-2
+2026-11-05 08:36:07,650 INFO o.a.j.t.JMeterThread: Thread finished: Login 2-2
+2026-11-05 08:36:08,218 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-11-05 08:36:08,228 INFO o.a.j.t.JMeterThread: Thread is done: Edit Todo 4-3
+2026-11-05 08:36:08,228 INFO o.a.j.t.JMeterThread: Thread finished: Edit Todo 4-3
+2026-11-05 08:36:08,682 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-11-05 08:36:08,969 INFO o.a.j.t.JMeterThread: Thread is done: Register 1-3
+2026-11-05 08:36:08,969 INFO o.a.j.t.JMeterThread: Thread finished: Register 1-3
+2026-11-05 08:36:09,249 INFO o.a.j.t.JMeterThread: Thread is done: Login 2-3
+2026-11-05 08:36:09,249 INFO o.a.j.t.JMeterThread: Thread finished: Login 2-3
+2026-11-05 08:36:09,609 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-11-05 08:36:10,195 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-11-05 08:36:10,408 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-11-05 08:36:10,564 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-11-05 08:36:10,893 INFO o.a.j.t.JMeterThread: Thread is done: Login 2-4
+2026-11-05 08:36:10,893 INFO o.a.j.t.JMeterThread: Thread finished: Login 2-4
+2026-11-05 08:36:11,320 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-11-05 08:36:11,966 INFO o.a.j.t.JMeterThread: Thread is done: Register 1-4
+2026-11-05 08:36:11,966 INFO o.a.j.t.JMeterThread: Thread finished: Register 1-4
+2026-11-05 08:36:12,241 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-11-05 08:36:12,291 INFO o.a.j.t.JMeterThread: Thread is done: Login 2-5
+2026-11-05 08:36:12,291 INFO o.a.j.t.JMeterThread: Thread finished: Login 2-5
+2026-11-05 08:36:12,890 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-11-05 08:36:13,422 INFO o.a.j.t.JMeterThread: Thread is done: Login 2-1
+2026-11-05 08:36:13,422 INFO o.a.j.t.JMeterThread: Thread finished: Login 2-1
+2026-11-05 08:36:13,889 INFO o.a.j.t.JMeterThread: Thread is done: Login 2-6
+2026-11-05 08:36:13,889 INFO o.a.j.t.JMeterThread: Thread finished: Login 2-6
+2026-11-05 08:36:14,005 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-11-05 08:36:14,880 INFO o.a.j.t.JMeterThread: Thread is done: Register 1-5
+2026-11-05 08:36:14,880 INFO o.a.j.t.JMeterThread: Thread finished: Register 1-5
+2026-11-05 08:36:16,329 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-11-05 08:36:16,467 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-11-05 08:36:16,663 INFO o.a.j.t.JMeterThread: Thread is done: Login 2-8
+2026-11-05 08:36:16,663 INFO o.a.j.t.JMeterThread: Thread finished: Login 2-8
+2026-11-05 08:36:17,735 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-11-05 08:36:17,950 INFO o.a.j.t.JMeterThread: Thread is done: Register 1-6
+2026-11-05 08:36:17,950 INFO o.a.j.t.JMeterThread: Thread finished: Register 1-6
+2026-11-05 08:36:18,137 INFO o.a.j.t.JMeterThread: Thread is done: Login 2-9
+2026-11-05 08:36:18,137 INFO o.a.j.t.JMeterThread: Thread finished: Login 2-9
+2026-11-05 08:36:19,569 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-11-05 08:36:19,668 INFO o.a.j.t.JMeterThread: Thread is done: Login 2-10
+2026-11-05 08:36:19,668 INFO o.a.j.t.JMeterThread: Thread finished: Login 2-10
+2026-11-05 08:36:20,892 INFO o.a.j.t.JMeterThread: Thread is done: Register 1-7
+2026-11-05 08:36:20,892 INFO o.a.j.t.JMeterThread: Thread finished: Register 1-7
+2026-11-05 08:36:21,131 INFO o.a.j.t.JMeterThread: Thread is done: Login 2-11
+2026-11-05 08:36:21,131 INFO o.a.j.t.JMeterThread: Thread finished: Login 2-11
+2026-11-05 08:36:21,226 INFO o.a.j.t.JMeterThread: Thread is done: Login 2-7
+2026-11-05 08:36:21,226 INFO o.a.j.t.JMeterThread: Thread finished: Login 2-7
+2026-11-05 08:36:21,313 INFO o.a.j.t.JMeterThread: Thread is done: Edit Subtask 6-2
+2026-11-05 08:36:21,313 INFO o.a.j.t.JMeterThread: Thread finished: Edit Subtask 6-2
+2026-11-05 08:36:21,423 INFO o.a.j.t.JMeterThread: Thread is done: Create Subtask 5-4
+2026-11-05 08:36:21,423 INFO o.a.j.t.JMeterThread: Thread finished: Create Subtask 5-4
+2026-11-05 08:36:21,986 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-11-05 08:36:22,022 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-11-05 08:36:22,354 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-11-05 08:36:22,463 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-11-05 08:36:22,541 INFO o.a.j.t.JMeterThread: Thread is done: Login 2-12
+2026-11-05 08:36:22,541 INFO o.a.j.t.JMeterThread: Thread finished: Login 2-12
+2026-11-05 08:36:23,468 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-11-05 08:36:23,634 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-11-05 08:36:23,803 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-11-05 08:36:23,903 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-11-05 08:36:23,952 INFO o.a.j.t.JMeterThread: Thread is done: Register 1-8
+2026-11-05 08:36:23,952 INFO o.a.j.t.JMeterThread: Thread finished: Register 1-8
+2026-11-05 08:36:23,990 INFO o.a.j.t.JMeterThread: Thread is done: Login 2-13
+2026-11-05 08:36:23,990 INFO o.a.j.t.JMeterThread: Thread finished: Login 2-13
+2026-11-05 08:36:24,573 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-11-05 08:36:25,051 INFO o.a.j.t.JMeterThread: Thread is done: Edit Subtask 6-4
+2026-11-05 08:36:25,051 INFO o.a.j.t.JMeterThread: Thread finished: Edit Subtask 6-4
+2026-11-05 08:36:25,413 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-11-05 08:36:25,445 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-11-05 08:36:25,545 INFO o.a.j.t.JMeterThread: Thread is done: Edit Subtask 6-8
+2026-11-05 08:36:25,545 INFO o.a.j.t.JMeterThread: Thread finished: Edit Subtask 6-8
+2026-11-05 08:36:25,932 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-11-05 08:36:26,211 INFO o.a.j.t.JMeterThread: Thread is done: Create Todo 3-1
+2026-11-05 08:36:26,211 INFO o.a.j.t.JMeterThread: Thread finished: Create Todo 3-1
+2026-11-05 08:36:26,868 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-11-05 08:36:27,004 INFO o.a.j.t.JMeterThread: Thread is done: Edit Subtask 6-5
+2026-11-05 08:36:27,004 INFO o.a.j.t.JMeterThread: Thread finished: Edit Subtask 6-5
+2026-11-05 08:36:27,029 INFO o.a.j.t.JMeterThread: Thread is done: Register 1-9
+2026-11-05 08:36:27,029 INFO o.a.j.t.JMeterThread: Thread finished: Register 1-9
+2026-11-05 08:36:27,115 INFO o.a.j.t.JMeterThread: Thread is done: Login 2-15
+2026-11-05 08:36:27,115 INFO o.a.j.t.JMeterThread: Thread finished: Login 2-15
+2026-11-05 08:36:27,463 INFO o.a.j.t.JMeterThread: Thread is done: Edit Subtask 6-9
+2026-11-05 08:36:27,463 INFO o.a.j.t.JMeterThread: Thread finished: Edit Subtask 6-9
+2026-11-05 08:36:27,856 INFO o.a.j.t.JMeterThread: Thread is done: Edit Subtask 6-1
+2026-11-05 08:36:27,856 INFO o.a.j.t.JMeterThread: Thread finished: Edit Subtask 6-1
+2026-11-05 08:36:28,519 INFO o.a.j.t.JMeterThread: Thread is done: Login 2-16
+2026-11-05 08:36:28,519 INFO o.a.j.t.JMeterThread: Thread finished: Login 2-16
+2026-11-05 08:36:28,607 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-11-05 08:36:28,743 INFO o.a.j.t.JMeterThread: Thread is done: Edit Subtask 6-6
+2026-11-05 08:36:28,743 INFO o.a.j.t.JMeterThread: Thread finished: Edit Subtask 6-6
+2026-11-05 08:36:29,338 INFO o.a.j.t.JMeterThread: Thread is done: Edit Todo 4-9
+2026-11-05 08:36:29,338 INFO o.a.j.t.JMeterThread: Thread finished: Edit Todo 4-9
+2026-11-05 08:36:29,966 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-11-05 08:36:30,029 INFO o.a.j.t.JMeterThread: Thread is done: Register 1-10
+2026-11-05 08:36:30,029 INFO o.a.j.t.JMeterThread: Thread finished: Register 1-10
+2026-11-05 08:36:30,113 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-11-05 08:36:30,173 INFO o.a.j.t.JMeterThread: Thread is done: Login 2-17
+2026-11-05 08:36:30,173 INFO o.a.j.t.JMeterThread: Thread finished: Login 2-17
+2026-11-05 08:36:30,544 INFO o.a.j.t.JMeterThread: Thread is done: Edit Todo 4-1
+2026-11-05 08:36:30,544 INFO o.a.j.t.JMeterThread: Thread finished: Edit Todo 4-1
+2026-11-05 08:36:30,646 INFO o.a.j.t.JMeterThread: Thread is done: Edit Subtask 6-3
+2026-11-05 08:36:30,646 INFO o.a.j.t.JMeterThread: Thread finished: Edit Subtask 6-3
+2026-11-05 08:36:31,108 INFO o.a.j.t.JMeterThread: Thread is done: Edit Subtask 6-7
+2026-11-05 08:36:31,108 INFO o.a.j.t.JMeterThread: Thread finished: Edit Subtask 6-7
+2026-11-05 08:36:31,533 INFO o.a.j.t.JMeterThread: Thread is done: Create Subtask 5-9
+2026-11-05 08:36:31,533 INFO o.a.j.t.JMeterThread: Thread finished: Create Subtask 5-9
+2026-11-05 08:36:31,560 INFO o.a.j.t.JMeterThread: Thread is done: Login 2-14
+2026-11-05 08:36:31,560 INFO o.a.j.t.JMeterThread: Thread finished: Login 2-14
+2026-11-05 08:36:32,307 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-11-05 08:36:32,371 INFO o.a.j.t.JMeterThread: Thread is done: Edit Todo 4-11
+2026-11-05 08:36:32,371 INFO o.a.j.t.JMeterThread: Thread finished: Edit Todo 4-11
+2026-11-05 08:36:33,040 INFO o.a.j.t.JMeterThread: Thread is done: Login 2-19
+2026-11-05 08:36:33,040 INFO o.a.j.t.JMeterThread: Thread finished: Login 2-19
+2026-11-05 08:36:33,625 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-11-05 08:36:33,707 INFO o.a.j.t.JMeterThread: Thread is done: Edit Todo 4-12
+2026-11-05 08:36:33,707 INFO o.a.j.t.JMeterThread: Thread finished: Edit Todo 4-12
+2026-11-05 08:36:33,961 INFO o.a.j.t.JMeterThread: Thread is done: Create Todo 3-7
+2026-11-05 08:36:33,961 INFO o.a.j.t.JMeterThread: Thread finished: Create Todo 3-7
+2026-11-05 08:36:34,026 INFO o.a.j.t.JMeterThread: Thread is done: Edit Todo 4-4
+2026-11-05 08:36:34,026 INFO o.a.j.t.JMeterThread: Thread finished: Edit Todo 4-4
+2026-11-05 08:36:34,456 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-11-05 08:36:34,750 INFO o.a.j.t.JMeterThread: Thread is done: Login 2-20
+2026-11-05 08:36:34,750 INFO o.a.j.t.JMeterThread: Thread finished: Login 2-20
+2026-11-05 08:36:35,440 INFO o.a.j.t.JMeterThread: Thread is done: Edit Todo 4-5
+2026-11-05 08:36:35,440 INFO o.a.j.t.JMeterThread: Thread finished: Edit Todo 4-5
+2026-11-05 08:36:37,558 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-11-05 08:36:37,572 INFO o.a.j.t.JMeterThread: Thread is done: Edit Subtask 6-14
+2026-11-05 08:36:37,572 INFO o.a.j.t.JMeterThread: Thread finished: Edit Subtask 6-14
+2026-11-05 08:36:37,812 INFO o.a.j.t.JMeterThread: Thread is done: Login 2-18
+2026-11-05 08:36:37,812 INFO o.a.j.t.JMeterThread: Thread finished: Login 2-18
+2026-11-05 08:36:38,447 INFO o.a.j.t.JMeterThread: Thread is done: Edit Todo 4-7
+2026-11-05 08:36:38,447 INFO o.a.j.t.JMeterThread: Thread finished: Edit Todo 4-7
+2026-11-05 08:36:38,663 INFO o.a.j.t.JMeterThread: Thread is done: Create Subtask 5-3
+2026-11-05 08:36:38,663 INFO o.a.j.t.JMeterThread: Thread finished: Create Subtask 5-3
+2026-11-05 08:36:39,753 INFO o.a.j.t.JMeterThread: Thread is done: Edit Todo 4-16
+2026-11-05 08:36:39,753 INFO o.a.j.t.JMeterThread: Thread finished: Edit Todo 4-16
+2026-11-05 08:36:39,941 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-11-05 08:36:40,810 INFO o.a.j.t.JMeterThread: Thread is done: Create Todo 3-18
+2026-11-05 08:36:40,810 INFO o.a.j.t.JMeterThread: Thread finished: Create Todo 3-18
+2026-11-05 08:36:41,171 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-11-05 08:36:41,221 INFO o.a.j.t.JMeterThread: Thread is done: Edit Todo 4-17
+2026-11-05 08:36:41,221 INFO o.a.j.t.JMeterThread: Thread finished: Edit Todo 4-17
+2026-11-05 08:36:42,255 INFO o.a.j.t.JMeterThread: Thread is done: Create Todo 3-6
+2026-11-05 08:36:42,255 INFO o.a.j.t.JMeterThread: Thread finished: Create Todo 3-6
+2026-11-05 08:36:42,963 INFO o.a.j.t.JMeterThread: Thread is done: Edit Todo 4-10
+2026-11-05 08:36:42,963 INFO o.a.j.t.JMeterThread: Thread finished: Edit Todo 4-10
+2026-11-05 08:36:43,252 INFO o.a.j.t.JMeterThread: Thread is done: Edit Subtask 6-13
+2026-11-05 08:36:43,252 INFO o.a.j.t.JMeterThread: Thread finished: Edit Subtask 6-13
+2026-11-05 08:36:44,914 INFO o.a.j.t.JMeterThread: Thread is done: Edit Subtask 6-10
+2026-11-05 08:36:44,914 INFO o.a.j.t.JMeterThread: Thread finished: Edit Subtask 6-10
+2026-11-05 08:36:45,021 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-11-05 08:36:45,082 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-11-05 08:36:45,541 INFO o.a.j.t.JMeterThread: Thread is done: Create Subtask 5-1
+2026-11-05 08:36:45,541 INFO o.a.j.t.JMeterThread: Thread finished: Create Subtask 5-1
+2026-11-05 08:36:46,679 INFO o.a.j.t.JMeterThread: Thread is done: Edit Subtask 6-11
+2026-11-05 08:36:46,679 INFO o.a.j.t.JMeterThread: Thread finished: Edit Subtask 6-11
+2026-11-05 08:36:47,158 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-11-05 08:36:48,217 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-11-05 08:36:48,984 INFO o.a.j.t.JMeterThread: Thread is done: Edit Subtask 6-12
+2026-11-05 08:36:48,984 INFO o.a.j.t.JMeterThread: Thread finished: Edit Subtask 6-12
+2026-11-05 08:36:49,062 INFO o.a.j.t.JMeterThread: Thread is done: Edit Todo 4-14
+2026-11-05 08:36:49,062 INFO o.a.j.t.JMeterThread: Thread finished: Edit Todo 4-14
+2026-11-05 08:36:50,313 INFO o.a.j.t.JMeterThread: Thread is done: Edit Todo 4-15
+2026-11-05 08:36:50,313 INFO o.a.j.t.JMeterThread: Thread finished: Edit Todo 4-15
+2026-11-05 08:36:50,672 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-11-05 08:36:52,211 INFO o.a.j.t.JMeterThread: Thread is done: Edit Todo 4-8
+2026-11-05 08:36:52,211 INFO o.a.j.t.JMeterThread: Thread finished: Edit Todo 4-8
+2026-11-05 08:36:52,683 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-11-05 08:36:54,620 INFO o.a.j.t.JMeterThread: Thread is done: Edit Subtask 6-15
+2026-11-05 08:36:54,620 INFO o.a.j.t.JMeterThread: Thread finished: Edit Subtask 6-15
+2026-11-05 08:36:54,624 INFO o.a.j.t.JMeterThread: Thread is done: Create Todo 3-14
+2026-11-05 08:36:54,624 INFO o.a.j.t.JMeterThread: Thread finished: Create Todo 3-14
+2026-11-05 08:36:54,934 INFO o.a.j.t.JMeterThread: Thread is done: Create Subtask 5-11
+2026-11-05 08:36:54,935 INFO o.a.j.t.JMeterThread: Thread finished: Create Subtask 5-11
+2026-11-05 08:36:54,970 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-11-05 08:36:56,242 INFO o.a.j.t.JMeterThread: Thread is done: Create Todo 3-9
+2026-11-05 08:36:56,242 INFO o.a.j.t.JMeterThread: Thread finished: Create Todo 3-9
+2026-11-05 08:36:56,428 INFO o.a.j.t.JMeterThread: Thread is done: Create Subtask 5-7
+2026-11-05 08:36:56,428 INFO o.a.j.t.JMeterThread: Thread finished: Create Subtask 5-7
+2026-11-05 08:36:56,445 INFO o.a.j.t.JMeterThread: Thread is done: Edit Todo 4-19
+2026-11-05 08:36:56,445 INFO o.a.j.t.JMeterThread: Thread finished: Edit Todo 4-19
+2026-11-05 08:36:57,182 INFO o.a.j.t.JMeterThread: Thread is done: Create Todo 3-16
+2026-11-05 08:36:57,182 INFO o.a.j.t.JMeterThread: Thread finished: Create Todo 3-16
+2026-11-05 08:36:58,012 INFO o.a.j.t.JMeterThread: Thread is done: Create Todo 3-10
+2026-11-05 08:36:58,012 INFO o.a.j.t.JMeterThread: Thread finished: Create Todo 3-10
+2026-11-05 08:36:58,073 INFO o.a.j.t.JMeterThread: Thread is done: Edit Todo 4-20
+2026-11-05 08:36:58,073 INFO o.a.j.t.JMeterThread: Thread finished: Edit Todo 4-20
+2026-11-05 08:36:58,300 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-11-05 08:36:58,574 INFO o.a.j.t.JMeterThread: Thread is done: Create Subtask 5-8
+2026-11-05 08:36:58,574 INFO o.a.j.t.JMeterThread: Thread finished: Create Subtask 5-8
+2026-11-05 08:36:58,671 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-11-05 08:36:59,480 INFO o.a.j.t.JMeterThread: Thread is done: Edit Todo 4-13
+2026-11-05 08:36:59,480 INFO o.a.j.t.JMeterThread: Thread finished: Edit Todo 4-13
+2026-11-05 08:37:01,216 INFO o.a.j.t.JMeterThread: Thread is done: Edit Todo 4-6
+2026-11-05 08:37:01,216 INFO o.a.j.t.JMeterThread: Thread finished: Edit Todo 4-6
+2026-11-05 08:37:02,219 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-11-05 08:37:02,698 INFO o.a.j.t.JMeterThread: Thread is done: Create Subtask 5-15
+2026-11-05 08:37:02,698 INFO o.a.j.t.JMeterThread: Thread finished: Create Subtask 5-15
+2026-11-05 08:37:04,956 INFO o.a.j.t.JMeterThread: Thread is done: Create Todo 3-2
+2026-11-05 08:37:04,956 INFO o.a.j.t.JMeterThread: Thread finished: Create Todo 3-2
+2026-11-05 08:37:05,615 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-11-05 08:37:06,208 INFO o.a.j.t.JMeterThread: Thread is done: Create Subtask 5-12
+2026-11-05 08:37:06,208 INFO o.a.j.t.JMeterThread: Thread finished: Create Subtask 5-12
+2026-11-05 08:37:07,123 INFO o.a.j.t.JMeterThread: Thread is done: Edit Todo 4-18
+2026-11-05 08:37:07,123 INFO o.a.j.t.JMeterThread: Thread finished: Edit Todo 4-18
+2026-11-05 08:37:10,167 INFO o.a.j.t.JMeterThread: Thread is done: Create Subtask 5-14
+2026-11-05 08:37:10,167 INFO o.a.j.t.JMeterThread: Thread finished: Create Subtask 5-14
+2026-11-05 08:37:11,152 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-11-05 08:37:12,509 INFO o.a.j.t.JMeterThread: Thread is done: Create Todo 3-20
+2026-11-05 08:37:12,509 INFO o.a.j.t.JMeterThread: Thread finished: Create Todo 3-20
+2026-11-05 08:37:13,775 INFO o.a.j.t.JMeterThread: Thread is done: Create Todo 3-8
+2026-11-05 08:37:13,775 INFO o.a.j.t.JMeterThread: Thread finished: Create Todo 3-8
+2026-11-05 08:37:17,649 INFO o.a.j.t.JMeterThread: Thread is done: Create Subtask 5-13
+2026-11-05 08:37:17,649 INFO o.a.j.t.JMeterThread: Thread finished: Create Subtask 5-13
+2026-11-05 08:37:17,652 INFO o.a.j.t.JMeterThread: Thread is done: Create Todo 3-4
+2026-11-05 08:37:17,652 INFO o.a.j.t.JMeterThread: Thread finished: Create Todo 3-4
+2026-11-05 08:37:17,855 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-11-05 08:37:19,753 INFO o.a.j.t.JMeterThread: Thread is done: Create Todo 3-12
+2026-11-05 08:37:19,753 INFO o.a.j.t.JMeterThread: Thread finished: Create Todo 3-12
+2026-11-05 08:37:20,796 INFO o.a.j.t.JMeterThread: Thread is done: Create Todo 3-19
+2026-11-05 08:37:20,796 INFO o.a.j.t.JMeterThread: Thread finished: Create Todo 3-19
+2026-11-05 08:37:23,248 INFO o.a.j.t.JMeterThread: Thread is done: Create Subtask 5-6
+2026-11-05 08:37:23,248 INFO o.a.j.t.JMeterThread: Thread finished: Create Subtask 5-6
+2026-11-05 08:37:25,324 INFO o.a.j.t.JMeterThread: Thread is done: Create Todo 3-3
+2026-11-05 08:37:25,324 INFO o.a.j.t.JMeterThread: Thread finished: Create Todo 3-3
+2026-11-05 08:37:27,559 INFO o.a.j.t.JMeterThread: Thread is done: Create Todo 3-17
+2026-11-05 08:37:27,559 INFO o.a.j.t.JMeterThread: Thread finished: Create Todo 3-17
+2026-11-05 08:37:30,976 INFO o.a.j.t.JMeterThread: Thread is done: Create Todo 3-13
+2026-11-05 08:37:30,976 INFO o.a.j.t.JMeterThread: Thread finished: Create Todo 3-13
+2026-11-05 08:37:31,261 INFO o.a.j.t.JMeterThread: Thread is done: Create Subtask 5-10
+2026-11-05 08:37:31,261 INFO o.a.j.t.JMeterThread: Thread finished: Create Subtask 5-10
+2026-11-05 08:37:38,254 INFO o.a.j.t.JMeterThread: Thread is done: Create Todo 3-5
+2026-11-05 08:37:38,254 INFO o.a.j.t.JMeterThread: Thread finished: Create Todo 3-5
+2026-11-05 08:37:43,749 INFO o.a.j.t.JMeterThread: Thread is done: Create Todo 3-15
+2026-11-05 08:37:43,749 INFO o.a.j.t.JMeterThread: Thread finished: Create Todo 3-15
+2026-11-05 08:38:03,010 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-11-05 08:38:05,566 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-11-05 08:38:35,633 INFO o.a.j.t.JMeterThread: Thread is done: Create Todo 3-11
+2026-11-05 08:38:35,633 INFO o.a.j.t.JMeterThread: Thread finished: Create Todo 3-11
+2026-11-05 08:38:38,257 INFO o.a.j.t.JMeterThread: Thread is done: Create Subtask 5-5
+2026-11-05 08:38:38,257 INFO o.a.j.t.JMeterThread: Thread finished: Create Subtask 5-5
+2026-11-05 08:38:38,273 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2026-11-05 08:39:10,950 INFO o.a.j.t.JMeterThread: Thread is done: Create Subtask 5-2
+2026-11-05 08:39:10,950 INFO o.a.j.t.JMeterThread: Thread finished: Create Subtask 5-2
+2026-11-05 08:39:10,950 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2026-11-05 08:39:10,951 INFO o.a.j.s.FileServer: Close: C:/Users/dj409/OneDrive/Desktop/JMeter-Team-2-project-/test-data/editTodo.csv
+2026-11-05 08:39:10,951 INFO o.a.j.s.FileServer: Close: C:/Users/dj409/OneDrive/Desktop/JMeter-Team-2-project-/test-data/createTodo.csv
+2026-11-05 08:39:10,951 INFO o.a.j.s.FileServer: Close: C:/Users/dj409/OneDrive/Desktop/JMeter-Team-2-project-/test-data/createSubtask.csv
+2026-11-05 08:39:10,953 INFO o.a.j.s.FileServer: Close: C:/Users/dj409/OneDrive/Desktop/JMeter-Team-2-project-/test-data/login.csv
+2026-11-05 08:39:10,953 INFO o.a.j.s.FileServer: Close: C:/Users/dj409/OneDrive/Desktop/JMeter-Team-2-project-/test-data/editSubtask.csv
+2026-11-05 08:39:10,956 INFO o.a.j.r.Summariser: summary =      0 in 00:00:00 = ******/s Avg:     0 Min: 9223372036854775807 Max: -9223372036854775808 Err:     0 (0.00%)
+2026-11-05 08:39:10,957 INFO o.a.j.JMeter: Generating Dashboard
+2026-11-05 08:39:10,957 INFO o.a.j.r.d.ReportGenerator: Flushing result collector before report Generation
+2026-11-05 08:39:10,985 INFO o.a.j.r.p.NormalizerSampleConsumer: Using format, 'ms', to parse timeStamp field
+2026-11-05 08:39:11,126 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.AggregateConsumer#stopProducing(): beginDate produced 0 samples
+2026-11-05 08:39:11,126 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.AggregateConsumer#stopProducing(): endDate produced 0 samples
+2026-11-05 08:39:11,129 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.ApdexSummaryConsumer#stopProducing(): apdexSummary produced 0 samples
+2026-11-05 08:39:11,129 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.RequestsSummaryConsumer#stopProducing(): requestsSummary produced 0 samples
+2026-11-05 08:39:11,136 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.StatisticsSummaryConsumer#stopProducing(): statisticsSummary produced 0 samples
+2026-11-05 08:39:11,139 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.Top5ErrorsBySamplerConsumer#stopProducing(): top5ErrorsBySampler produced 0 samples
+2026-11-05 08:39:11,140 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.ErrorsSummaryConsumer#stopProducing(): errorsSummary produced 0 samples
+2026-11-05 08:39:11,140 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.HitsPerSecondGraphConsumer#stopProducing(): hitsPerSecond produced 0 samples
+2026-11-05 08:39:11,184 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.LatencyVSRequestGraphConsumer#stopProducing(): latencyVsRequest produced 0 samples
+2026-11-05 08:39:11,185 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.SyntheticResponseTimeDistributionGraphConsumer#stopProducing(): syntheticResponseTimeDistribution produced 0 samples
+2026-11-05 08:39:11,186 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.BytesThroughputGraphConsumer#stopProducing(): bytesThroughputOverTime produced 0 samples
+2026-11-05 08:39:11,186 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.CodesPerSecondGraphConsumer#stopProducing(): codesPerSecond produced 0 samples
+2026-11-05 08:39:11,219 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimeVSRequestGraphConsumer#stopProducing(): responseTimeVsRequest produced 0 samples
+2026-11-05 08:39:11,219 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.FilterConsumer#stopProducing(): startIntervalControlerFilter produced 12782 samples
+2026-11-05 08:39:11,219 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.TotalTPSGraphConsumer#stopProducing(): totalTPS produced 0 samples
+2026-11-05 08:39:11,219 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ActiveThreadsGraphConsumer#stopProducing(): activeThreadsOverTime produced 0 samples
+2026-11-05 08:39:11,219 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.TimeVSThreadGraphConsumer#stopProducing(): timeVsThreads produced 0 samples
+2026-11-05 08:39:11,221 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimeDistributionGraphConsumer#stopProducing(): responseTimeDistribution produced 0 samples
+2026-11-05 08:39:11,221 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.TransactionsPerSecondGraphConsumer#stopProducing(): transactionsPerSecond produced 0 samples
+2026-11-05 08:39:11,221 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimePercentilesGraphConsumer#stopProducing(): responseTimePercentiles produced 0 samples
+2026-11-05 08:39:11,229 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimePercentilesOverTimeGraphConsumer#stopProducing(): responseTimePercentilesOverTime produced 0 samples
+2026-11-05 08:39:11,229 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimeOverTimeGraphConsumer#stopProducing(): responseTimesOverTime produced 0 samples
+2026-11-05 08:39:11,229 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ConnectTimeOverTimeGraphConsumer#stopProducing(): connectTimeOverTime produced 0 samples
+2026-11-05 08:39:11,229 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.LatencyOverTimeGraphConsumer#stopProducing(): latenciesOverTime produced 0 samples
+2026-11-05 08:39:11,229 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.FilterConsumer#stopProducing(): nameFilter produced 30390 samples
+2026-11-05 08:39:11,229 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.FilterConsumer#stopProducing(): dateRangeFilter produced 6078 samples
+2026-11-05 08:39:11,229 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.NormalizerSampleConsumer#stopProducing(): normalizer produced 2026 samples
+2026-11-05 08:39:11,230 INFO o.a.j.r.p.CsvFileSampleSource: produce(): 2026 samples produced in 227ms on channel 0
+2026-11-05 08:39:11,230 INFO o.a.j.r.d.ReportGenerator: Exporting data using exporter:'json' of className:'org.apache.jmeter.report.dashboard.JsonExporter'
+2026-11-05 08:39:11,337 INFO o.a.j.r.d.JsonExporter: Found data for consumer statisticsSummary in context
+2026-11-05 08:39:11,338 INFO o.a.j.r.d.JsonExporter: Creating statistics for overall
+2026-11-05 08:39:11,338 INFO o.a.j.r.d.JsonExporter: Creating statistics for other transactions
+2026-11-05 08:39:11,339 INFO o.a.j.r.d.JsonExporter: Checking output folder
+2026-11-05 08:39:11,340 INFO o.a.j.r.d.JsonExporter: Writing statistics JSON to C:\Users\dj409\OneDrive\Desktop\JMeter-Team-2-project-\JMeter-Scripts\HTMLReport\statistics.json
+2026-11-05 08:39:11,387 INFO o.a.j.r.d.ReportGenerator: Exporting data using exporter:'html' of className:'org.apache.jmeter.report.dashboard.HtmlTemplateExporter'
+2026-11-05 08:39:11,389 INFO o.a.j.r.d.HtmlTemplateExporter: Will generate dashboard in folder: C:\Users\dj409\OneDrive\Desktop\JMeter-Team-2-project-\JMeter-Scripts\HTMLReport
+2026-11-05 08:39:11,571 INFO o.a.j.r.d.HtmlTemplateExporter: Report will be generated in: C:\Users\dj409\OneDrive\Desktop\JMeter-Team-2-project-\JMeter-Scripts\HTMLReport, creating folder structure
+2026-11-05 08:39:11,572 INFO o.a.j.r.d.TemplateVisitor: Copying folder from 'C:\Program Files\apache-jmeter-5.6.3\bin\report-template' to 'C:\Users\dj409\OneDrive\Desktop\JMeter-Team-2-project-\JMeter-Scripts\HTMLReport', got message: C:\Users\dj409\OneDrive\Desktop\JMeter-Team-2-project-\JMeter-Scripts\HTMLReport, found non empty folder with following content [C:\Users\dj409\OneDrive\Desktop\JMeter-Team-2-project-\JMeter-Scripts\HTMLReport\statistics.json], will be ignored
+2026-11-05 08:39:12,192 INFO o.a.j.JMeter: Dashboard generated
